@@ -1,40 +1,3027 @@
 {
   "statement": {
-    "accountHolder": "Sachindeep Singh",
+    "accountType": "Savings A/c",
     "accountNumber": "50100651176438",
     "maskedAccountNumber": "**** **** **** 6438",
-    "accountType": "Savings - Residents",
+    "customerId": "252660090",
+    "period": {
+      "from": "2026-04-01",
+      "to": "2026-09-16"
+    },
     "currency": "INR",
-    "period": { "from": "2026-04-01", "to": "2026-09-16" },
-    "branch": "Phase VII",
-    "branchCode": "1307",
-    "ifsc": "HDFC0001307",
-    "micr": "160240028",
-    "customerId": "2526600907",
-    "accountOpened": "2023-09-11",
-    "status": "Regular",
-    "address": { "city": "Mohali", "state": "Punjab", "postalCode": "160055", "country": "India" }
+    "branch": "PHASE VII",
+    "ifsc": "HDFC0001307"
   },
   "transactions": [
-    { "date": "2025-04-01", "type": "debit", "amount": 124, "balance": 346933.03, "merchant": "Agra Confectionary", "category": "Milk", "method": "UPI", "reference": "100272785979" },
-    { "date": "2025-04-02", "type": "debit", "amount": 500, "balance": 346433.03, "merchant": "Tiwana Service Station", "category": "Petrol", "method": "UPI", "reference": "100281774213" },
-    { "date": "2025-04-02", "type": "debit", "amount": 240, "balance": 346193.03, "merchant": "Agra Confectionary", "category": "Groceries", "method": "UPI", "reference": "100287538482" },
-    { "date": "2025-04-02", "type": "debit", "amount": 50, "balance": 346143.03, "merchant": "Sharma Medicos", "category": "Medicine", "method": "UPI", "reference": "100287600024" },
-    { "date": "2025-04-02", "type": "debit", "amount": 463.57, "balance": 345679.46, "merchant": "Zomato", "category": "Food", "method": "UPI", "reference": "100288269438" },
-    { "date": "2025-04-03", "type": "credit", "amount": 1000, "balance": 344679.46, "merchant": "Aniket Rana", "category": "Dudh Patti", "method": "UPI", "reference": "100293872683" },
-    { "date": "2025-04-03", "type": "debit", "amount": 132, "balance": 344547.46, "merchant": "Zepto", "category": "Groceries", "method": "UPI", "reference": "509336931088" },
-    { "date": "2025-04-04", "type": "debit", "amount": 99000, "balance": 245547.46, "merchant": "Chauhan Sons Jewellers", "category": "Set Kitty", "method": "UPI", "reference": "100300681604" },
-    { "date": "2025-04-04", "type": "debit", "amount": 125, "balance": 245422.46, "merchant": "Harpreet Dairy", "category": "Food", "method": "UPI", "reference": "100302151548" },
-    { "date": "2025-04-05", "type": "debit", "amount": 196.87, "balance": 245225.59, "merchant": "Zomato", "category": "Food", "method": "UPI", "reference": "100305183737" },
-    { "date": "2025-04-05", "type": "debit", "amount": 20, "balance": 245205.59, "merchant": "Jagjit Auto Centre", "category": "Bike Rubbers", "method": "UPI", "reference": "100307332627" },
-    { "date": "2025-04-05", "type": "debit", "amount": 800, "balance": 244405.59, "merchant": "Sabharwal Auto Centre", "category": "Bike Battery", "method": "UPI", "reference": "100307377900" },
-    { "date": "2025-04-07", "type": "credit", "amount": 31540, "balance": 218033.90, "merchant": "Punjab Treasury", "category": "NEFT Credit", "method": "NEFT", "reference": "RBISN52025040728" },
-    { "date": "2025-04-07", "type": "debit", "amount": 128, "balance": 217905.90, "merchant": "Zepto Now", "category": "Groceries", "method": "UPI", "reference": "100318855883" },
-    { "date": "2025-04-09", "type": "debit", "amount": 3000, "balance": 213014.51, "merchant": "Pritpal Singh Sodhi", "category": "Indowestern", "method": "UPI", "reference": "100329046211" },
-    { "date": "2025-04-09", "type": "debit", "amount": 1690, "balance": 211324.51, "merchant": "Leather Point", "category": "Heel", "method": "UPI", "reference": "100332211366" },
-    { "date": "2025-04-10", "type": "debit", "amount": 270, "balance": 208963.51, "merchant": "Domino's", "category": "Food", "method": "UPI", "reference": "100339148348" },
-    { "date": "2025-04-13", "type": "debit", "amount": 1499, "balance": 203615.02, "merchant": "Amazon India", "category": "Shopping", "method": "UPI", "reference": "510325604227" },
-    { "date": "2025-04-18", "type": "debit", "amount": 372, "balance": 202176.75, "merchant": "Swiggy", "category": "Food", "method": "UPI", "reference": "10810730585" },
-    { "date": "2025-04-25", "type": "debit", "amount": 9200, "balance": 187815.96, "merchant": "Arshpreet Kaur", "category": "Rent", "method": "UPI", "reference": "100424791415" }
+    {
+      "date": "2026-09-16",
+      "merchant": "Rakesh Kumar So Mohi",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 3953.72,
+      "reference": "0000625966780415"
+    },
+    {
+      "date": "2026-09-16",
+      "merchant": "Masoom",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 140.0,
+      "type": "debit",
+      "balance": 3973.72,
+      "reference": "0000625966441774"
+    },
+    {
+      "date": "2026-09-15",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 4113.72,
+      "reference": "0000625856309695"
+    },
+    {
+      "date": "2026-09-15",
+      "merchant": "Kushdeep Kagra",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 760.0,
+      "type": "debit",
+      "balance": 4153.72,
+      "reference": "0000625853414353"
+    },
+    {
+      "date": "2026-09-15",
+      "merchant": "Pitamber Shahi",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 4913.72,
+      "reference": "0000625853081177"
+    },
+    {
+      "date": "2026-09-15",
+      "merchant": "Ahuja Service Statio",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 400.0,
+      "type": "debit",
+      "balance": 4933.72,
+      "reference": "0000625852783465"
+    },
+    {
+      "date": "2026-09-15",
+      "merchant": "Satish Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 33.0,
+      "type": "debit",
+      "balance": 5333.72,
+      "reference": "0000625852064326"
+    },
+    {
+      "date": "2026-09-14",
+      "merchant": "Isha Bali",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 5000.0,
+      "type": "debit",
+      "balance": 5366.72,
+      "reference": "0000625751031369"
+    },
+    {
+      "date": "2026-09-14",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10500.0,
+      "type": "debit",
+      "balance": 10366.72,
+      "reference": "0000625750888683"
+    },
+    {
+      "date": "2026-09-14",
+      "merchant": "Harwinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 49.0,
+      "type": "debit",
+      "balance": 20866.72,
+      "reference": "0000625743600868"
+    },
+    {
+      "date": "2026-09-14",
+      "merchant": "Blinkit Commerce Pri",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 176.0,
+      "type": "debit",
+      "balance": 20915.72,
+      "reference": "0000104046287812"
+    },
+    {
+      "date": "2026-09-13",
+      "merchant": "Parveen  Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 51.0,
+      "type": "debit",
+      "balance": 21315.91,
+      "reference": "0000625638784778"
+    },
+    {
+      "date": "2026-09-13",
+      "merchant": "Aman Kumar Sharma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 172.0,
+      "type": "debit",
+      "balance": 21366.91,
+      "reference": "0000625637732205"
+    },
+    {
+      "date": "2026-09-13",
+      "merchant": "Ram Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 21538.91,
+      "reference": "0000625636808395"
+    },
+    {
+      "date": "2026-09-13",
+      "merchant": "Aman Vaisnu Dhaba",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 280.0,
+      "type": "debit",
+      "balance": 21568.91,
+      "reference": "0000625635031094"
+    },
+    {
+      "date": "2026-09-13",
+      "merchant": "Kuldeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 55.0,
+      "type": "debit",
+      "balance": 21848.91,
+      "reference": "0000625633792802"
+    },
+    {
+      "date": "2026-09-13",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 224.19,
+      "type": "debit",
+      "balance": 21091.72,
+      "reference": "0000104043903605"
+    },
+    {
+      "date": "2026-09-12",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 21903.91,
+      "reference": "0000625531431313"
+    },
+    {
+      "date": "2026-09-12",
+      "merchant": "Uber India Systems P",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 38.04,
+      "type": "debit",
+      "balance": 22331.46,
+      "reference": "0000625530607152"
+    },
+    {
+      "date": "2026-09-12",
+      "merchant": "Jubilant Foodworks L",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 347.55,
+      "type": "debit",
+      "balance": 21983.91,
+      "reference": "0000104039316007"
+    },
+    {
+      "date": "2026-09-11",
+      "merchant": "Satish Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 22369.5,
+      "reference": "0000625419914930"
+    },
+    {
+      "date": "2026-09-10",
+      "merchant": "Jagsir Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 22399.5,
+      "reference": "0000625311046587"
+    },
+    {
+      "date": "2026-09-10",
+      "merchant": "Satish Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 22479.5,
+      "reference": "0000625309167025"
+    },
+    {
+      "date": "2026-09-09",
+      "merchant": "Satish Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 33.0,
+      "type": "debit",
+      "balance": 26959.5,
+      "reference": "0000625295583546"
+    },
+    {
+      "date": "2026-09-09",
+      "merchant": "Garg Petroleum",
+      "category": "Fuel",
+      "method": "UPI",
+      "amount": 300.0,
+      "type": "debit",
+      "balance": 26992.5,
+      "reference": "0000625295448200"
+    },
+    {
+      "date": "2026-09-09",
+      "merchant": "Preetinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 4460.0,
+      "type": "debit",
+      "balance": 22499.5,
+      "reference": "0000625203589750"
+    },
+    {
+      "date": "2026-09-07",
+      "merchant": "Flopbusinessman",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 27292.5,
+      "reference": "0000625084870444"
+    },
+    {
+      "date": "2026-09-06",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 142.58,
+      "type": "debit",
+      "balance": 27312.5,
+      "reference": "0000104001410526"
+    },
+    {
+      "date": "2026-09-05",
+      "merchant": "H P Petro Filling St",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 27455.08,
+      "reference": "0000624863692631"
+    },
+    {
+      "date": "2026-09-04",
+      "merchant": "Sadhana Devi",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 27955.08,
+      "reference": "0000624755399450"
+    },
+    {
+      "date": "2026-09-04",
+      "merchant": "Choudhary Dairy And",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 196.0,
+      "type": "debit",
+      "balance": 28035.08,
+      "reference": "0000624755263701"
+    },
+    {
+      "date": "2026-09-04",
+      "merchant": "Akashdeep Bakers And",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 2370.0,
+      "type": "debit",
+      "balance": 28231.08,
+      "reference": "0000624755204816"
+    },
+    {
+      "date": "2026-09-04",
+      "merchant": "Jagmeet  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 30601.08,
+      "reference": "0000624751607471"
+    },
+    {
+      "date": "2026-09-04",
+      "merchant": "Blinkit",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 606.0,
+      "type": "debit",
+      "balance": 30701.08,
+      "reference": "0000214803204759"
+    },
+    {
+      "date": "2026-09-03",
+      "merchant": "Haivg",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 31307.08,
+      "reference": "0000624647991951"
+    },
+    {
+      "date": "2026-09-03",
+      "merchant": "Welfare Fund",
+      "category": "Fees",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 31347.08,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-09-02",
+      "merchant": "Jagmeet  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 31442.08,
+      "reference": "0000624537398078"
+    },
+    {
+      "date": "2026-08-22",
+      "merchant": "Royal Enfield",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 2000.0,
+      "type": "debit",
+      "balance": 102.08,
+      "reference": "0000623437681586"
+    },
+    {
+      "date": "2026-08-21",
+      "merchant": "Hp Petro Filling Sta",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 300.0,
+      "type": "debit",
+      "balance": 2102.08,
+      "reference": "0000623330949918"
+    },
+    {
+      "date": "2026-08-21",
+      "merchant": "Royal Enfield",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 1525.0,
+      "type": "debit",
+      "balance": 2402.08,
+      "reference": "0000623330887050"
+    },
+    {
+      "date": "2026-08-21",
+      "merchant": "Baba Trading",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 3927.08,
+      "reference": "0000623327636962"
+    },
+    {
+      "date": "2026-08-21",
+      "merchant": "Suresh Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 49.0,
+      "type": "debit",
+      "balance": 4022.08,
+      "reference": "0000623326185165"
+    },
+    {
+      "date": "2026-08-20",
+      "merchant": "Harpreet Dairy",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 4071.08,
+      "reference": "0000623224863565"
+    },
+    {
+      "date": "2026-08-20",
+      "merchant": "Harpreet Dairy",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 4091.08,
+      "reference": "0000623224861207"
+    },
+    {
+      "date": "2026-08-20",
+      "merchant": "Jatinder Pal Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 47.0,
+      "type": "debit",
+      "balance": 4139.08,
+      "reference": "0000623224820703"
+    },
+    {
+      "date": "2026-08-20",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 4111.08,
+      "reference": "0000623224676829"
+    },
+    {
+      "date": "2026-08-20",
+      "merchant": "Sukhjit Singh So Sur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 4186.08,
+      "reference": "0000623224618177"
+    },
+    {
+      "date": "2026-08-20",
+      "merchant": "Gagandeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 4216.08,
+      "reference": "0000623219095269"
+    },
+    {
+      "date": "2026-08-17",
+      "merchant": "Rapido Qr Pay",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 70.0,
+      "type": "debit",
+      "balance": 4716.08,
+      "reference": "0000622988997335"
+    },
+    {
+      "date": "2026-08-16",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 7266.13,
+      "reference": "0000622887411211"
+    },
+    {
+      "date": "2026-08-16",
+      "merchant": "Blinkit Commerce Pri",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 2480.05,
+      "type": "debit",
+      "balance": 4786.08,
+      "reference": "0000103866465432"
+    },
+    {
+      "date": "2026-08-16",
+      "merchant": "Zepto Marketplace Pr",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 354.0,
+      "type": "debit",
+      "balance": 7301.13,
+      "reference": "0000103864986808"
+    },
+    {
+      "date": "2026-08-15",
+      "merchant": "Sonu Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 39.0,
+      "type": "debit",
+      "balance": 8019.21,
+      "reference": "0000622774814125"
+    },
+    {
+      "date": "2026-08-15",
+      "merchant": "Kanhaiya Soda Corner",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 90.0,
+      "type": "debit",
+      "balance": 8058.21,
+      "reference": "0000622773562057"
+    },
+    {
+      "date": "2026-08-15",
+      "merchant": "Badri  Nath",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.74,
+      "type": "debit",
+      "balance": 8148.21,
+      "reference": "0000622770968714"
+    },
+    {
+      "date": "2026-08-15",
+      "merchant": "Zomato Ltd",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 364.08,
+      "type": "debit",
+      "balance": 7655.13,
+      "reference": "0000103859922659"
+    },
+    {
+      "date": "2026-08-14",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 2952.0,
+      "type": "debit",
+      "balance": 8198.95,
+      "reference": "0000622668917447"
+    },
+    {
+      "date": "2026-08-14",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10500.0,
+      "type": "debit",
+      "balance": 11150.95,
+      "reference": "0000622668905201"
+    },
+    {
+      "date": "2026-08-14",
+      "merchant": "Maninder  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 115.0,
+      "type": "debit",
+      "balance": 22362.95,
+      "reference": "0000622667891608"
+    },
+    {
+      "date": "2026-08-14",
+      "merchant": "Zeptonow",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 712.0,
+      "type": "debit",
+      "balance": 21650.95,
+      "reference": "0000103855558279"
+    },
+    {
+      "date": "2026-08-13",
+      "merchant": "Hardeep  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 22477.95,
+      "reference": "0000622558130059"
+    },
+    {
+      "date": "2026-08-13",
+      "merchant": "Harvinder Singh So S",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 63.0,
+      "type": "debit",
+      "balance": 22517.95,
+      "reference": "0000622555678224"
+    },
+    {
+      "date": "2026-08-13",
+      "merchant": "Suman Devi",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 39.0,
+      "type": "debit",
+      "balance": 22580.95,
+      "reference": "0000622554323767"
+    },
+    {
+      "date": "2026-08-13",
+      "merchant": "Rapido Qr Pay",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 43.0,
+      "type": "debit",
+      "balance": 22619.95,
+      "reference": "0000622552779928"
+    },
+    {
+      "date": "2026-08-13",
+      "merchant": "Satish Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 45.0,
+      "type": "debit",
+      "balance": 22662.95,
+      "reference": "0000622551035110"
+    },
+    {
+      "date": "2026-08-12",
+      "merchant": "Deevanshu  Kangar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 22707.95,
+      "reference": "0000622450169217"
+    },
+    {
+      "date": "2026-08-12",
+      "merchant": "New Sharma Medicos",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 120.0,
+      "type": "debit",
+      "balance": 22742.95,
+      "reference": "0000622445783809"
+    },
+    {
+      "date": "2026-08-12",
+      "merchant": "Amandeep  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 2960.0,
+      "type": "debit",
+      "balance": 22862.95,
+      "reference": "0000622445222402"
+    },
+    {
+      "date": "2026-08-12",
+      "merchant": "Parson  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 25400.0,
+      "type": "debit",
+      "balance": 25822.95,
+      "reference": "0000622445205844"
+    },
+    {
+      "date": "2026-08-12",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 180.0,
+      "type": "debit",
+      "balance": 51222.95,
+      "reference": "0000622442447924"
+    },
+    {
+      "date": "2026-08-11",
+      "merchant": "Hardik Soni",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 8118.0,
+      "type": "debit",
+      "balance": 51402.95,
+      "reference": "0000658915123718"
+    },
+    {
+      "date": "2026-08-11",
+      "merchant": "Amit Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 160.0,
+      "type": "debit",
+      "balance": 32663.95,
+      "reference": "0000622337470578"
+    },
+    {
+      "date": "2026-08-11",
+      "merchant": "Krishna Devi",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10621.0,
+      "type": "debit",
+      "balance": 43284.95,
+      "reference": "0000622335240832"
+    },
+    {
+      "date": "2026-08-11",
+      "merchant": "Balwinder Singh So K",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 590.0,
+      "type": "debit",
+      "balance": 32823.95,
+      "reference": "0000622335238282"
+    },
+    {
+      "date": "2026-08-10",
+      "merchant": "Ramesh Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 25.0,
+      "type": "debit",
+      "balance": 33413.95,
+      "reference": "0000622222370634"
+    },
+    {
+      "date": "2026-08-09",
+      "merchant": "Sandhu Quality Store",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 33438.95,
+      "reference": "0000622117822744"
+    },
+    {
+      "date": "2026-08-09",
+      "merchant": "The Red Chilly",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 310.0,
+      "type": "debit",
+      "balance": 33458.95,
+      "reference": "0000622117121235"
+    },
+    {
+      "date": "2026-08-09",
+      "merchant": "Balaji Filling Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 300.0,
+      "type": "debit",
+      "balance": 33768.95,
+      "reference": "0000622115733020"
+    },
+    {
+      "date": "2026-08-09",
+      "merchant": "Gurpreet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 600.0,
+      "type": "debit",
+      "balance": 34068.95,
+      "reference": "0000622113568296"
+    },
+    {
+      "date": "2026-08-08",
+      "merchant": "Rapido",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 41.0,
+      "type": "debit",
+      "balance": 34668.95,
+      "reference": "0000622008041730"
+    },
+    {
+      "date": "2026-08-08",
+      "merchant": "Gagandeep  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 290.0,
+      "type": "debit",
+      "balance": 34709.95,
+      "reference": "0000622003351729"
+    },
+    {
+      "date": "2026-08-08",
+      "merchant": "Randeep Singh So Gur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 51.0,
+      "type": "debit",
+      "balance": 34999.95,
+      "reference": "0000622002611593"
+    },
+    {
+      "date": "2026-08-07",
+      "merchant": "Uvesh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 49.0,
+      "type": "debit",
+      "balance": 35050.95,
+      "reference": "0000621999998407"
+    },
+    {
+      "date": "2026-08-07",
+      "merchant": "Amarjit Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 96.0,
+      "type": "debit",
+      "balance": 35099.95,
+      "reference": "0000621996035848"
+    },
+    {
+      "date": "2026-08-06",
+      "merchant": "Alok",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 137.0,
+      "type": "debit",
+      "balance": 35195.95,
+      "reference": "0000621893022697"
+    },
+    {
+      "date": "2026-08-06",
+      "merchant": "Amit Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 147.0,
+      "type": "debit",
+      "balance": 35332.95,
+      "reference": "0000621892478165"
+    },
+    {
+      "date": "2026-08-06",
+      "merchant": "Roppen Transportatio",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 43.0,
+      "type": "debit",
+      "balance": 35479.95,
+      "reference": "0000621891095886"
+    },
+    {
+      "date": "2026-08-06",
+      "merchant": "Paramjit Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 105.0,
+      "type": "debit",
+      "balance": 35522.95,
+      "reference": "0000621887518625"
+    },
+    {
+      "date": "2026-08-06",
+      "merchant": "Prince  Wadhwa",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 17.0,
+      "type": "debit",
+      "balance": 35627.95,
+      "reference": "0000621883966730"
+    },
+    {
+      "date": "2026-08-06",
+      "merchant": "Chawla Gas Station A",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 110.0,
+      "type": "debit",
+      "balance": 35644.95,
+      "reference": "0000621883937494"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Aman Kumar Sharma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 693.0,
+      "type": "debit",
+      "balance": 33103.95,
+      "reference": "0000702304700497"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Aman Kumar Sharma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 3000.0,
+      "type": "debit",
+      "balance": 36103.95,
+      "reference": "0000681021663533"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Karan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 450.0,
+      "type": "debit",
+      "balance": 32505.95,
+      "reference": "0000658374513663"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Maninder  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 128.0,
+      "type": "debit",
+      "balance": 35754.95,
+      "reference": "0000621783054994"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 35882.95,
+      "reference": "0000621781782642"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Tinkal  Sharma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 41.0,
+      "type": "debit",
+      "balance": 35917.95,
+      "reference": "0000621779018872"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Ravindra Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 145.0,
+      "type": "debit",
+      "balance": 35958.95,
+      "reference": "0000621778709079"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Aman Kumar Sharma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 468.0,
+      "type": "debit",
+      "balance": 32055.95,
+      "reference": "0000621776962593"
+    },
+    {
+      "date": "2026-08-05",
+      "merchant": "Welfare Fund",
+      "category": "Fees",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 32410.95,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-08-04",
+      "merchant": "Amit Anand",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 32523.95,
+      "reference": "0000621668858890"
+    },
+    {
+      "date": "2026-08-02",
+      "merchant": "Sachindeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10000.0,
+      "type": "debit",
+      "balance": 10023.95,
+      "reference": "0000621476588336"
+    },
+    {
+      "date": "2026-08-02",
+      "merchant": "Atw",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 9000.0,
+      "type": "debit",
+      "balance": 1023.95,
+      "reference": "0000000000005994"
+    },
+    {
+      "date": "2026-07-20",
+      "merchant": "Durgesh Kumar Gupta",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 120.0,
+      "type": "debit",
+      "balance": 23.95,
+      "reference": "0000620128648977"
+    },
+    {
+      "date": "2026-07-20",
+      "merchant": "Rapido",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 43.0,
+      "type": "debit",
+      "balance": 143.95,
+      "reference": "0000620126242315"
+    },
+    {
+      "date": "2026-07-19",
+      "merchant": "Pappu Karyana Store",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 186.95,
+      "reference": "0000620024304545"
+    },
+    {
+      "date": "2026-07-19",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 281.95,
+      "reference": "0000620024276134"
+    },
+    {
+      "date": "2026-07-18",
+      "merchant": "Isha Bali",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 3000.0,
+      "type": "debit",
+      "balance": 309.95,
+      "reference": "0000619916038056"
+    },
+    {
+      "date": "2026-07-18",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 3309.95,
+      "reference": "0000619914959552"
+    },
+    {
+      "date": "2026-07-18",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 33.0,
+      "type": "debit",
+      "balance": 3344.95,
+      "reference": "0000619914201085"
+    },
+    {
+      "date": "2026-07-17",
+      "merchant": "Ajay Dang",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 36.0,
+      "type": "debit",
+      "balance": 3377.95,
+      "reference": "0000619805512886"
+    },
+    {
+      "date": "2026-07-17",
+      "merchant": "Mr Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 3413.95,
+      "reference": "0000619802368579"
+    },
+    {
+      "date": "2026-07-17",
+      "merchant": "Paras  Batra",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 3453.95,
+      "reference": "0000619800172353"
+    },
+    {
+      "date": "2026-07-16",
+      "merchant": "Davinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 3488.95,
+      "reference": "0000619795929915"
+    },
+    {
+      "date": "2026-07-16",
+      "merchant": "Manohar Kumar Ray",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 3588.95,
+      "reference": "0000619794332709"
+    },
+    {
+      "date": "2026-07-16",
+      "merchant": "Bablu Kumar Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 3648.95,
+      "reference": "0000619794240422"
+    },
+    {
+      "date": "2026-07-16",
+      "merchant": "Tejinder Kumar So Om",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 3668.95,
+      "reference": "0000619791228601"
+    },
+    {
+      "date": "2026-07-16",
+      "merchant": "Amit Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 31.0,
+      "type": "debit",
+      "balance": 3688.95,
+      "reference": "0000619789575581"
+    },
+    {
+      "date": "2026-07-15",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 33.0,
+      "type": "debit",
+      "balance": 3719.95,
+      "reference": "0000619687664393"
+    },
+    {
+      "date": "2026-07-15",
+      "merchant": "Unique Medical Store",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 190.0,
+      "type": "debit",
+      "balance": 3752.95,
+      "reference": "0000619685164668"
+    },
+    {
+      "date": "2026-07-15",
+      "merchant": "Amar  Dev",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 37.0,
+      "type": "debit",
+      "balance": 3942.95,
+      "reference": "0000619684471756"
+    },
+    {
+      "date": "2026-07-15",
+      "merchant": "Roppen Transportatio",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 31.0,
+      "type": "debit",
+      "balance": 3979.95,
+      "reference": "0000619684035675"
+    },
+    {
+      "date": "2026-07-15",
+      "merchant": "Raghbir Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 4010.95,
+      "reference": "0000619683180161"
+    },
+    {
+      "date": "2026-07-15",
+      "merchant": "Subway",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 850.0,
+      "type": "debit",
+      "balance": 4070.95,
+      "reference": "0000619682057680"
+    },
+    {
+      "date": "2026-07-14",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 120.0,
+      "type": "debit",
+      "balance": 4920.95,
+      "reference": "0000619577386792"
+    },
+    {
+      "date": "2026-07-13",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 5040.95,
+      "reference": "0000619469109851"
+    },
+    {
+      "date": "2026-07-13",
+      "merchant": "Mohit Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 5100.95,
+      "reference": "0000619464633143"
+    },
+    {
+      "date": "2026-07-12",
+      "merchant": "Zomato Limited",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 302.58,
+      "type": "debit",
+      "balance": 5150.95,
+      "reference": "0000103658415549"
+    },
+    {
+      "date": "2026-07-12",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 170.38,
+      "type": "debit",
+      "balance": 5453.53,
+      "reference": "0000103656226768"
+    },
+    {
+      "date": "2026-07-10",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 6159.69,
+      "reference": "0000619142709607"
+    },
+    {
+      "date": "2026-07-10",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 535.78,
+      "type": "debit",
+      "balance": 5623.91,
+      "reference": "0000103647917581"
+    },
+    {
+      "date": "2026-07-09",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 6219.69,
+      "reference": "0000619034085384"
+    },
+    {
+      "date": "2026-07-09",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 6279.69,
+      "reference": "0000619030437688"
+    },
+    {
+      "date": "2026-07-08",
+      "merchant": "Amandeep  Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 884.0,
+      "type": "debit",
+      "balance": 6339.69,
+      "reference": "0000618925720302"
+    },
+    {
+      "date": "2026-07-07",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 7223.69,
+      "reference": "0000618816084336"
+    },
+    {
+      "date": "2026-07-07",
+      "merchant": "Baidwan Filling Stat",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 600.0,
+      "type": "debit",
+      "balance": 18773.69,
+      "reference": "0000618809489102"
+    },
+    {
+      "date": "2026-07-07",
+      "merchant": "Atw",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 11500.0,
+      "type": "debit",
+      "balance": 7273.69,
+      "reference": "0000000000002170"
+    },
+    {
+      "date": "2026-07-06",
+      "merchant": "11210Apollo Pharmacy",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 565.0,
+      "type": "debit",
+      "balance": 19373.69,
+      "reference": "0000618708225965"
+    },
+    {
+      "date": "2026-07-06",
+      "merchant": "Mr Naveen",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 19938.69,
+      "reference": "0000618707965402"
+    },
+    {
+      "date": "2026-07-06",
+      "merchant": "Roppen Transportatio",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 38.0,
+      "type": "debit",
+      "balance": 20438.69,
+      "reference": "0000618705225587"
+    },
+    {
+      "date": "2026-07-06",
+      "merchant": "Ashok Kumar Sharma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 20476.69,
+      "reference": "0000618704915515"
+    },
+    {
+      "date": "2026-07-06",
+      "merchant": "Raghbir Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 20506.69,
+      "reference": "0000618704157394"
+    },
+    {
+      "date": "2026-07-06",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 215.87,
+      "type": "debit",
+      "balance": 20526.69,
+      "reference": "0000103618106797"
+    },
+    {
+      "date": "2026-07-05",
+      "merchant": "Vikram Jit Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 47.0,
+      "type": "debit",
+      "balance": 21091.85,
+      "reference": "0000618694872450"
+    },
+    {
+      "date": "2026-07-05",
+      "merchant": "Avs Cafe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 142.0,
+      "type": "debit",
+      "balance": 21138.85,
+      "reference": "0000618693695134"
+    },
+    {
+      "date": "2026-07-05",
+      "merchant": "Sukhbir  Kashyap",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 102.0,
+      "type": "debit",
+      "balance": 21280.85,
+      "reference": "0000618692114068"
+    },
+    {
+      "date": "2026-07-05",
+      "merchant": "Dominos Pizza",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 349.29,
+      "type": "debit",
+      "balance": 20742.56,
+      "reference": "0000618615552133"
+    },
+    {
+      "date": "2026-07-04",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 1000.0,
+      "type": "debit",
+      "balance": 21382.85,
+      "reference": "0000618591085612"
+    },
+    {
+      "date": "2026-07-04",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10500.0,
+      "type": "debit",
+      "balance": 22382.85,
+      "reference": "0000618591078649"
+    },
+    {
+      "date": "2026-07-04",
+      "merchant": "Deepak Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 1000.0,
+      "type": "debit",
+      "balance": 32882.85,
+      "reference": "0000618590559328"
+    },
+    {
+      "date": "2026-07-04",
+      "merchant": "Welfare Fund",
+      "category": "Fees",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 33882.85,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-07-03",
+      "merchant": "Badri Parsad",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 180.0,
+      "type": "debit",
+      "balance": 33977.85,
+      "reference": "0000618481006541"
+    },
+    {
+      "date": "2026-07-03",
+      "merchant": "Vipan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 34157.85,
+      "reference": "0000618476282833"
+    },
+    {
+      "date": "2026-07-02",
+      "merchant": "Rajwinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 2000.0,
+      "type": "debit",
+      "balance": 34197.85,
+      "reference": "0000618366704970"
+    },
+    {
+      "date": "2026-07-01",
+      "merchant": "Interest Paid Till 30",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 107.0,
+      "type": "debit",
+      "balance": 4657.85,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-06-30",
+      "merchant": "Manpreet Ram",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 70.0,
+      "type": "debit",
+      "balance": 4550.85,
+      "reference": "0000618152331751"
+    },
+    {
+      "date": "2026-06-28",
+      "merchant": "Ess Vee Station Hpcl",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 4844.38,
+      "reference": "0000617932759293"
+    },
+    {
+      "date": "2026-06-28",
+      "merchant": "We You Salon Academy",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 450.0,
+      "type": "debit",
+      "balance": 5344.38,
+      "reference": "0000617931428737"
+    },
+    {
+      "date": "2026-06-28",
+      "merchant": "Zomato Ltd",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 223.53,
+      "type": "debit",
+      "balance": 4620.85,
+      "reference": "0000103549358402"
+    },
+    {
+      "date": "2026-06-27",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 125.0,
+      "type": "debit",
+      "balance": 6132.76,
+      "reference": "0000617827508818"
+    },
+    {
+      "date": "2026-06-27",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 101.0,
+      "type": "debit",
+      "balance": 6257.76,
+      "reference": "0000617827443759"
+    },
+    {
+      "date": "2026-06-27",
+      "merchant": "Rajwinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 1600.0,
+      "type": "debit",
+      "balance": 6358.76,
+      "reference": "0000617825696400"
+    },
+    {
+      "date": "2026-06-27",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 338.38,
+      "type": "debit",
+      "balance": 5794.38,
+      "reference": "0000103546406099"
+    },
+    {
+      "date": "2026-06-27",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 338.43,
+      "type": "debit",
+      "balance": 6132.76,
+      "reference": "0000103546396302"
+    },
+    {
+      "date": "2026-06-27",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 338.43,
+      "type": "debit",
+      "balance": 5794.33,
+      "reference": "0000103546218020"
+    },
+    {
+      "date": "2026-06-26",
+      "merchant": "Ranjan Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 7958.76,
+      "reference": "0000617720459363"
+    },
+    {
+      "date": "2026-06-26",
+      "merchant": "Gurpyar Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 8018.76,
+      "reference": "0000617714775302"
+    },
+    {
+      "date": "2026-06-21",
+      "merchant": "Manoj Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 8058.76,
+      "reference": "0000617273949480"
+    },
+    {
+      "date": "2026-06-21",
+      "merchant": "Chawla Filling Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 8138.76,
+      "reference": "0000617273210444"
+    },
+    {
+      "date": "2026-06-21",
+      "merchant": "Zepto Marketplace Pr",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 900.0,
+      "type": "debit",
+      "balance": 8638.76,
+      "reference": "0000617270970140"
+    },
+    {
+      "date": "2026-06-21",
+      "merchant": "Zepto Marketplace Pr",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 79.0,
+      "type": "debit",
+      "balance": 9538.76,
+      "reference": "0000617270670225"
+    },
+    {
+      "date": "2026-06-21",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 248.66,
+      "type": "debit",
+      "balance": 9617.76,
+      "reference": "0000103515193390"
+    },
+    {
+      "date": "2026-06-20",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 9866.42,
+      "reference": "0000617166742878"
+    },
+    {
+      "date": "2026-06-20",
+      "merchant": "Badri Parsad",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 9906.42,
+      "reference": "0000617166566739"
+    },
+    {
+      "date": "2026-06-20",
+      "merchant": "Sachindeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 66.0,
+      "type": "debit",
+      "balance": 10006.42,
+      "reference": "0000617100075046"
+    },
+    {
+      "date": "2026-06-19",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 9940.42,
+      "reference": "0000617057247472"
+    },
+    {
+      "date": "2026-06-19",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 66.0,
+      "type": "debit",
+      "balance": 9975.42,
+      "reference": "0000617057179988"
+    },
+    {
+      "date": "2026-06-17",
+      "merchant": "Mr Bhuvnesh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 150.0,
+      "type": "debit",
+      "balance": 10041.42,
+      "reference": "0000616838017081"
+    },
+    {
+      "date": "2026-06-17",
+      "merchant": "Welcomecatering",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 10191.42,
+      "reference": "0000616833990092"
+    },
+    {
+      "date": "2026-06-16",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 85.0,
+      "type": "debit",
+      "balance": 10211.42,
+      "reference": "0000616729805766"
+    },
+    {
+      "date": "2026-06-16",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10500.0,
+      "type": "debit",
+      "balance": 10296.42,
+      "reference": "0000616728700342"
+    },
+    {
+      "date": "2026-06-11",
+      "merchant": "Isha Bali",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10000.0,
+      "type": "debit",
+      "balance": 20805.0,
+      "reference": "0000616274541958"
+    },
+    {
+      "date": "2026-06-04",
+      "merchant": "Welcomecatering",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 30900.0,
+      "reference": "0000615508646814"
+    },
+    {
+      "date": "2026-06-04",
+      "merchant": "Mohali Service Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 600.0,
+      "type": "debit",
+      "balance": 30940.0,
+      "reference": "0000615507596763"
+    },
+    {
+      "date": "2026-06-04",
+      "merchant": "Welfare Fund",
+      "category": "Fees",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 30805.0,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-05-30",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 267.45,
+      "reference": "0000615077941779"
+    },
+    {
+      "date": "2026-05-30",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 287.45,
+      "reference": "0000615077898548"
+    },
+    {
+      "date": "2026-05-30",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 217.03,
+      "type": "debit",
+      "balance": 50.42,
+      "reference": "0000103375659132"
+    },
+    {
+      "date": "2026-05-29",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 5367.45,
+      "reference": "0000614975412912"
+    },
+    {
+      "date": "2026-05-29",
+      "merchant": "Jd Unisex Salon",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 400.0,
+      "type": "debit",
+      "balance": 5395.45,
+      "reference": "0000614975366033"
+    },
+    {
+      "date": "2026-05-29",
+      "merchant": "Avenue Supermarts Lt",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 526.0,
+      "type": "debit",
+      "balance": 5795.45,
+      "reference": "0000614974350200"
+    },
+    {
+      "date": "2026-05-29",
+      "merchant": "Nwd",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 5000.0,
+      "type": "debit",
+      "balance": 367.45,
+      "reference": "0000614921022535"
+    },
+    {
+      "date": "2026-05-27",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 85.0,
+      "type": "debit",
+      "balance": 6321.45,
+      "reference": "0000614758757112"
+    },
+    {
+      "date": "2026-05-24",
+      "merchant": "Gopal Sweets Pvt Ltd",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 543.0,
+      "type": "debit",
+      "balance": 6607.78,
+      "reference": "0000614423411944"
+    },
+    {
+      "date": "2026-05-24",
+      "merchant": "Mohali Service Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 7150.78,
+      "reference": "0000614423331350"
+    },
+    {
+      "date": "2026-05-24",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 201.33,
+      "type": "debit",
+      "balance": 6406.45,
+      "reference": "0000103346076100"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 7760.78,
+      "reference": "0000614320546986"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 110.0,
+      "type": "debit",
+      "balance": 7650.78,
+      "reference": "0000614320546333"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 7800.78,
+      "reference": "0000614320515204"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 191.88,
+      "type": "debit",
+      "balance": 7828.78,
+      "reference": "0000103340776727"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.68,
+      "type": "debit",
+      "balance": 8020.66,
+      "reference": "0000103339194671"
+    },
+    {
+      "date": "2026-05-22",
+      "merchant": "Nitesh Rajput",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 8221.34,
+      "reference": "0000614205666682"
+    },
+    {
+      "date": "2026-05-22",
+      "merchant": "Khalsa Confectioners",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 350.0,
+      "type": "debit",
+      "balance": 8321.34,
+      "reference": "0000614205576082"
+    },
+    {
+      "date": "2026-05-22",
+      "merchant": "Mobile Point",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 900.0,
+      "type": "debit",
+      "balance": 8671.34,
+      "reference": "0000614205473332"
+    },
+    {
+      "date": "2026-05-21",
+      "merchant": "Pardeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 9571.34,
+      "reference": "0000614194235160"
+    },
+    {
+      "date": "2026-05-20",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 99.0,
+      "type": "debit",
+      "balance": 9611.34,
+      "reference": "0000614089786575"
+    },
+    {
+      "date": "2026-05-20",
+      "merchant": "Tara Dutt",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 5095.0,
+      "type": "debit",
+      "balance": 9710.34,
+      "reference": "0000614085718485"
+    },
+    {
+      "date": "2026-05-20",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10500.0,
+      "type": "debit",
+      "balance": 15304.34,
+      "reference": "0000614081825976"
+    },
+    {
+      "date": "2026-05-20",
+      "merchant": "Valve Corporation",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 499.0,
+      "type": "debit",
+      "balance": 14805.34,
+      "reference": "0000614001371701"
+    },
+    {
+      "date": "2026-05-19",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 235.0,
+      "type": "debit",
+      "balance": 25804.34,
+      "reference": "0000613980036757"
+    },
+    {
+      "date": "2026-05-19",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 85.0,
+      "type": "debit",
+      "balance": 26039.34,
+      "reference": "0000613979978018"
+    },
+    {
+      "date": "2026-05-18",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 26124.34,
+      "reference": "0000613865529556"
+    },
+    {
+      "date": "2026-05-18",
+      "merchant": "Baba Trading",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 26154.34,
+      "reference": "0000613865216459"
+    },
+    {
+      "date": "2026-05-17",
+      "merchant": "Dinesh Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 26189.34,
+      "reference": "0000613760976631"
+    },
+    {
+      "date": "2026-05-16",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 26239.34,
+      "reference": "0000613651726038"
+    },
+    {
+      "date": "2026-05-16",
+      "merchant": "Badri Parsad",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 26267.34,
+      "reference": "0000613650728560"
+    },
+    {
+      "date": "2026-05-16",
+      "merchant": "Zomato Online Order",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 156.18,
+      "type": "debit",
+      "balance": 26367.34,
+      "reference": "0000613614860727"
+    },
+    {
+      "date": "2026-05-15",
+      "merchant": "Citco Petrol And Cng",
+      "category": "Fuel",
+      "method": "UPI",
+      "amount": 400.0,
+      "type": "debit",
+      "balance": 26893.4,
+      "reference": "0000613541017854"
+    },
+    {
+      "date": "2026-05-15",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 27293.4,
+      "reference": "0000613536338715"
+    },
+    {
+      "date": "2026-05-15",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 369.88,
+      "type": "debit",
+      "balance": 26523.52,
+      "reference": "0000103302506363"
+    },
+    {
+      "date": "2026-05-14",
+      "merchant": "Hardware Corpus",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 27443.4,
+      "reference": "0000850004041346"
+    },
+    {
+      "date": "2026-05-14",
+      "merchant": "Hardware Corpus",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 27343.4,
+      "reference": "0000613431278414"
+    },
+    {
+      "date": "2026-05-14",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 101.0,
+      "type": "debit",
+      "balance": 27543.4,
+      "reference": "0000613429399646"
+    },
+    {
+      "date": "2026-05-12",
+      "merchant": "Khushi  Ram",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 27644.4,
+      "reference": "0000613208445570"
+    },
+    {
+      "date": "2026-05-12",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 27939.4,
+      "reference": "0000613205310087"
+    },
+    {
+      "date": "2026-05-12",
+      "merchant": "Welfare Fund",
+      "category": "Fees",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 27844.4,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-05-10",
+      "merchant": "Raja Dhaba",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 120.0,
+      "type": "debit",
+      "balance": 27929.4,
+      "reference": "0000613086580036"
+    },
+    {
+      "date": "2026-05-10",
+      "merchant": "Shiv Shakti Filling",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 435.91,
+      "type": "debit",
+      "balance": 28049.4,
+      "reference": "0000613086166395"
+    },
+    {
+      "date": "2026-05-10",
+      "merchant": "Amandeep",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 27969.4,
+      "reference": "0000613086154631"
+    },
+    {
+      "date": "2026-05-09",
+      "merchant": "Jaswinder Pal Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 1300.0,
+      "type": "debit",
+      "balance": 28485.31,
+      "reference": "0000612977228436"
+    },
+    {
+      "date": "2026-05-09",
+      "merchant": "Ram Darshan Sourav K",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 3300.0,
+      "type": "debit",
+      "balance": 29785.31,
+      "reference": "0000612976420206"
+    },
+    {
+      "date": "2026-05-09",
+      "merchant": "Balwinder  Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 33085.31,
+      "reference": "0000612970319835"
+    },
+    {
+      "date": "2026-05-08",
+      "merchant": "Lal Sahb Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 114.0,
+      "type": "debit",
+      "balance": 33585.31,
+      "reference": "0000612867746035"
+    },
+    {
+      "date": "2026-05-08",
+      "merchant": "Rajat Goyal",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 190.0,
+      "type": "debit",
+      "balance": 33699.31,
+      "reference": "0000612867146054"
+    },
+    {
+      "date": "2026-05-07",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 344.24,
+      "type": "debit",
+      "balance": 33889.31,
+      "reference": "0000103253431210"
+    },
+    {
+      "date": "2026-05-06",
+      "merchant": "Suraj Dhaba",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 36.0,
+      "type": "debit",
+      "balance": 34233.55,
+      "reference": "0000612645587820"
+    },
+    {
+      "date": "2026-05-06",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 34269.55,
+      "reference": "0000612642314661"
+    },
+    {
+      "date": "2026-05-05",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 30.0,
+      "type": "debit",
+      "balance": 34299.55,
+      "reference": "0000612532212232"
+    },
+    {
+      "date": "2026-05-05",
+      "merchant": "Petro And Agroways",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 34329.55,
+      "reference": "0000612530148619"
+    },
+    {
+      "date": "2026-05-04",
+      "merchant": "Verma",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 96.0,
+      "type": "debit",
+      "balance": 34829.55,
+      "reference": "0000612425880698"
+    },
+    {
+      "date": "2026-05-04",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 42.0,
+      "type": "debit",
+      "balance": 34925.55,
+      "reference": "0000612425817252"
+    },
+    {
+      "date": "2026-05-04",
+      "merchant": "Waqar Hadder",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 65.0,
+      "type": "debit",
+      "balance": 3427.55,
+      "reference": "0000612420562273"
+    },
+    {
+      "date": "2026-05-03",
+      "merchant": "Guptamedicalhall",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 220.0,
+      "type": "debit",
+      "balance": 3492.55,
+      "reference": "0000612314996369"
+    },
+    {
+      "date": "2026-05-03",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 102.0,
+      "type": "debit",
+      "balance": 3712.55,
+      "reference": "0000612310982020"
+    },
+    {
+      "date": "2026-04-30",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 42.0,
+      "type": "debit",
+      "balance": 3814.55,
+      "reference": "0000612084257983"
+    },
+    {
+      "date": "2026-04-30",
+      "merchant": "Guptamedicalhall",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 74.0,
+      "type": "debit",
+      "balance": 3856.55,
+      "reference": "0000612082052604"
+    },
+    {
+      "date": "2026-04-30",
+      "merchant": "Anita  Guleria",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 3930.55,
+      "reference": "0000612079419221"
+    },
+    {
+      "date": "2026-04-29",
+      "merchant": "Agra Confectionary",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 131.0,
+      "type": "debit",
+      "balance": 3950.55,
+      "reference": "0000611972514596"
+    },
+    {
+      "date": "2026-04-29",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 70.0,
+      "type": "debit",
+      "balance": 4081.55,
+      "reference": "0000611972492209"
+    },
+    {
+      "date": "2026-04-29",
+      "merchant": "Nitesh Rajput",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 140.0,
+      "type": "debit",
+      "balance": 4151.55,
+      "reference": "0000611969027319"
+    },
+    {
+      "date": "2026-04-29",
+      "merchant": "Guptamedicalhall",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 70.0,
+      "type": "debit",
+      "balance": 4291.55,
+      "reference": "0000611966976446"
+    },
+    {
+      "date": "2026-04-28",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 4361.55,
+      "reference": "0000611864225345"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Jd Unisex Salon",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 400.0,
+      "type": "debit",
+      "balance": 4411.55,
+      "reference": "0000611754169344"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Badri Parsad",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 4811.55,
+      "reference": "0000611753198895"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Cyber71",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 5011.55,
+      "reference": "0000611752831641"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Sethi Tyre And Auto",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 5061.55,
+      "reference": "0000611752685668"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Atw",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 12000.0,
+      "type": "debit",
+      "balance": 5161.55,
+      "reference": "0000000000000612"
+    },
+    {
+      "date": "2026-04-26",
+      "merchant": "Ahuja Service Statio",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 600.0,
+      "type": "debit",
+      "balance": 17161.55,
+      "reference": "0000611643375541"
+    },
+    {
+      "date": "2026-04-25",
+      "merchant": "Zeptonow",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 140.0,
+      "type": "debit",
+      "balance": 17761.55,
+      "reference": "0000611511899410"
+    },
+    {
+      "date": "2026-04-23",
+      "merchant": "Gopal Sweets Pvt Ltd",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 364.0,
+      "type": "debit",
+      "balance": 17901.55,
+      "reference": "0000611312075140"
+    },
+    {
+      "date": "2026-04-22",
+      "merchant": "Ess Vee Station Hpcl",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 600.0,
+      "type": "debit",
+      "balance": 18265.55,
+      "reference": "0000611201239286"
+    },
+    {
+      "date": "2026-04-21",
+      "merchant": "Manjit Kumar  Chaube",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 165.0,
+      "type": "debit",
+      "balance": 18865.55,
+      "reference": "0000611190736250"
+    },
+    {
+      "date": "2026-04-20",
+      "merchant": "Badri Parsad",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 19030.55,
+      "reference": "0000611081006020"
+    },
+    {
+      "date": "2026-04-20",
+      "merchant": "Mohali Cargo Movers",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 19230.55,
+      "reference": "0000611075672733"
+    },
+    {
+      "date": "2026-04-19",
+      "merchant": "Arshpreet Kaur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10500.0,
+      "type": "debit",
+      "balance": 19430.55,
+      "reference": "0000610967715354"
+    },
+    {
+      "date": "2026-04-19",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 29930.55,
+      "reference": "0000610967705465"
+    },
+    {
+      "date": "2026-04-17",
+      "merchant": "Shiv Kumar Gupta So",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 375.0,
+      "type": "debit",
+      "balance": 29970.55,
+      "reference": "0000610749127498"
+    },
+    {
+      "date": "2026-04-15",
+      "merchant": "Eating Hub",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 93.0,
+      "type": "debit",
+      "balance": 30345.55,
+      "reference": "0000610528456057"
+    },
+    {
+      "date": "2026-04-13",
+      "merchant": "Pardeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 30438.55,
+      "reference": "0000610300220233"
+    },
+    {
+      "date": "2026-04-11",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 30478.55,
+      "reference": "0000610184946623"
+    },
+    {
+      "date": "2026-04-11",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 30498.55,
+      "reference": "0000610184931995"
+    },
+    {
+      "date": "2026-04-11",
+      "merchant": "Mohali Service Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 30743.63,
+      "reference": "0000610178519459"
+    },
+    {
+      "date": "2026-04-11",
+      "merchant": "Pardeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 31243.63,
+      "reference": "0000610176786685"
+    },
+    {
+      "date": "2026-04-11",
+      "merchant": "Zomato",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 217.08,
+      "type": "debit",
+      "balance": 30526.55,
+      "reference": "0000103094645079"
+    },
+    {
+      "date": "2026-04-10",
+      "merchant": "Pardeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 32.0,
+      "type": "debit",
+      "balance": 31557.63,
+      "reference": "0000610068890170"
+    },
+    {
+      "date": "2026-04-10",
+      "merchant": "Dominos Pizza",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 294.0,
+      "type": "debit",
+      "balance": 31263.63,
+      "reference": "0000610021196117"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Baba Karyana Store",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 45.0,
+      "type": "debit",
+      "balance": 31589.63,
+      "reference": "0000609959530581"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Tiwari Enterprises",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 31634.63,
+      "reference": "0000609959378367"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Suraj",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 31779.63,
+      "reference": "0000609955985828"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Sukhwinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 25.0,
+      "type": "debit",
+      "balance": 31879.63,
+      "reference": "0000609953846927"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Welfare Fund",
+      "category": "Fees",
+      "method": "UPI",
+      "amount": 95.0,
+      "type": "debit",
+      "balance": 31684.63,
+      "reference": "000000000000000"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Zepto Marketplace Pr",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 496.0,
+      "type": "debit",
+      "balance": 32104.63,
+      "reference": "0000934919900986"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Simranjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 31904.63,
+      "reference": "0000609851312787"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Guptamedicalhall",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 31964.63,
+      "reference": "0000609851269099"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Guptamedicalhall",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 60.0,
+      "type": "debit",
+      "balance": 32044.63,
+      "reference": "0000609851240816"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Pardeep Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 32600.63,
+      "reference": "0000609843527853"
+    },
+    {
+      "date": "2026-04-07",
+      "merchant": "Suraj Dhaba",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 48.0,
+      "type": "debit",
+      "balance": 32640.63,
+      "reference": "0000609737658325"
+    },
+    {
+      "date": "2026-04-07",
+      "merchant": "Mohali Service Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 1148.63,
+      "reference": "0000609734792105"
+    },
+    {
+      "date": "2026-04-07",
+      "merchant": "Sukhwinder Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 40.0,
+      "type": "debit",
+      "balance": 1348.63,
+      "reference": "0000609731969304"
+    },
+    {
+      "date": "2026-04-06",
+      "merchant": "Charanjot  Store",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 80.0,
+      "type": "debit",
+      "balance": 1388.63,
+      "reference": "0000609621088575"
+    },
+    {
+      "date": "2026-04-05",
+      "merchant": "Haldiram Zirakpur",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 309.76,
+      "type": "debit",
+      "balance": 1468.63,
+      "reference": "0000609515505546"
+    },
+    {
+      "date": "2026-04-04",
+      "merchant": "Chander Parkash Goya",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 90.0,
+      "type": "debit",
+      "balance": 1778.39,
+      "reference": "0000609499624481"
+    },
+    {
+      "date": "2026-04-04",
+      "merchant": "Chawla Filling Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 1868.39,
+      "reference": "0000609499277830"
+    },
+    {
+      "date": "2026-04-04",
+      "merchant": "Verma Communication",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 490.0,
+      "type": "debit",
+      "balance": 2368.39,
+      "reference": "0000609499149107"
+    },
+    {
+      "date": "2026-04-04",
+      "merchant": "Noor Medical Store",
+      "category": "Healthcare",
+      "method": "UPI",
+      "amount": 160.0,
+      "type": "debit",
+      "balance": 2858.39,
+      "reference": "0000609497145085"
+    },
+    {
+      "date": "2026-04-03",
+      "merchant": "Gopal Sweets Pvt Ltd",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 223.0,
+      "type": "debit",
+      "balance": 3018.39,
+      "reference": "0000609393218555"
+    },
+    {
+      "date": "2026-04-03",
+      "merchant": "Mohali Service Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 3241.39,
+      "reference": "0000609390332396"
+    },
+    {
+      "date": "2026-04-03",
+      "merchant": "Shiv Shankar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 32.0,
+      "type": "debit",
+      "balance": 3441.39,
+      "reference": "0000609385510912"
+    },
+    {
+      "date": "2026-04-01",
+      "merchant": "Shiv Kumar Gupta So",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 160.0,
+      "type": "debit",
+      "balance": 3473.39,
+      "reference": "0000609170423591"
+    },
+    {
+      "date": "2026-04-01",
+      "merchant": "Surinder Bartan Bhan",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 3633.39,
+      "reference": "0000609170250642"
+    },
+    {
+      "date": "2026-04-01",
+      "merchant": "Mohali Service Stati",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 200.0,
+      "type": "debit",
+      "balance": 4133.39,
+      "reference": "0000609164740461"
+    },
+    {
+      "date": "2026-04-01",
+      "merchant": "Mohit Kumar",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 4333.39,
+      "reference": "0000609162311322"
+    }
   ]
 }

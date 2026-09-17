@@ -1,0 +1,1259 @@
+
+
+
+HDFC BANK Ltd.                                     Page No .:   1                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+01/04/26  UPI-MOHIT KUMAR-Q935331590@YBL-YESB0YBLU  0000609162311322  01/04/26              20.00                               4,333.39   
+          PI-609162311322-CHAI                                                                                                              
+01/04/26  UPI-MOHALI SERVICE STATI-PAYTMQR6DSTBT@P  0000609164740461  01/04/26             200.00                               4,133.39   
+          TYS-YESB0PTMUPI-609164740461-PETROL                                                                                               
+01/04/26  UPI-SURINDER BARTAN BHAN-Q575265001@YBL-  0000609170250642  01/04/26             500.00                               3,633.39   
+          YESB0YBLUPI-609170250642-PATILA                                                                                                   
+01/04/26  UPI-SHIV KUMAR GUPTA SO -Q677619908@YBL-  0000609170423591  01/04/26             160.00                               3,473.39   
+          YESB0YBLUPI-609170423591-GROCERIES                                                                                                
+03/04/26  UPI-SHIV SHANKAR-PAYTMQR59CB3L@PAYTM-YES  0000609385510912  03/04/26              32.00                               3,441.39   
+          B0PTMUPI-609385510912-MILK                                                                                                        
+03/04/26  UPI-MOHALI SERVICE STATI-PAYTMQR6DSTBT@P  0000609390332396  03/04/26             200.00                               3,241.39   
+          TYS-YESB0PTMUPI-609390332396-PETROL                                                                                               
+03/04/26  UPI-GOPAL SWEETS PVT LTD-MAB.03721500085  0000609393218555  03/04/26             223.00                               3,018.39   
+          0040@AXISBANK-UTIB0000100-609393218555-F                                                                                          
+          OOD                                                                                                                               
+04/04/26  UPI-NOOR MEDICAL STORE-PAYTMQR61ORY0@PTY  0000609497145085  04/04/26             160.00                               2,858.39   
+          S-YESB0PTMUPI-609497145085-MEDI                                                                                                   
+04/04/26  UPI-VERMA COMMUNICATION-STK-7696032888-1  0000609499149107  04/04/26             490.00                               2,368.39   
+          @OKBIZAXIS-UTIB0000553-609499149107-UPI                                                                                           
+          SEND MONEY                                                                                                                        
+04/04/26  UPI-CHAWLA FILLING STATI-PINELABS.109629  0000609499277830  04/04/26             500.00                               1,868.39   
+          32@HDFCBANK-HDFC0MERUPI-609499277830-PET                                                                                          
+          ROL                                                                                                                               
+04/04/26  UPI-CHANDER PARKASH GOYA-PAYTM.S11VTVW@P  0000609499624481  04/04/26              90.00                               1,778.39   
+          TY-YESB0MCHUPI-609499624481-FOOD                                                                                                  
+05/04/26  UPI-HALDIRAM ZIRAKPUR-PAYTM.D91481850@PT  0000609515505546  05/04/26             309.76                               1,468.63   
+          Y-YESB0MCHUPI-609515505546-TRUE                                                                                                   
+06/04/26  UPI-CHARANJOT  STORE-GPAY-11244200284@OK  0000609621088575  06/04/26              80.00                               1,388.63   
+          BIZAXIS-UTIB0000553-609621088575-FOOD                                                                                             
+07/04/26  UPI-SUKHWINDER SINGH-PAYTMQR281005050101  0000609731969304  07/04/26              40.00                               1,348.63   
+          1GK0DQZYL3E0@PAYTM-YESB0PTMUPI-609731969                                                                                          
+          304-FOOD                                                                                                                          
+07/04/26  UPI-MOHALI SERVICE STATI-PAYTMQR60HBMN@P  0000609734792105  07/04/26             200.00                               1,148.63   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   2                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          TYS-YESB0PTMUPI-609734792105-PETROL                                                                                               
+07/04/26  NEFT CR-RBIS0GOPNEP-DTO PUNJAB TREASURY   RBISH00514689315  07/04/26                             31,540.00           32,688.63   
+          CHANDIGARH-SACHINDEEP SINGH-RBISH0051468                                                                                          
+          9315                                                                                                                              
+07/04/26  UPI-SURAJ DHABA-BAJAJPAY.6879729.ARG7931  0000609737658325  07/04/26              48.00                              32,640.63   
+          261@INDUS-INDB0MERCHA-609737658325-CHAI                                                                                           
+08/04/26  UPI-PARDEEP SINGH-Q269174340@YBL-YESB0YB  0000609843527853  08/04/26              40.00                              32,600.63   
+          LUPI-609843527853-FOOD                                                                                                            
+08/04/26  UPI-ZEPTO MARKETPLACE PR-ZEPTO.PAYU@AXIS  0000934919900986  08/04/26             496.00                              32,104.63   
+          BANK-UTIB0000100-934919900986-UPI TRANSA                                                                                          
+          CTION                                                                                                                             
+08/04/26  UPI-GUPTAMEDICALHALL-PAYTMQR6BQS96@PTYS-  0000609851240816  08/04/26              60.00                              32,044.63   
+          YESB0PTMUPI-609851240816-MEDICINE                                                                                                 
+08/04/26  UPI-GUPTAMEDICALHALL-PAYTMQR6BQS96@PTYS-  0000609851269099  08/04/26              80.00                              31,964.63   
+          YESB0PTMUPI-609851269099-MEDICIEN                                                                                                 
+08/04/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000609851312787  08/04/26              60.00                              31,904.63   
+          -YESB0PTMUPI-609851312787-FOOD                                                                                                    
+09/04/26  UPI-SUKHWINDER SINGH-PAYTMQR281005050101  0000609953846927  09/04/26              25.00                              31,879.63   
+          1GK0DQZYL3E0@PAYTM-YESB0PTMUPI-609953846                                                                                          
+          927-FOOD                                                                                                                          
+09/04/26  UPI-SURAJ-PAYTMQR6MDUMN@PTYS-YESB0PTMUPI  0000609955985828  09/04/26             100.00                              31,779.63   
+          -609955985828-FOOD                                                                                                                
+09/04/26  WELFARE FUND                              000000000000000   09/04/26              95.00                              31,684.63   
+09/04/26  UPI-TIWARI ENTERPRISES-1175501720010171@  0000609959378367  09/04/26              50.00                              31,634.63   
+          CNRB-CNRB0002479-609959378367-UPI SEND M                                                                                          
+          ONEY                                                                                                                              
+09/04/26  UPI-BABA KARYANA STORE-GPAY-11251508605@  0000609959530581  09/04/26              45.00                              31,589.63   
+          OKBIZAXIS-UTIB0000553-609959530581-UPI S                                                                                          
+          END MONEY                                                                                                                         
+10/04/26  UPI-PARDEEP SINGH-Q269174340@YBL-YESB0YB  0000610068890170  10/04/26              32.00                              31,557.63   
+          LUPI-610068890170-MILK                                                                                                            
+10/04/26  UPI-DOMINOS PIZZA-DOMINOSPIZZA853936.RZP  0000610021196117  10/04/26             294.00                              31,263.63   
+          @RXAXIS-UTIB0000RZP-610021196117-UPI PAY                                                                                          
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   3                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          MENT                                                                                                                              
+11/04/26  UPI-PARDEEP SINGH-Q269174340@YBL-YESB0YB  0000610176786685  11/04/26              20.00                              31,243.63   
+          LUPI-610176786685-CHAI                                                                                                            
+11/04/26  UPI-MOHALI SERVICE STATI-PAYTMQR6DT5BS@P  0000610178519459  11/04/26             500.00                              30,743.63   
+          TYS-YESB0PTMUPI-610178519459-PETROL                                                                                               
+11/04/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103094645079  11/04/26             217.08                              30,526.55   
+          I-103094645079-COLLECT TRANSACTIO                                                                                                 
+11/04/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000610184931995  11/04/26              28.00                              30,498.55   
+          -YESB0PTMUPI-610184931995-ROTIS                                                                                                   
+11/04/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000610184946623  11/04/26              20.00                              30,478.55   
+          6@OKBIZAXIS-UTIB0000553-610184946623-DAH                                                                                          
+          I                                                                                                                                 
+13/04/26  UPI-PARDEEP SINGH-Q269174340@YBL-YESB0YB  0000610300220233  13/04/26              40.00                              30,438.55   
+          LUPI-610300220233-CHAI                                                                                                            
+15/04/26  UPI-EATING HUB-BAJAJPAY.6879729.N5877837  0000610528456057  15/04/26              93.00                              30,345.55   
+          80@INDUS-INDB0MERCHA-610528456057-MILK                                                                                            
+17/04/26  UPI-SHIV KUMAR GUPTA SO -Q677619908@YBL-  0000610749127498  17/04/26             375.00                              29,970.55   
+          YESB0YBLUPI-610749127498-GROCERIES                                                                                                
+19/04/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000610967705465  19/04/26              40.00                              29,930.55   
+          6@OKBIZAXIS-UTIB0000553-610967705465-DAH                                                                                          
+          I                                                                                                                                 
+19/04/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000610967715354  19/04/26          10,500.00                              19,430.55   
+          0544442-610967715354-RENT                                                                                                         
+20/04/26  UPI-MOHALI CARGO MOVERS-PAYTM.D122871238  0000611075672733  20/04/26             200.00                              19,230.55   
+          55@PTY-YESB0MCHUPI-611075672733-PETROL                                                                                            
+20/04/26  UPI-BADRI PARSAD-PAYTMQR6IUQ7O@PTYS-YESB  0000611081006020  20/04/26             200.00                              19,030.55   
+          0PTMUPI-611081006020-MANGOSHAKES                                                                                                  
+21/04/26  UPI-MANJIT KUMAR  CHAUBE-Q435446610@YBL-  0000611190736250  21/04/26             165.00                              18,865.55   
+          YESB0YBLUPI-611190736250-ICECREAM                                                                                                 
+22/04/26  UPI-ESS VEE STATION HPCL-PAYTM.D18287454  0000611201239286  22/04/26             600.00                              18,265.55   
+          94@PTY-YESB0MCHUPI-611201239286-PETROL                                                                                            
+23/04/26  UPI-GOPAL SWEETS PVT LTD-MAB.03721500085  0000611312075140  23/04/26             364.00                              17,901.55   
+          0040@AXISBANK-UTIB0000100-611312075140-F                                                                                          
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   4                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          OOD                                                                                                                               
+25/04/26  UPI-ZEPTONOW-ZEPTONOW.ESBZ@MAIRTEL-AIRP0  0000611511899410  25/04/26             140.00                              17,761.55   
+          000001-611511899410-MERCHANT COLLECT                                                                                              
+26/04/26  UPI-AHUJA SERVICE STATIO-PAYTMQR60GB0H@P  0000611643375541  26/04/26             600.00                              17,161.55   
+          TYS-YESB0PTMUPI-611643375541-PETROL                                                                                               
+27/04/26  ATW-526099XXXXXX2444-S1ACMO30-MOHALI      0000000000000612  27/04/26          12,000.00                               5,161.55   
+27/04/26  UPI-SETHI TYRE AND AUTO -VYAPAR.17292823  0000611752685668  27/04/26             100.00                               5,061.55   
+          5770@HDFCBANK-HDFC0MERUPI-611752685668-N                                                                                          
+          OPLATE                                                                                                                            
+27/04/26  UPI-CYBER71-PAYTMQR28100505010111VHHQ4UT  0000611752831641  27/04/26              50.00                               5,011.55   
+          J07@PAYTM-YESB0PTMUPI-611752831641-PRINT                                                                                          
+          OUTS                                                                                                                              
+27/04/26  UPI-BADRI PARSAD-PAYTMQR6IUPSR@PTYS-YESB  0000611753198895  27/04/26             200.00                               4,811.55   
+          0PTMUPI-611753198895-SHAKES                                                                                                       
+27/04/26  UPI-JD UNISEX SALON-9855523336M@PNB-PUNB  0000611754169344  27/04/26             400.00                               4,411.55   
+          0808500-611754169344-HAIRCUT                                                                                                      
+28/04/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000611864225345  28/04/26              50.00                               4,361.55   
+          -YESB0PTMUPI-611864225345-ROTIS                                                                                                   
+29/04/26  UPI-GUPTAMEDICALHALL-PAYTMQR6BQS96@PTYS-  0000611966976446  29/04/26              70.00                               4,291.55   
+          YESB0PTMUPI-611966976446-MEDICINE                                                                                                 
+29/04/26  UPI-NITESH RAJPUT-PAYTMQR700EOZ@PTYS-YES  0000611969027319  29/04/26             140.00                               4,151.55   
+          B0PTMUPI-611969027319-FOOD                                                                                                        
+29/04/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000611972492209  29/04/26              70.00                               4,081.55   
+          -YESB0PTMUPI-611972492209-FOOD                                                                                                    
+29/04/26  UPI-AGRA CONFECTIONARY-PAYTMQR6I4UK6@PTY  0000611972514596  29/04/26             131.00                               3,950.55   
+          S-YESB0PTMUPI-611972514596-GROCERIES                                                                                              
+30/04/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000612079419221  30/04/26              20.00                               3,930.55   
+          396@YESBANKLTD-YESB0YESUPI-612079419221-                                                                                          
+          ROTIS                                                                                                                             
+30/04/26  UPI-GUPTAMEDICALHALL-PAYTMQR6BQS96@PTYS-  0000612082052604  30/04/26              74.00                               3,856.55   
+          YESB0PTMUPI-612082052604-MEDICINE                                                                                                 
+30/04/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000612084257983  30/04/26              42.00                               3,814.55   
+          -YESB0PTMUPI-612084257983-UNROTIS                                                                                                 
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   5                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+03/05/26  UPI-AGRA CONFECTIONARY-PAYTMQR6FCIHR@PTY  0000612310982020  03/05/26             102.00                               3,712.55   
+          S-YESB0PTMUPI-612310982020-FOOD                                                                                                   
+03/05/26  UPI-GUPTAMEDICALHALL-PAYTMQR6BQS96@PTYS-  0000612314996369  03/05/26             220.00                               3,492.55   
+          YESB0PTMUPI-612314996369-MEDICINE                                                                                                 
+04/05/26  UPI-WAQAR HADDER-PAYTMQR6NAHUE@PTYS-YESB  0000612420562273  04/05/26              65.00                               3,427.55   
+          0PTMUPI-612420562273-FIOD                                                                                                         
+04/05/26  NEFT CR-RBIS0GOPNEP-DTO PUNJAB TREASURY   RBISH00565056527  04/05/26                             31,540.00           34,967.55   
+          CHANDIGARH-SACHINDEEP SINGH-RBISH0056505                                                                                          
+          6527                                                                                                                              
+04/05/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000612425817252  04/05/26              42.00                              34,925.55   
+          -YESB0PTMUPI-612425817252-ROTIS                                                                                                   
+04/05/26  UPI-VERMA-PAYTM.S26NS2M@PTY-YESB0MCHUPI-  0000612425880698  04/05/26              96.00                              34,829.55   
+          612425880698-MILK                                                                                                                 
+05/05/26  UPI-PETRO AND AGROWAYS-PAYTM.D1808931106  0000612530148619  05/05/26             500.00                              34,329.55   
+          5@PTY-YESB0MCHUPI-612530148619-PETROL                                                                                             
+05/05/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000612532212232  05/05/26              30.00                              34,299.55   
+          396@YESBANKLTD-YESB0YESUPI-612532212232-                                                                                          
+          PAY TO BHARATPE ME                                                                                                                
+06/05/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000612642314661  06/05/26              30.00                              34,269.55   
+          396@YESBANKLTD-YESB0YESUPI-612642314661-                                                                                          
+          PAY TO BHARATPE ME                                                                                                                
+06/05/26  UPI-SURAJ DHABA-BAJAJPAY.6879729.ARG7931  0000612645587820  06/05/26              36.00                              34,233.55   
+          261@INDUS-INDB0MERCHA-612645587820-SAMOS                                                                                          
+          A                                                                                                                                 
+07/05/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103253431210  07/05/26             344.24                              33,889.31   
+          I-103253431210-COLLECT TRANSACTIO                                                                                                 
+08/05/26  UPI-RAJAT GOYAL-Q261947787@YBL-YESB0YBLU  0000612867146054  08/05/26             190.00                              33,699.31   
+          PI-612867146054-FOOD                                                                                                              
+08/05/26  UPI-LAL SAHB SINGH-PAYTMQR6TN2T8@PTYS-YE  0000612867746035  08/05/26             114.00                              33,585.31   
+          SB0PTMUPI-612867746035-MILK                                                                                                       
+09/05/26  UPI-BALWINDER  KUMAR-INDER.SEETU@OKSBI-S  0000612970319835  09/05/26             500.00                              33,085.31   
+          BIN0001546-612970319835-RIDE                                                                                                      
+09/05/26  UPI-RAM DARSHAN SOURAV K-Q096229776@YBL-  0000612976420206  09/05/26           3,300.00                              29,785.31   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   6                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          YESB0YBLUPI-612976420206-SUITS                                                                                                    
+09/05/26  UPI-JASWINDER PAL SINGH-JASSI212127@OKAX  0000612977228436  09/05/26           1,300.00                              28,485.31   
+          IS-UBIN0567507-612977228436-CASHEXCHANGE                                                                                          
+10/05/26  UPI-SHIV SHAKTI FILLING -PAYTM.S1IMMXU@P  0000613086166395  10/05/26             435.91                              28,049.40   
+          TY-YESB0MCHUPI-613086166395-FUEL                                                                                                  
+10/05/26  UPI-RAJA DHABA-PAYTMQR6TM4CH@PTYS-YESB0P  0000613086580036  10/05/26             120.00                              27,929.40   
+          TMUPI-613086580036-CHAI                                                                                                           
+10/05/26  UPI-AMANDEEP-AMANDEEP38204-2@OKAXIS-SBIN  0000613086154631  10/05/26                                 40.00           27,969.40   
+          0004632-613086154631-UPI                                                                                                          
+12/05/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000613205310087  12/05/26              30.00                              27,939.40   
+          396@YESBANKLTD-YESB0YESUPI-613205310087-                                                                                          
+          PAY TO BHARATPE ME                                                                                                                
+12/05/26  WELFARE FUND                              000000000000000   12/05/26              95.00                              27,844.40   
+12/05/26  UPI-KHUSHI  RAM-KHUSIRAMELECTRICIAN@OKSB  0000613208445570  12/05/26             200.00                              27,644.40   
+          I-SBIN0050502-613208445570-ELECTRICIAN                                                                                            
+14/05/26  UPI-AGRA CONFECTIONARY-PAYTMQR6FCIHR@PTY  0000613429399646  14/05/26             101.00                              27,543.40   
+          S-YESB0PTMUPI-613429399646-MILK                                                                                                   
+14/05/26  UPI-HARDWARE CORPUS-HARDWARECORPUS.CF@AX  0000850004041346  14/05/26             100.00                              27,443.40   
+          ISBANK-UTIB0001920-850004041346-55790997                                                                                          
+          40                                                                                                                                
+14/05/26  UPI-HARDWARE CORPUS-HARDWARECORPUS.CF@AX  0000613431278414  14/05/26             100.00                              27,343.40   
+          ISBANK-UTIB0001920-613431278414-55792007                                                                                          
+          36                                                                                                                                
+15/05/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000613536338715  15/05/26              50.00                              27,293.40   
+          396@YESBANKLTD-YESB0YESUPI-613536338715-                                                                                          
+          PAY TO BHARATPE ME                                                                                                                
+15/05/26  UPI-CITCO PETROL AND CNG-PAYTMQR6J1VVO@P  0000613541017854  15/05/26             400.00                              26,893.40   
+          TYS-YESB0PTMUPI-613541017854-PETROL                                                                                               
+15/05/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103302506363  15/05/26             369.88                              26,523.52   
+          I-103302506363-COLLECT TRANSACTIO                                                                                                 
+16/05/26  UPI-ZOMATO ONLINE ORDER-ZOMATOONLINEORDE  0000613614860727  16/05/26             156.18                              26,367.34   
+          R.RZP@RXAIRTEL-AIRP0000011-613614860727-                                                                                          
+          ZOMATOONLINEORDER                                                                                                                 
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   7                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+16/05/26  UPI-BADRI PARSAD-PAYTMQR6IUPSR@PTYS-YESB  0000613650728560  16/05/26             100.00                              26,267.34   
+          0PTMUPI-613650728560-UPI SEND MONEY                                                                                               
+16/05/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000613651726038  16/05/26              28.00                              26,239.34   
+          -YESB0PTMUPI-613651726038-ROTIS                                                                                                   
+17/05/26  UPI-DINESH KUMAR-PAYTMQR5JV2JJ@PTYS-YESB  0000613760976631  17/05/26              50.00                              26,189.34   
+          0PTMUPI-613760976631-VEGIES                                                                                                       
+18/05/26  UPI-BABA TRADING-PAYTM.S2647WF@PTY-YESB0  0000613865216459  18/05/26              35.00                              26,154.34   
+          MCHUPI-613865216459-LASSI                                                                                                         
+18/05/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000613865529556  18/05/26              30.00                              26,124.34   
+          396@YESBANKLTD-YESB0YESUPI-613865529556-                                                                                          
+          ROTIS                                                                                                                             
+19/05/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000613979978018  19/05/26              85.00                              26,039.34   
+          6@OKBIZAXIS-UTIB0000553-613979978018-PAN                                                                                          
+          NER                                                                                                                               
+19/05/26  UPI-AGRA CONFECTIONARY-PAYTMQR5Y8H17@PTY  0000613980036757  19/05/26             235.00                              25,804.34   
+          S-YESB0PTMUPI-613980036757-GROCERIES                                                                                              
+20/05/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000614081825976  20/05/26          10,500.00                              15,304.34   
+          0544442-614081825976-RENT                                                                                                         
+20/05/26  UPI-VALVE CORPORATION-VALVECORPORATIO369  0000614001371701  20/05/26             499.00                              14,805.34   
+          895.RZP@RXAXIS-UTIB0000RZP-614001371701-                                                                                          
+          UPI PAYMENT                                                                                                                       
+20/05/26  UPI-TARA DUTT-9779827895@YBL-PUNB0506410  0000614085718485  20/05/26           5,095.00                               9,710.34   
+          -614085718485-CONTROLLER                                                                                                          
+20/05/26  UPI-AGRA CONFECTIONARY-PAYTM.S25AZ72@PTY  0000614089786575  20/05/26              99.00                               9,611.34   
+          -YESB0MCHUPI-614089786575-MILK                                                                                                    
+21/05/26  UPI-PARDEEP SINGH-Q248372132@YBL-YESB0YB  0000614194235160  21/05/26              40.00                               9,571.34   
+          LUPI-614194235160-CHAI                                                                                                            
+22/05/26  UPI-MOBILE POINT-Q37189264@YBL-YESB0YBLU  0000614205473332  22/05/26             900.00                               8,671.34   
+          PI-614205473332-MOBILECOVER                                                                                                       
+22/05/26  UPI-KHALSA CONFECTIONERS-PAYTM.S27LVOO@P  0000614205576082  22/05/26             350.00                               8,321.34   
+          TY-YESB0MCHUPI-614205576082-CAKE                                                                                                  
+22/05/26  UPI-NITESH RAJPUT-PAYTMQR700EOZ@PTYS-YES  0000614205666682  22/05/26             100.00                               8,221.34   
+          B0PTMUPI-614205666682-KULCHA                                                                                                      
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   8                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+23/05/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103339194671  23/05/26             200.68                               8,020.66   
+          I-103339194671-COLLECT TRANSACTIO                                                                                                 
+23/05/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103340776727  23/05/26             191.88                               7,828.78   
+          I-103340776727-COLLECT TRANSACTIO                                                                                                 
+23/05/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000614320515204  23/05/26              28.00                               7,800.78   
+          -YESB0PTMUPI-614320515204-ROTIS                                                                                                   
+23/05/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000614320546986  23/05/26              40.00                               7,760.78   
+          6@OKBIZAXIS-UTIB0000553-614320546986-DAH                                                                                          
+          I                                                                                                                                 
+23/05/26  UPI-AGRA CONFECTIONARY-PAYTMQR6FCIHR@PTY  0000614320546333  23/05/26             110.00                               7,650.78   
+          S-YESB0PTMUPI-614320546333-DRINKS                                                                                                 
+24/05/26  UPI-MOHALI SERVICE STATI-PAYTMQR6DT5C8@P  0000614423331350  24/05/26             500.00                               7,150.78   
+          TYS-YESB0PTMUPI-614423331350-PETROL                                                                                               
+24/05/26  UPI-GOPAL SWEETS PVT LTD-MAB.03721500085  0000614423411944  24/05/26             543.00                               6,607.78   
+          0040@AXISBANK-UTIB0000100-614423411944-B                                                                                          
+          REAKFAST                                                                                                                          
+24/05/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103346076100  24/05/26             201.33                               6,406.45   
+          I-103346076100-COLLECT TRANSACTIO                                                                                                 
+27/05/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000614758757112  27/05/26              85.00                               6,321.45   
+          6@OKBIZAXIS-UTIB0000553-614758757112-PAN                                                                                          
+          EER                                                                                                                               
+29/05/26  UPI-AVENUE SUPERMARTS LT-AVENUESUPERMART  0000614974350200  29/05/26             526.00                               5,795.45   
+          SLTD.42791980@HDFCBANK-HDFC0MERUPI-61497                                                                                          
+          4350200-GROCERIES                                                                                                                 
+29/05/26  UPI-JD UNISEX SALON-9855523336M@PNB-PUNB  0000614975366033  29/05/26             400.00                               5,395.45   
+          0808500-614975366033-HAIRCUT                                                                                                      
+29/05/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000614975412912  29/05/26              28.00                               5,367.45   
+          -YESB0PTMUPI-614975412912-ROTIS                                                                                                   
+29/05/26  NWD-526099XXXXXX2444-8NHSECMO-MOHALI      0000614921022535  29/05/26           5,000.00                                 367.45   
+30/05/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000615077898548  30/05/26              80.00                                 287.45   
+          -YESB0PTMUPI-615077898548-FOOD                                                                                                    
+30/05/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000615077941779  30/05/26              20.00                                 267.45   
+          6@OKBIZAXIS-UTIB0000553-615077941779-CUR                                                                                          
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   9                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          D                                                                                                                                 
+30/05/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103375659132  30/05/26             217.03                                  50.42   
+          I-103375659132-COLLECT TRANSACTIO                                                                                                 
+02/06/26  NWD DECCHG 29/05/26 CARDEND 2444-EPR2715  EPR2715395038935  02/06/26              29.50                                  20.92   
+          395038935                                                                                                                         
+02/06/26  NWD DECCHG 29/05/26 CARDEND 2444-EPR2715  EPR2715395038928  02/06/26              20.92                                   0.00   
+          395038928                                                                                                                         
+03/06/26  NEFT CR-RBIS0GOPNEP-DTO PUNJAB TREASURY   RBISH00626955545  03/06/26                             31,540.00           31,540.00   
+          CHANDIGARH-SACHINDEEP SINGH-RBISH0062695                                                                                          
+          5545                                                                                                                              
+04/06/26  UPI-MOHALI SERVICE STATI-PAYTMQR6DT5BS@P  0000615507596763  04/06/26             600.00                              30,940.00   
+          TYS-YESB0PTMUPI-615507596763-PETROL                                                                                               
+04/06/26  UPI-WELCOMECATERING-PAYTMQR6A2Y5S@PTYS-Y  0000615508646814  04/06/26              40.00                              30,900.00   
+          ESB0PTMUPI-615508646814-MANGOSHAKE                                                                                                
+04/06/26  WELFARE FUND                              000000000000000   04/06/26              95.00                              30,805.00   
+11/06/26  UPI-ISHA BALI-ISHA131722@OKSBI-INDB00010  0000616274541958  11/06/26          10,000.00                              20,805.00   
+          23-616274541958-EXP                                                                                                               
+13/06/26  NWD DECCHG 29/05/26 CARDEND 2444-EPR2716  EPR2716426489942  13/06/26               8.58                              20,796.42   
+          426489942                                                                                                                         
+16/06/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000616728700342  16/06/26          10,500.00                              10,296.42   
+          0544442-616728700342-RENT                                                                                                         
+16/06/26  UPI-HARPREET DAIRY   SWE-GPAY-1116581563  0000616729805766  16/06/26              85.00                              10,211.42   
+          6@OKBIZAXIS-UTIB0000553-616729805766-PAN                                                                                          
+          EER                                                                                                                               
+17/06/26  UPI-WELCOMECATERING-PAYTMQR71NT9E@PTYS-Y  0000616833990092  17/06/26              20.00                              10,191.42   
+          ESB0PTMUPI-616833990092-CHAI                                                                                                      
+17/06/26  UPI-MR BHUVNESH-BHARATPE.9F0A0H0D9R56286  0000616838017081  17/06/26             150.00                              10,041.42   
+          9@UNITYPE-UNBA000BHPE-616838017081-PAY T                                                                                          
+          O BHARATPE ME                                                                                                                     
+19/06/26  UPI-AGRA CONFECTIONARY-PAYTMQR5Y8H17@PTY  0000617057179988  19/06/26              66.00                               9,975.42   
+          S-YESB0PTMUPI-617057179988-MILK                                                                                                   
+19/06/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000617057247472  19/06/26              35.00                               9,940.42   
+          -YESB0PTMUPI-617057247472-ROTIS                                                                                                   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   10                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+20/06/26  UPI-SACHINDEEP SINGH-7009015564@HDFC-HDF  0000617100075046  20/06/26                                 66.00           10,006.42   
+          C0001307-617100075046-MILK                                                                                                        
+20/06/26  UPI-BADRI PARSAD-PAYTMQR6IUPSR@PTYS-YESB  0000617166566739  20/06/26             100.00                               9,906.42   
+          0PTMUPI-617166566739-MANGOSHAKE                                                                                                   
+20/06/26  UPI-AGRA CONFECTIONARY-PAYTM.S25AZ72@PTY  0000617166742878  20/06/26              40.00                               9,866.42   
+          -YESB0MCHUPI-617166742878-COLDDRINKS                                                                                              
+21/06/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103515193390  21/06/26             248.66                               9,617.76   
+          I-103515193390-COLLECT TRANSACTIO                                                                                                 
+21/06/26  UPI-ZEPTO MARKETPLACE PR-ZEPTOMARKETPLAC  0000617270670225  21/06/26              79.00                               9,538.76   
+          EPRIVA.PAYU@MAIRTEL-AIRP0000001-61727067                                                                                          
+          0225-SPRAY                                                                                                                        
+21/06/26  UPI-ZEPTO MARKETPLACE PR-ZEPTOMARKETPLAC  0000617270970140  21/06/26             900.00                               8,638.76   
+          EPRIVA.PAYU@MAIRTEL-AIRP0000001-61727097                                                                                          
+          0140-COMMANDO                                                                                                                     
+21/06/26  UPI-CHAWLA FILLING STATI-PAYTM.D16684413  0000617273210444  21/06/26             500.00                               8,138.76   
+          080@PTY-YESB0MCHUPI-617273210444-PETROL                                                                                           
+21/06/26  UPI-MANOJ KUMAR-PAYTMQR10OTNT@PAYTM-YESB  0000617273949480  21/06/26              80.00                               8,058.76   
+          0PTMUPI-617273949480-FACEWASH                                                                                                     
+26/06/26  UPI-GURPYAR SINGH-PAYTM.S1GQDTS@PTY-YESB  0000617714775302  26/06/26              40.00                               8,018.76   
+          0MCHUPI-617714775302-WATER                                                                                                        
+26/06/26  UPI-RANJAN KUMAR-PAYTM.S28I4JO@PTY-YESB0  0000617720459363  26/06/26              60.00                               7,958.76   
+          MCHUPI-617720459363-ICECREAM                                                                                                      
+27/06/26  UPI-RAJWINDER SINGH-RAJWINDERNO1-3@OKHDF  0000617825696400  27/06/26           1,600.00                               6,358.76   
+          CBANK-HDFC0001217-617825696400-DUTYEXPEN                                                                                          
+          SES                                                                                                                               
+27/06/26  UPI-AGRA CONFECTIONARY-PAYTMQR165PSR@PAY  0000617827443759  27/06/26             101.00                               6,257.76   
+          TM-YESB0PTMUPI-617827443759-MILK                                                                                                  
+27/06/26  UPI-AGRA CONFECTIONARY-PAYTMQR165PSR@PAY  0000617827508818  27/06/26             125.00                               6,132.76   
+          TM-YESB0PTMUPI-617827508818-GROCERIES                                                                                             
+27/06/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103546218020  27/06/26             338.43                               5,794.33   
+          I-103546218020-COLLECT TRANSACTIO                                                                                                 
+27/06/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC000000  0000103546396302  27/06/26                                338.43            6,132.76   
+          1-103546396302-ORDER REFUND                                                                                                       
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   11                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+27/06/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103546406099  27/06/26             338.38                               5,794.38   
+          I-103546406099-COLLECT TRANSACTIO                                                                                                 
+28/06/26  UPI-WE YOU SALON ACADEMY-PAYTMQR5YO2LE@P  0000617931428737  28/06/26             450.00                               5,344.38   
+          TYS-YESB0PTMUPI-617931428737-HAIRCUT                                                                                              
+28/06/26  UPI-ESS VEE STATION HPCL-PAYTM.D18287454  0000617932759293  28/06/26             500.00                               4,844.38   
+          94@PTY-YESB0MCHUPI-617932759293-PETROL                                                                                            
+28/06/26  UPI-ZOMATO LTD-ZOMATOLTD32.RZP@HDFCBANK-  0000103549358402  28/06/26             223.53                               4,620.85   
+          HDFC0MERUPI-103549358402-PAY VIA RAZORPA                                                                                          
+          Y                                                                                                                                 
+30/06/26  UPI-MANPREET RAM-GPAY-11173217467@OKBIZA  0000618152331751  30/06/26              70.00                               4,550.85   
+          XIS-UTIB0000553-618152331751-FOOD                                                                                                 
+01/07/26  INTEREST PAID TILL 30-JUN-2026            000000000000000   30/06/26                                107.00            4,657.85   
+01/07/26  NEFT CR-RBIS0GOPNEP-DTO PUNJAB TREASURY   RBISH00690171143  01/07/26                             31,540.00           36,197.85   
+          CHANDIGARH-SACHINDEEP SINGH-RBISH0069017                                                                                          
+          1143                                                                                                                              
+02/07/26  UPI-RAJWINDER SINGH-RAJWINDERNO1-3@OKHDF  0000618366704970  02/07/26           2,000.00                              34,197.85   
+          CBANK-HDFC0001217-618366704970-EXPENSES                                                                                           
+03/07/26  UPI-VIPAN KUMAR-Q084154132@YBL-YESB0YBLU  0000618476282833  03/07/26              40.00                              34,157.85   
+          PI-618476282833-ROOAFZAH                                                                                                          
+03/07/26  UPI-BADRI PARSAD-PAYTMQR6IUQ7O@PTYS-YESB  0000618481006541  03/07/26             180.00                              33,977.85   
+          0PTMUPI-618481006541-SHAKES                                                                                                       
+04/07/26  WELFARE FUND                              000000000000000   04/07/26              95.00                              33,882.85   
+04/07/26  UPI-DEEPAK KUMAR-SANDYAZAD75@OKAXIS-FDRL  0000618590559328  04/07/26           1,000.00                              32,882.85   
+          0001944-618590559328-SHOES                                                                                                        
+04/07/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000618591078649  04/07/26          10,500.00                              22,382.85   
+          0544442-618591078649-RENT                                                                                                         
+04/07/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000618591085612  04/07/26           1,000.00                              21,382.85   
+          0544442-618591085612-POOJA                                                                                                        
+05/07/26  UPI-SUKHBIR  KASHYAP-9467218364@PTSBI-CN  0000618692114068  05/07/26             102.00                              21,280.85   
+          RB0000033-618692114068-RIDE                                                                                                       
+05/07/26  UPI-AVS CAFE-STATICBP.A000000000028311@A  0000618693695134  05/07/26             142.00                              21,138.85   
+          XISBANK-UTIB0000006-618693695134-FOOD                                                                                             
+05/07/26  UPI-VIKRAM JIT SINGH-9914769234@AXL-CNRB  0000618694872450  05/07/26              47.00                              21,091.85   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   12                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          0000033-618694872450-RIDE                                                                                                         
+05/07/26  UPI-DOMINOS PIZZA-DOMINOSPIZZA853936.RZP  0000618615552133  05/07/26             349.29                              20,742.56   
+          @RXAXIS-UTIB0000RZP-618615552133-UPI PAY                                                                                          
+          MENT                                                                                                                              
+06/07/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103618106797  06/07/26             215.87                              20,526.69   
+          I-103618106797-COLLECT TRANSACTIO                                                                                                 
+06/07/26  UPI-RAGHBIR SINGH-Q727839797@YBL-YESB0YB  0000618704157394  06/07/26              20.00                              20,506.69   
+          LUPI-618704157394-WATER                                                                                                           
+06/07/26  UPI-ASHOK KUMAR SHARMA-LUCKY2010198@OKIC  0000618704915515  06/07/26              30.00                              20,476.69   
+          ICI-UCBA0002817-618704915515-RIDE                                                                                                 
+06/07/26  UPI-ROPPEN TRANSPORTATIO-ROPPENTRANSPORT  0000618705225587  06/07/26              38.00                              20,438.69   
+          110491.RZP-TACUBWIJQDIJBZQRV2@RXAIRT-AIR                                                                                          
+          P0000011-618705225587-PAYMENT TO ROPPEN                                                                                           
+06/07/26  UPI-MR NAVEEN-9876876188@SLC-NESF0000333  0000618707965402  06/07/26             500.00                              19,938.69   
+          -618707965402-DUTYTRAVEL                                                                                                          
+06/07/26  UPI-11210APOLLO PHARMACY-PAYTM.D19577910  0000618708225965  06/07/26             565.00                              19,373.69   
+          564@PTY-YESB0MCHUPI-618708225965-ISHAMED                                                                                          
+          ICINE                                                                                                                             
+07/07/26  UPI-BAIDWAN FILLING STAT-PAYTM-69438588@  0000618809489102  07/07/26             600.00                              18,773.69   
+          PTYS-YESB0PTMUPI-618809489102-PETROL                                                                                              
+07/07/26  ATW-526099XXXXXX2444-S1ANPT8-PATIALA      0000000000002170  07/07/26          11,500.00                               7,273.69   
+07/07/26  UPI-VIPAN KUMAR-Q309403605@YBL-YESB0YBLU  0000618816084336  07/07/26              50.00                               7,223.69   
+          PI-618816084336-SHAKE                                                                                                             
+08/07/26  UPI-AMANDEEP  SINGH-9115000563@UPI-SBIN0  0000618925720302  08/07/26             884.00                               6,339.69   
+          002365-618925720302-MESSCUTTING                                                                                                   
+09/07/26  UPI-VIPAN KUMAR-Q309403605@YBL-YESB0YBLU  0000619030437688  09/07/26              60.00                               6,279.69   
+          PI-619030437688-SHAKE                                                                                                             
+09/07/26  UPI-VIPAN KUMAR-Q309403605@YBL-YESB0YBLU  0000619034085384  09/07/26              60.00                               6,219.69   
+          PI-619034085384-SHAKE                                                                                                             
+10/07/26  UPI-VIPAN KUMAR-Q011164169@YBL-YESB0YBLU  0000619142709607  10/07/26              60.00                               6,159.69   
+          PI-619142709607-SHAKE                                                                                                             
+10/07/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103647917581  10/07/26             535.78                               5,623.91   
+          I-103647917581-COLLECT TRANSACTIO                                                                                                 
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   13                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+12/07/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000103656226768  12/07/26             170.38                               5,453.53   
+          I-103656226768-COLLECT TRANSACTIO                                                                                                 
+12/07/26  UPI-ZOMATO LIMITED-ZOMATO.PAYTM@HDFCBANK  0000103658415549  12/07/26             302.58                               5,150.95   
+          -HDFC0MERUPI-103658415549-PAYMENT                                                                                                 
+13/07/26  UPI-MOHIT KUMAR-Q600696989@YBL-YESB0YBLU  0000619464633143  13/07/26              50.00                               5,100.95   
+          PI-619464633143-FOOD                                                                                                              
+13/07/26  UPI-VIPAN KUMAR-Q011164169@YBL-YESB0YBLU  0000619469109851  13/07/26              60.00                               5,040.95   
+          PI-619469109851-SHAKE                                                                                                             
+14/07/26  UPI-VIPAN KUMAR-Q011164169@YBL-YESB0YBLU  0000619577386792  14/07/26             120.00                               4,920.95   
+          PI-619577386792-SHAKES                                                                                                            
+15/07/26  UPI-SUBWAY-VYAPAR.174742435356@HDFCBANK-  0000619682057680  15/07/26             850.00                               4,070.95   
+          HDFC0MERUPI-619682057680-FOOD                                                                                                     
+15/07/26  UPI-RAGHBIR SINGH-Q394129527@YBL-YESB0YB  0000619683180161  15/07/26              60.00                               4,010.95   
+          LUPI-619683180161-WATER                                                                                                           
+15/07/26  UPI-ROPPEN TRANSPORTATIO-ROPPENTRANSPORT  0000619684035675  15/07/26              31.00                               3,979.95   
+          110491.RZP-TDJHXTX4EWFKJTQRV2@RXAIRT-AIR                                                                                          
+          P0000011-619684035675-PAYMENT TO ROPPEN                                                                                           
+15/07/26  UPI-AMAR  DEV-DEVNAUTIYAL0199-1@OKSBI-SB  0000619684471756  15/07/26              37.00                               3,942.95   
+          IN0001828-619684471756-RIDE                                                                                                       
+15/07/26  UPI-UNIQUE MEDICAL STORE-GPAY-1125626338  0000619685164668  15/07/26             190.00                               3,752.95   
+          8@OKBIZAXIS-UTIB0000553-619685164668-MED                                                                                          
+          ICINES                                                                                                                            
+15/07/26  UPI-AGRA CONFECTIONARY-PAYTM.S25AZ72@PTY  0000619687664393  15/07/26              33.00                               3,719.95   
+          -YESB0MCHUPI-619687664393-LASSI                                                                                                   
+16/07/26  UPI-AMIT KUMAR-AKS.KNP1993-1@OKHDFCBANK-  0000619789575581  16/07/26              31.00                               3,688.95   
+          HDFC0003137-619789575581-RIDE                                                                                                     
+16/07/26  UPI-TEJINDER KUMAR SO OM-PAYTMQR6APNA2@P  0000619791228601  16/07/26              20.00                               3,668.95   
+          TYS-YESB0PTMUPI-619791228601-RIDE                                                                                                 
+16/07/26  UPI-BABLU KUMAR SINGH-Q319980746@YBL-YES  0000619794240422  16/07/26              20.00                               3,648.95   
+          B0YBLUPI-619794240422-PATTY                                                                                                       
+16/07/26  UPI-MANOHAR KUMAR RAY-Q861514087@YBL-YES  0000619794332709  16/07/26              60.00                               3,588.95   
+          B0YBLUPI-619794332709-CHAI                                                                                                        
+16/07/26  UPI-DAVINDER SINGH-PAYTM.S12TG85@PTY-YES  0000619795929915  16/07/26             100.00                               3,488.95   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   14                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          B0MCHUPI-619795929915-FOOD                                                                                                        
+17/07/26  UPI-PARAS  BATRA-9996403934@PTAXIS-SBIN0  0000619800172353  17/07/26              35.00                               3,453.95   
+          004735-619800172353-RIDE                                                                                                          
+17/07/26  UPI-MR SIMRANJEET SINGH-9646334301@PTHDF  0000619802368579  17/07/26              40.00                               3,413.95   
+          C-IDIB000M725-619802368579-RIDE                                                                                                   
+17/07/26  UPI-AJAY DANG-9896405852.WALLET@PHONEPE-  0000619805512886  17/07/26              36.00                               3,377.95   
+          PPIW0882027-619805512886-RIDE                                                                                                     
+18/07/26  UPI-AGRA CONFECTIONARY-PAYTM.S25AZ72@PTY  0000619914201085  18/07/26              33.00                               3,344.95   
+          -YESB0MCHUPI-619914201085-MILK                                                                                                    
+18/07/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000619914959552  18/07/26              35.00                               3,309.95   
+          -YESB0PTMUPI-619914959552-ROTIS                                                                                                   
+18/07/26  UPI-ISHA BALI-ISHA131722@OKICICI-INDB000  0000619916038056  18/07/26           3,000.00                                 309.95   
+          1023-619916038056-EXPENSES                                                                                                        
+19/07/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000620024276134  19/07/26              28.00                                 281.95   
+          -YESB0PTMUPI-620024276134-ROTIS                                                                                                   
+19/07/26  UPI-PAPPU KARYANA STORE-PAYTMQR6M0RLP@PT  0000620024304545  19/07/26              95.00                                 186.95   
+          YS-YESB0PTMUPI-620024304545-SATTU                                                                                                 
+20/07/26  UPI-RAPIDO-PAYTM-76881028@PTYBL-YESB0PTM  0000620126242315  20/07/26              43.00                                 143.95   
+          UPI-620126242315-RIDE                                                                                                             
+20/07/26  UPI-DURGESH KUMAR GUPTA -GPAY-1125181379  0000620128648977  20/07/26             120.00                                  23.95   
+          1@OKBIZAXIS-UTIB0000553-620128648977-SHA                                                                                          
+          KE                                                                                                                                
+02/08/26  UPI-SACHINDEEP SINGH-SACHINDEEP50@OKICIC  0000621476588336  02/08/26                             10,000.00           10,023.95   
+          I-UTIB0002364-621476588336-UNCTCEXPENSES                                                                                          
+02/08/26  ATW-526099XXXXXX2444-S1ANPT8-PATIALA      0000000000005994  02/08/26           9,000.00                               1,023.95   
+03/08/26  NEFT CR-RBIS0GOPNEP-DTO PUNJAB TREASURY   RBISH00769161237  03/08/26                             31,540.00           32,563.95   
+          CHANDIGARH-SACHINDEEP SINGH-RBISH0076916                                                                                          
+          1237                                                                                                                              
+04/08/26  UPI-AMIT ANAND-PAYTMQR5DDNPG@PTYS-YESB0P  0000621668858890  04/08/26              40.00                              32,523.95   
+          TMUPI-621668858890-MEDICINE                                                                                                       
+05/08/26  UPI-AMAN KUMAR SHARMA-AMAN.KV2@OKSBI-SBI  0000621776962593  05/08/26             468.00                              32,055.95   
+          N0050703-621776962593-SPLITSHARE                                                                                                  
+05/08/26  UPI-KARAN KUMAR-JOURA.KARANKUMAR9@OKICIC  0000658374513663  05/08/26                                450.00           32,505.95   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   15                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          I-ICIC0000816-658374513663-UPI                                                                                                    
+05/08/26  WELFARE FUND                              000000000000000   05/08/26              95.00                              32,410.95   
+05/08/26  UPI-AMAN KUMAR SHARMA-AMAN.KV21@YBL-KKBK  0000702304700497  05/08/26                                693.00           33,103.95   
+          0000256-702304700497-PAYMENT FROM PHONE                                                                                           
+05/08/26  UPI-AMAN KUMAR SHARMA-AMAN.KV21@YBL-KKBK  0000681021663533  05/08/26                              3,000.00           36,103.95   
+          0000256-681021663533-CAR SERVICE                                                                                                  
+05/08/26  UPI-RAVINDRA SINGH  -RAVINDRASINGHBATHRA  0000621778709079  05/08/26             145.00                              35,958.95   
+          704@OKSBI-SBIN0012526-621778709079-RIDE                                                                                           
+05/08/26  UPI-TINKAL  SHARMA-RD0524899@OKSBI-SBIN0  0000621779018872  05/08/26              41.00                              35,917.95   
+          006302-621779018872-RIDE                                                                                                          
+05/08/26  UPI-AGRA CONFECTIONARY-PAYTM.S25AZ72@PTY  0000621781782642  05/08/26              35.00                              35,882.95   
+          -YESB0MCHUPI-621781782642-LASSI                                                                                                   
+05/08/26  UPI-MANINDER  SINGH-9041000682@AXL-SBIN0  0000621783054994  05/08/26             128.00                              35,754.95   
+          001776-621783054994-RIDE                                                                                                          
+06/08/26  UPI-CHAWLA GAS STATION A-PAYTM.S1H8TKN@P  0000621883937494  06/08/26             110.00                              35,644.95   
+          TY-YESB0MCHUPI-621883937494-PETROL                                                                                                
+06/08/26  UPI-PRINCE  WADHWA-PRINCEMOHALI1997@OKSB  0000621883966730  06/08/26              17.00                              35,627.95   
+          I-SBIN0031859-621883966730-RIDE                                                                                                   
+06/08/26  UPI-PARAMJIT SINGH-Q815931108@YBL-YESB0Y  0000621887518625  06/08/26             105.00                              35,522.95   
+          BLUPI-621887518625-RIDE                                                                                                           
+06/08/26  UPI-ROPPEN TRANSPORTATIO-ROPPENTRANSPORT  0000621891095886  06/08/26              43.00                              35,479.95   
+          110491.RZP-TMWNTDK0J2N1LGQRV2@RXAIRT-AIR                                                                                          
+          P0000011-621891095886-PAYMENT TO ROPPEN                                                                                           
+06/08/26  UPI-AMIT KUMAR-9877136141@PTSBI-UTIB0002  0000621892478165  06/08/26             147.00                              35,332.95   
+          386-621892478165-RIDE                                                                                                             
+06/08/26  UPI-ALOK-7087882745@PTYES-IBKL0000272-62  0000621893022697  07/08/26             137.00                              35,195.95   
+          1893022697-RIDE                                                                                                                   
+07/08/26  UPI-AMARJIT SINGH-9814450506@IBL-PUNB035  0000621996035848  07/08/26              96.00                              35,099.95   
+          2600-621996035848-RIDE                                                                                                            
+07/08/26  UPI-UVESH-7017708065-2@IBL-PUNB0371800-6  0000621999998407  07/08/26              49.00                              35,050.95   
+          21999998407-RIDE                                                                                                                  
+08/08/26  UPI-RANDEEP SINGH SO GUR-7355327052@UPI-  0000622002611593  08/08/26              51.00                              34,999.95   
+          PUNB0353200-622002611593-RIDE                                                                                                     
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   16                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+08/08/26  UPI-GAGANDEEP  SINGH-OFFICIALGAGAN07@OKS  0000622003351729  08/08/26             290.00                              34,709.95   
+          BI-INDB0000668-622003351729-RIDE                                                                                                  
+08/08/26  UPI-RAPIDO-PAYTM-76881028@PTYBL-YESB0PTM  0000622008041730  08/08/26              41.00                              34,668.95   
+          UPI-622008041730-RIDE                                                                                                             
+09/08/26  UPI-GURPREET SINGH-9768027000-5@IBL-ICIC  0000622113568296  09/08/26             600.00                              34,068.95   
+          0001993-622113568296-RIDE                                                                                                         
+09/08/26  UPI-BALAJI FILLING STATI-PAYTMQR6PBDUD@P  0000622115733020  09/08/26             300.00                              33,768.95   
+          TYS-YESB0PTMUPI-622115733020-PETROL                                                                                               
+09/08/26  UPI-THE RED CHILLY-Q117345987@YBL-YESB0Y  0000622117121235  09/08/26             310.00                              33,458.95   
+          BLUPI-622117121235-FOOD                                                                                                           
+09/08/26  UPI-SANDHU QUALITY STORE-BHARATPE.900627  0000622117822744  09/08/26              20.00                              33,438.95   
+          41944@FBPE-FDRL0001382-622117822744-PAY                                                                                           
+          TO BHARATPE ME                                                                                                                    
+10/08/26  UPI-RAMESH KUMAR-PAYTMQR6FB9WL@PTYS-YESB  0000622222370634  10/08/26              25.00                              33,413.95   
+          0PTMUPI-622222370634-CHAI                                                                                                         
+11/08/26  UPI-BALWINDER SINGH SO K-9466001961@IBL-  0000622335238282  11/08/26             590.00                              32,823.95   
+          PUNB0044210-622335238282-RIDE                                                                                                     
+11/08/26  UPI-AMIT KUMAR-7837447746@PTHDFC-HDFC000  0000622337470578  11/08/26             160.00                              32,663.95   
+          0262-622337470578-RIDE                                                                                                            
+11/08/26  UPI-KRISHNA DEVI-MCSECHIRAG-1@OKICICI-BK  0000622335240832  11/08/26                             10,621.00           43,284.95   
+          ID0006760-622335240832-CHIRAG1000                                                                                                 
+11/08/26  UPI-HARDIK SONI-9646656789@YESCRED-UTIB0  0000658915123718  11/08/26                              8,118.00           51,402.95   
+          004020-658915123718-JULY CTC BILLS                                                                                                
+12/08/26  UPI-VIPAN KUMAR-Q011164169@YBL-YESB0YBLU  0000622442447924  12/08/26             180.00                              51,222.95   
+          PI-622442447924-JUICE                                                                                                             
+12/08/26  UPI-PARSON  SINGH-NAVJOT00553@OKSBI-SBIN  0000622445205844  12/08/26          25,400.00                              25,822.95   
+          0001623-622445205844-CANTEENBILLJULYEND                                                                                           
+12/08/26  UPI-AMANDEEP  SINGH-9115000563@UPI-SBIN0  0000622445222402  12/08/26           2,960.00                              22,862.95   
+          002365-622445222402-PALTOONBALANCE                                                                                                
+12/08/26  UPI-NEW SHARMA MEDICOS-Q194290077@YBL-YE  0000622445783809  12/08/26             120.00                              22,742.95   
+          SB0YBLUPI-622445783809-MEDICINE                                                                                                   
+12/08/26  UPI-DEEVANSHU  KANGAR-7589956585@YBL-SBI  0000622450169217  12/08/26              35.00                              22,707.95   
+          N0000653-622450169217-RIDE                                                                                                        
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   17                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+13/08/26  UPI-SATISH KUMAR-SATISH556546-1@OKAXIS-P  0000622551035110  13/08/26              45.00                              22,662.95   
+          SIB0000799-622551035110-RIDE                                                                                                      
+13/08/26  UPI-RAPIDO QR PAY-ROPPENTRANSPORT110491.  0000622552779928  13/08/26              43.00                              22,619.95   
+          RZP-TP9GHHMOY2GUG7QRV2@RXAIRT-AIRP000001                                                                                          
+          1-622552779928-PAYMENT TO RAPIDO                                                                                                  
+13/08/26  UPI-SUMAN DEVI-PAYTM.S1WE1PX@PTY-YESB0MC  0000622554323767  13/08/26              39.00                              22,580.95   
+          HUPI-622554323767-VERIFIED PAYTM MER                                                                                              
+13/08/26  UPI-HARVINDER SINGH SO S-HARSINGH211373@  0000622555678224  13/08/26              63.00                              22,517.95   
+          OKICICI-UBIN0914762-622555678224-RIDE                                                                                             
+13/08/26  UPI-HARDEEP  SINGH-HARDEEPBHATTI0027-4@O  0000622558130059  13/08/26              40.00                              22,477.95   
+          KSBI-SBIN0051130-622558130059-RIDE                                                                                                
+14/08/26  UPI-MANINDER  SINGH-MANINDERDHIMAN177-3@  0000622667891608  14/08/26             115.00                              22,362.95   
+          OKSBI-SBIN0050754-622667891608-RIDE                                                                                               
+14/08/26  UPI-ZEPTONOW-ZEPTONOW.ESBZ@HDFCBANK-HDFC  0000103855558279  14/08/26             712.00                              21,650.95   
+          0MERUPI-103855558279-EASEBUZZ                                                                                                     
+14/08/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000622668905201  14/08/26          10,500.00                              11,150.95   
+          0544442-622668905201-RENT                                                                                                         
+14/08/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000622668917447  14/08/26           2,952.00                               8,198.95   
+          0544442-622668917447-BILLELECTRICITY                                                                                              
+15/08/26  UPI-BADRI  NATH-BHARATPE90723628466@YESB  0000622770968714  15/08/26              50.74                               8,148.21   
+          ANKLTD-YESB0YESUPI-622770968714-PAY TO B                                                                                          
+          ADRI  NATH                                                                                                                        
+15/08/26  UPI-KANHAIYA SODA CORNER-Q578972934@YBL-  0000622773562057  15/08/26              90.00                               8,058.21   
+          YESB0YBLUPI-622773562057-LEMON                                                                                                    
+15/08/26  UPI-SONU KUMAR-KSONU232328@OKAXIS-UTIB00  0000622774814125  15/08/26              39.00                               8,019.21   
+          03277-622774814125-RIDE                                                                                                           
+15/08/26  UPI-ZOMATO LTD-ZOMATOLTD32.RZP@HDFCBANK-  0000103859922659  15/08/26             364.08                               7,655.13   
+          HDFC0MERUPI-103859922659-PAY VIA RAZORPA                                                                                          
+          Y                                                                                                                                 
+16/08/26  UPI-ZEPTO MARKETPLACE PR-ZEPTOMARKETPLAC  0000103864986808  16/08/26             354.00                               7,301.13   
+          EPRIVAT39.RZP@HDFCBANK-HDFC0MERUPI-10386                                                                                          
+          4986808-HOME                                                                                                                      
+16/08/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000622887411211  16/08/26              35.00                               7,266.13   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   18                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          -YESB0PTMUPI-622887411211-ROTIS                                                                                                   
+16/08/26  UPI-BLINKIT COMMERCE PRI-GROFERS1PAYTM@H  0000103866465432  16/08/26           2,480.05                               4,786.08   
+          DFCBANK-HDFC0MERUPI-103866465432-PAYMENT                                                                                          
+17/08/26  UPI-RAPIDO QR PAY-ROPPENTRANSPORT110491.  0000622988997335  17/08/26              70.00                               4,716.08   
+          RZP-TQDVDJMNAAH3N4QRV2@RXAIRT-AIRP000001                                                                                          
+          1-622988997335-PAYMENT TO RAPIDO                                                                                                  
+20/08/26  UPI-GAGANDEEP SINGH-GAGANDOSANJH28@OKAXI  0000623219095269  20/08/26             500.00                               4,216.08   
+          S-PSIB0021221-623219095269-CTCCDO                                                                                                 
+20/08/26  UPI-SUKHJIT SINGH SO SUR-SUKHJEE06101983  0000623224618177  20/08/26              30.00                               4,186.08   
+          @OKHDFCBANK-PUNB0PGB003-623224618177-RID                                                                                          
+          E                                                                                                                                 
+20/08/26  UPI-JATINDER PAL SINGH-7888686214@PTSBI-  0000623224820703  20/08/26              47.00                               4,139.08   
+          UCBA0002065-623224820703-RIDE                                                                                                     
+20/08/26  UPI-SIMRANJEET SINGH-PAYTMQR596SNZ@PAYTM  0000623224676829  20/08/26              28.00                               4,111.08   
+          -YESB0PTMUPI-623224676829-ROTIS                                                                                                   
+20/08/26  UPI-HARPREET DAIRY-GPAY-11165815636@OKBI  0000623224861207  20/08/26              20.00                               4,091.08   
+          ZAXIS-UTIB0000553-623224861207-CURD                                                                                               
+20/08/26  UPI-HARPREET DAIRY-GPAY-11165815636@OKBI  0000623224863565  20/08/26              20.00                               4,071.08   
+          ZAXIS-UTIB0000553-623224863565-CURD                                                                                               
+21/08/26  UPI-SURESH KUMAR-SURESHBSP832@OKAXIS-NES  0000623326185165  21/08/26              49.00                               4,022.08   
+          F0000333-623326185165-RIDE                                                                                                        
+21/08/26  UPI-BABA TRADING-PAYTM.S2GVUBZ@PTY-YESB0  0000623327636962  21/08/26              95.00                               3,927.08   
+          MCHUPI-623327636962-UPI SEND MONEY                                                                                                
+21/08/26  UPI-ROYAL ENFIELD-Q13011688@YBL-YESB0YBL  0000623330887050  21/08/26           1,525.00                               2,402.08   
+          UPI-623330887050-INSURANCECHARGES                                                                                                 
+21/08/26  UPI-HP PETRO FILLING STA-OMBK.AAGO90734P  0000623330949918  21/08/26             300.00                               2,102.08   
+          5LG7VRHXB@MBK-PPIW0881822-623330949918-P                                                                                          
+          ETROL                                                                                                                             
+22/08/26  UPI-ROYAL ENFIELD-Q13011688@YBL-YESB0YBL  0000623437681586  22/08/26           2,000.00                                 102.08   
+          UPI-623437681586-BIKESERVICE                                                                                                      
+01/09/26  NEFT CR-RBIS0GOPNEP-DTO PUNJAB TREASURY   RBISH00845745988  01/09/26                             31,540.00           31,642.08   
+          CHANDIGARH-SACHINDEEP SINGH-RBISH0084574                                                                                          
+          5988                                                                                                                              
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   19                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+02/09/26  UPI-JAGMEET  SINGH-7891939007@PTAXIS-SBI  0000624537398078  02/09/26             200.00                              31,442.08   
+          N0001779-624537398078-SEVA                                                                                                        
+03/09/26  WELFARE FUND                              000000000000000   03/09/26              95.00                              31,347.08   
+03/09/26  UPI-HAIVG-Q201844305@YBL-YESB0YBLUPI-624  0000624647991951  03/09/26              40.00                              31,307.08   
+          647991951-CHAI                                                                                                                    
+04/09/26  UPI-BLINKIT-PAYTM-BLINKIT@PTYBL-YESB0PTM  0000214803204759  04/09/26             606.00                              30,701.08   
+          UPI-214803204759-OIDZTBLINUPIC26086                                                                                               
+04/09/26  UPI-JAGMEET  SINGH-7891939007@PTAXIS-SBI  0000624751607471  04/09/26             100.00                              30,601.08   
+          N0001779-624751607471-SEVA                                                                                                        
+04/09/26  UPI-AKASHDEEP BAKERS AND-PAYTM.S32ZLIY@P  0000624755204816  04/09/26           2,370.00                              28,231.08   
+          TY-YESB0MCHUPI-624755204816-DRYFRUITS                                                                                             
+04/09/26  UPI-CHOUDHARY DAIRY AND -PAYTM.S31XO3W@P  0000624755263701  04/09/26             196.00                              28,035.08   
+          TY-YESB0MCHUPI-624755263701-GROCERIES                                                                                             
+04/09/26  UPI-SADHANA DEVI-BHARATPE.9U0N0B0D4W8608  0000624755399450  04/09/26              80.00                              27,955.08   
+          20@UNITYPE-UNBA000BHPE-624755399450-PAY                                                                                           
+          TO BHARATPE ME                                                                                                                    
+05/09/26  UPI-H P PETRO FILLING ST-PAYTM.D91769008  0000624863692631  05/09/26             500.00                              27,455.08   
+          @PTY-YESB0MCHUPI-624863692631-PETROL                                                                                              
+06/09/26  UPI-ZOMATO-ZOMATO.ETERNALTSP.PAYU@HDFCBA  0000104001410526  06/09/26             142.58                              27,312.50   
+          NK-HDFC0MERUPI-104001410526-UPI TRANSACT                                                                                          
+          ION                                                                                                                               
+07/09/26  UPI-FLOPBUSINESSMAN-Q963103908@YBL-YESB0  0000625084870444  07/09/26              20.00                              27,292.50   
+          YBLUPI-625084870444-CHAI                                                                                                          
+09/09/26  UPI-GARG PETROLEUM-PAYTMQR281005050101X8  0000625295448200  09/09/26             300.00                              26,992.50   
+          HKN836QPZ7@PAYTM-YESB0PTMUPI-62529544820                                                                                          
+          0-PETROL                                                                                                                          
+09/09/26  UPI-SATISH KUMAR-9988272750@YBL-HDFC0001  0000625295583546  09/09/26              33.00                              26,959.50   
+          330-625295583546-MILK                                                                                                             
+09/09/26  UPI-PREETINDER SINGH-RANA.PREET3-1@OKAXI  0000625203589750  09/09/26           4,460.00                              22,499.50   
+          S-HDFC0000213-625203589750-CANTEENMESSCD                                                                                          
+          O                                                                                                                                 
+10/09/26  UPI-SATISH KUMAR-9988272750@YBL-HDFC0001  0000625309167025  10/09/26              20.00                              22,479.50   
+          330-625309167025-CHAI                                                                                                             
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   20                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+10/09/26  UPI-JAGSIR SINGH-JAGSIRSINGH44244@OKHDFC  0000625311046587  10/09/26              80.00                              22,399.50   
+          BANK-HDFC0004866-625311046587-137                                                                                                 
+11/09/26  UPI-SATISH KUMAR-9988272750@YBL-HDFC0001  0000625419914930  11/09/26              30.00                              22,369.50   
+          330-625419914930-CHAI                                                                                                             
+12/09/26  UPI-UBER INDIA SYSTEMS P-AMZN-DFKLPCK1EW  0000625530607152  12/09/26              38.04                              22,331.46   
+          Y@RAPL-RATN000RAPL-625530607152-UNRIDE                                                                                            
+12/09/26  UPI-JUBILANT FOODWORKS L-DOMINOS1PAYTM@H  0000104039316007  12/09/26             347.55                              21,983.91   
+          DFCBANK-HDFC0MERUPI-104039316007-PAYMENT                                                                                          
+12/09/26  UPI-AGRA CONFECTIONARY-PAYTMQR165PSR@PAY  0000625531431313  12/09/26              80.00                              21,903.91   
+          TM-YESB0PTMUPI-625531431313-DRINKS                                                                                                
+13/09/26  UPI-KULDEEP SINGH-KALERKULDEEP79-1@OKHDF  0000625633792802  13/09/26              55.00                              21,848.91   
+          CBANK-HDFC0003166-625633792802-UNRIDE                                                                                             
+13/09/26  UPI-AMAN VAISNU DHABA-Q683322238@YBL-YES  0000625635031094  13/09/26             280.00                              21,568.91   
+          B0YBLUPI-625635031094-FOOD                                                                                                        
+13/09/26  UPI-RAM SINGH-PAYTM.S1HATHR@PTY-YESB0MCH  0000625636808395  13/09/26              30.00                              21,538.91   
+          UPI-625636808395-CHAI                                                                                                             
+13/09/26  UPI-AMAN KUMAR SHARMA-AMAN.KV2@OKSBI-SBI  0000625637732205  13/09/26             172.00                              21,366.91   
+          N0050703-625637732205-FOOD                                                                                                        
+13/09/26  UPI-PARVEEN  KUMAR-PARVEEN6332-1@OKSBI-S  0000625638784778  13/09/26              51.00                              21,315.91   
+          BIN0050502-625638784778-RIDE                                                                                                      
+13/09/26  UPI-ZOMATO-PAYZOMATO@HDFCBANK-HDFC0MERUP  0000104043903605  13/09/26             224.19                              21,091.72   
+          I-104043903605-COLLECT TRANSACTIO                                                                                                 
+14/09/26  UPI-BLINKIT COMMERCE PRI-GROFERS1PAYTM@H  0000104046287812  14/09/26             176.00                              20,915.72   
+          DFCBANK-HDFC0MERUPI-104046287812-PAYMENT                                                                                          
+14/09/26  UPI-HARWINDER SINGH-HARWINDERSINGH30029@  0000625743600868  14/09/26              49.00                              20,866.72   
+          OKICICI-HDFC0000213-625743600868-RIDE                                                                                             
+14/09/26  UPI-ARSHPREET KAUR-9877976673@PTYES-UBIN  0000625750888683  14/09/26          10,500.00                              10,366.72   
+          0544442-625750888683-RENT                                                                                                         
+14/09/26  UPI-ISHA BALI-ISHA131722@OKICICI-INDB000  0000625751031369  14/09/26           5,000.00                               5,366.72   
+          1023-625751031369-EXPENSES                                                                                                        
+15/09/26  UPI-SATISH KUMAR-9988272750@YBL-HDFC0001  0000625852064326  15/09/26              33.00                               5,333.72   
+          330-625852064326-MILK                                                                                                             
+15/09/26  UPI-AHUJA SERVICE STATIO-PAYTMQR60BH79@P  0000625852783465  15/09/26             400.00                               4,933.72   
+                                                 **Continue** 
+
+
+
+HDFC BANK Ltd.                                     Page No .:   21                                        Statement of accounts
+
+
+                                                                         Account Branch : PHASE VII
+                                                                         Address        : HDFC BANK LTD
+                                                                                          SCF 55-57
+MR      SACHINDEEP SINGH                                                                  PHASE VII
+JHUGE CHILIA PANJE KE UTTAR                                              City           : MOHALI 160055
+FAZILKA                                                                  State          : PUNJAB
+.                                                                        Phone no.      : 18002600/18001600
+FAZILKA 152024                                                           Email          : SACHINDEEP.REDSKY@GMAIL.COM
+PUNJAB INDIA                                                             OD Limit       :              0.00   Currency : INR
+                                                                         Cust ID        : 252660090
+JOINT HOLDERS :                                                          Account No     : 50100651176438   OTHER
+                                                                         A/C Open Date  : 11/09/2023
+Nomination : Registered                                                  Account Status : Regular  
+Statement From      : 01/04/2026  To: 16/09/2026                         RTGS/NEFT IFSC : HDFC0001307    MICR : 160240028   
+                                                                         Branch Code    : 1307     Product Code : 113     
+
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+Date      Narration				    Chq./Ref.No.      Value Dt  Withdrawal Amt.        Deposit Amt.     Closing Balance
+--------  ----------------------------------------  ----------------  --------  ------------------  ------------------  ------------------
+
+          TYS-YESB0PTMUPI-625852783465-PETROL                                                                                               
+15/09/26  UPI-PITAMBER SHAHI-PAYTMQR59TWJ6@PAYTM-Y  0000625853081177  15/09/26              20.00                               4,913.72   
+          ESB0PTMUPI-625853081177-CHAI                                                                                                      
+15/09/26  UPI-KUSHDEEP KAGRA-9569681856@PTHDFC-HDF  0000625853414353  15/09/26             760.00                               4,153.72   
+          C0001109-625853414353-DUTYEXPENSES                                                                                                
+15/09/26  UPI-ANITA  GULERIA-BHARATPE9M0Z7G3Q0N230  0000625856309695  15/09/26              40.00                               4,113.72   
+          396@YESBANKLTD-YESB0YESUPI-625856309695-                                                                                          
+          PAY TO BHARATPE ME                                                                                                                
+16/09/26  UPI-MASOOM-GPAY-12189450831@OKBIZAXIS-UT  0000625966441774  16/09/26             140.00                               3,973.72   
+          IB0000553-625966441774-COCOWATER                                                                                                  
+16/09/26  UPI-RAKESH KUMAR SO MOHI-BITTUPASRICHA10  0000625966780415  16/09/26              20.00                               3,953.72   
+          @OKSBI-SBIN0050171-625966780415-WATER                                                                                             
+
+
+********  ****************************************  ****************  ********  ******************  ******************  ******************
+******************************************************************************************************************************************
+
+         STATEMENT SUMMARY  :- 
+           Opening Balance                                                      Debits              Credits          Closing Bal 
+                  4,353.39                                                  223,073.10           222,673.43             3,953.72 
+
+                                                                              Dr Count             Cr Count 
+                                                                                   294                   16 
+
+
+             Generated On:   17-Sep-2026 11:41                   Generated By: 252660090             Requesting Branch Code: NET 
+
+
+State account branch GSTN:03AAACH2702H1ZA
+ HDFC Bank GSTIN number details are available at https://www.hdfcbank.com/personal/making-payments/online-tax-payment/goods-and-service-tax
+           Registered Office Address: HDFC Bank House, Senapati Bapat Marg, Lower Parel, Mumbai 400013	 
+                                            ---  End Of Statement ---  
+
