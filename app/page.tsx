@@ -8,6 +8,7 @@ import {
   Bell,
   ChevronDown,
   Eye,
+  X,
   EyeOff,
   FileText,
   Landmark,
@@ -39,6 +40,7 @@ function IconButton({ label, children }: { label: string; children: React.ReactN
 
 function HomeScreen({ onStatement }: { onStatement: () => void }) {
   const [isBalanceVisible, setIsBalanceVisible] = useState(false)
+  const [isScannerOpen, setIsScannerOpen] = useState(false)
   const accountLabel = `Savings A/c: ${statementData.statement.maskedAccountNumber}`
   const availableBalance = latestTransaction.balance
 
@@ -66,8 +68,7 @@ function HomeScreen({ onStatement }: { onStatement: () => void }) {
         <div className="drag-handle" />
         <div className="payment-heading"><h2>Payment Centre</h2><span>UPI: <b>******@okhdfcbank</b></span></div>
         <div className="send-card"><div><h3>Send Money</h3><p>via NEFT, IMPS, RTGS, UPI, &amp;<br />within HDFC Bank</p></div><button className="payee-button">+ New payee</button><div className="search-payee">Enter UPI ID / Mobile no. / Account no. / Name</div></div>
-        <div className="payment-actions"><button><QrCode /><span>Scan &amp; Pay</span></button><button><Send /><span>One-time</span></button><button><ShieldCheck /><span>Self transfer</span></button></div>
-      </section>
+        <div className="payment-actions"><button onClick={() => setIsScannerOpen(true)} aria-haspopup="dialog"><QrCode /><span>Scan &amp; Pay</span></button><button><Send /><span>One-time</span></button><button><ShieldCheck /><span>Self transfer</span></button></div>{isScannerOpen && <div className="scanner-backdrop" role="presentation" onClick={() => setIsScannerOpen(false)}><section className="scanner-modal" role="dialog" aria-modal="true" aria-labelledby="scanner-title" onClick={(event) => event.stopPropagation()}><header><div><p>Payment Centre</p><h2 id="scanner-title">Scan &amp; Pay</h2></div><button className="scanner-close" onClick={() => setIsScannerOpen(false)} aria-label="Close scanner"><X /></button></header><div className="scanner-frame"><div className="scanner-corner top-left" /><div className="scanner-corner top-right" /><div className="scanner-corner bottom-left" /><div className="scanner-corner bottom-right" /><QrCode /></div><p className="scanner-help">Align the QR code inside the frame to scan</p><button className="scanner-gallery">Choose from gallery</button></section></div>}</section>
     </main>
   )
 }
