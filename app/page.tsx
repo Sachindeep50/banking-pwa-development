@@ -96,7 +96,9 @@ export default function Page() {
   const [screen, setScreen] = useState<'home' | 'transactions'>('home')
 
   useEffect(() => {
-    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => undefined)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' }).then((registration) => registration.update()).catch(() => undefined)
+    }
   }, [])
   return screen === 'home' ? <HomeScreen onStatement={() => setScreen('transactions')} /> : <TransactionsScreen onBack={() => setScreen('home')} />
 }
