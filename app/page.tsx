@@ -93,13 +93,24 @@ function Transaction({ merchant, category, method, date, amount, type, reference
   return <article className="transaction"><div className="transaction-copy"><time>{formatDate(date)}</time><strong>{method} - {merchant}</strong><span>{category} · {method} transaction</span><span className="transaction-reference">Ref no. {reference}</span></div><div className="transaction-amount"><b className={tone}>{type === 'credit' ? '+' : '-'}{formatCurrency(amount)}</b><small>{formatCurrency(balance)}</small></div></article>
 }
 
+function SplashScreen() {
+  return <main className="splash-screen" aria-label="Loading HDFC Bank"><div className="splash-logo" aria-hidden="true"><span>HDFC</span><small>BANK</small></div><h1>HDFC Bank</h1><div className="splash-loader" role="progressbar" aria-label="Loading" /></main>
+}
+
 export default function Page() {
   const [screen, setScreen] = useState<'home' | 'transactions'>('home')
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setIsLoading(false), 1500)
+    return () => window.clearTimeout(timer)
+  }, [])
 
   useEffect(() => {
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' }).then((registration) => registration.update()).catch(() => undefined)
     }
   }, [])
+  if (isLoading) return <SplashScreen />
   return screen === 'home' ? <HomeScreen onStatement={() => setScreen('transactions')} /> : <TransactionsScreen onBack={() => setScreen('home')} />
 }
