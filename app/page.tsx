@@ -20,7 +20,12 @@ import {
   WalletCards,
 } from 'lucide-react'
 
-const transactions = statementData.transactions
+const transactions = [...statementData.transactions].sort((a, b) => {
+  const dateDifference = new Date(b.date).getTime() - new Date(a.date).getTime()
+  return dateDifference || Number(b.reference) - Number(a.reference)
+})
+
+const latestTransaction = transactions[0]
 
 type Transaction = (typeof transactions)[number]
 
@@ -34,7 +39,7 @@ function IconButton({ label, children }: { label: string; children: React.ReactN
 function HomeScreen({ onStatement }: { onStatement: () => void }) {
   const [isBalanceVisible, setIsBalanceVisible] = useState(false)
   const accountLabel = `Savings A/c: ${statementData.statement.maskedAccountNumber}`
-  const availableBalance = transactions[transactions.length - 1].balance
+  const availableBalance = latestTransaction.balance
 
   return (
     <main className="bank-shell">
@@ -78,7 +83,7 @@ function TransactionsScreen({ onBack }: { onBack: () => void }) {
     return matchesKind && matchesCategory && searchable.includes(query.toLowerCase())
   })
 
-  return <main className="transactions-screen"><header className="transactions-header"><button className="back-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><div><p>HDFC Bank</p><h1>Statement</h1></div><IconButton label="Search transactions"><Search /></IconButton></header><section className="statement-card"><span>Available balance</span><strong>{formatCurrency(transactions[transactions.length - 1].balance)}</strong><small>Savings A/c: {statementData.statement.maskedAccountNumber}</small></section><div className="transaction-tools"><label className="transaction-search"><Search /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search transactions" aria-label="Search transactions" /></label><select value={category} onChange={(event) => setCategory(event.target.value)} aria-label="Filter by category"><option value="all">All categories</option>{categories.map((item) => <option key={item} value={item}>{item}</option>)}</select></div><div className="filter-row" role="group" aria-label="Filter by transaction type"><button className={kind === 'all' ? 'active-filter' : ''} onClick={() => setKind('all')}>All</button><button className={kind === 'credit' ? 'active-filter' : ''} onClick={() => setKind('credit')}>Credits</button><button className={kind === 'debit' ? 'active-filter' : ''} onClick={() => setKind('debit')}>Debits</button><span className="result-count">{filteredTransactions.length} results</span></div><section className="transaction-list"><p className="month-label">{formatDate(statementData.statement.period.from)} – {formatDate(statementData.statement.period.to)}</p>{filteredTransactions.length ? filteredTransactions.map((tx) => <Transaction key={tx.reference} {...tx} />) : <p className="empty-state">No transactions match these filters.</p>}</section></main>
+  return <main className="transactions-screen"><header className="transactions-header"><button className="back-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><div><p>HDFC Bank</p><h1>Statement</h1></div><IconButton label="Search transactions"><Search /></IconButton></header><section className="statement-card"><span>Available balance</span><strong>{formatCurrency(latestTransaction.balance)}</strong><small>Savings A/c: {statementData.statement.maskedAccountNumber}</small></section><div className="transaction-tools"><label className="transaction-search"><Search /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search transactions" aria-label="Search transactions" /></label><select value={category} onChange={(event) => setCategory(event.target.value)} aria-label="Filter by category"><option value="all">All categories</option>{categories.map((item) => <option key={item} value={item}>{item}</option>)}</select></div><div className="filter-row" role="group" aria-label="Filter by transaction type"><button className={kind === 'all' ? 'active-filter' : ''} onClick={() => setKind('all')}>All</button><button className={kind === 'credit' ? 'active-filter' : ''} onClick={() => setKind('credit')}>Credits</button><button className={kind === 'debit' ? 'active-filter' : ''} onClick={() => setKind('debit')}>Debits</button><span className="result-count">{filteredTransactions.length} results</span></div><section className="transaction-list"><p className="month-label">{formatDate(statementData.statement.period.from)} – {formatDate(statementData.statement.period.to)}</p>{filteredTransactions.length ? filteredTransactions.map((tx) => <Transaction key={tx.reference} {...tx} />) : <p className="empty-state">No transactions match these filters.</p>}</section></main>
 }
 
 function Transaction({ merchant, category, method, date, amount, type }: Transaction) {
