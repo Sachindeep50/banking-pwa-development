@@ -7,6 +7,7 @@ import {
   ArrowLeft,
   Bell,
   ChevronDown,
+  Eye,
   EyeOff,
   FileText,
   Landmark,
@@ -53,7 +54,7 @@ function HomeScreen({ onStatement }: { onStatement: () => void }) {
       <section className="account-row"><span>{accountLabel}</span><ChevronDown /><a href="#manage">Manage A/c</a></section>
       <section className="balance-area">
         <button className="balance-toggle" onClick={() => setIsBalanceVisible((visible) => !visible)} aria-label={isBalanceVisible ? 'Hide balance' : 'View balance'} aria-pressed={isBalanceVisible}>
-          <h1>{isBalanceVisible ? formatCurrency(availableBalance) : 'View Balance'} {isBalanceVisible ? <EyeOff /> : <EyeOff />}</h1>
+          <h1>{isBalanceVisible ? formatCurrency(availableBalance) : 'View Balance'} {isBalanceVisible ? <Eye /> : <EyeOff />}</h1>
         </button>
         <button className="statement-link" onClick={onStatement}>View statement</button>
       </section>
