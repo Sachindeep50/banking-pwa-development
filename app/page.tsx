@@ -32,6 +32,10 @@ function IconButton({ label, children }: { label: string; children: React.ReactN
 }
 
 function HomeScreen({ onStatement }: { onStatement: () => void }) {
+  const [isBalanceVisible, setIsBalanceVisible] = useState(false)
+  const accountLabel = `Savings A/c: ${statementData.statement.maskedAccountNumber}`
+  const availableBalance = transactions[transactions.length - 1].balance
+
   return (
     <main className="bank-shell">
       <div className="status-bar"><span>5:14</span><span className="status-icons">▮▮▮ &nbsp;4G&nbsp; ▰</span></div>
@@ -41,9 +45,11 @@ function HomeScreen({ onStatement }: { onStatement: () => void }) {
         <div className="product-pill"><strong>digi<br />pass</strong><span>Net worth</span></div>
         <div className="top-actions"><IconButton label="Notifications"><Bell /></IconButton><IconButton label="Search"><Search /></IconButton><IconButton label="Power"><Power /></IconButton></div>
       </header>
-      <section className="account-row"><span>{statementData.statement.accountType}: {statementData.statement.maskedAccountNumber}</span><ChevronDown /><a href="#manage">Manage A/c</a></section>
+      <section className="account-row"><span>{accountLabel}</span><ChevronDown /><a href="#manage">Manage A/c</a></section>
       <section className="balance-area">
-        <h1>View Balance <EyeOff /></h1>
+        <button className="balance-toggle" onClick={() => setIsBalanceVisible((visible) => !visible)} aria-label={isBalanceVisible ? 'Hide balance' : 'View balance'} aria-pressed={isBalanceVisible}>
+          <h1>{isBalanceVisible ? formatCurrency(availableBalance) : 'View Balance'} {isBalanceVisible ? <EyeOff /> : <EyeOff />}</h1>
+        </button>
         <button className="statement-link" onClick={onStatement}>View statement</button>
       </section>
       <nav className="quick-products" aria-label="Products">
@@ -61,7 +67,18 @@ function HomeScreen({ onStatement }: { onStatement: () => void }) {
 }
 
 function TransactionsScreen({ onBack }: { onBack: () => void }) {
-  return <main className="transactions-screen"><header className="transactions-header"><button className="back-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><div><p>HDFC Bank</p><h1>Statement</h1></div><IconButton label="Search transactions"><Search /></IconButton></header><section className="statement-card"><span>Available balance</span><strong>{formatCurrency(transactions[transactions.length - 1].balance)}</strong><small>{statementData.statement.accountType}: {statementData.statement.maskedAccountNumber}</small></section><div className="filter-row"><button className="active-filter">All transactions</button><button>Filter <ChevronDown /></button></div><section className="transaction-list"><p className="month-label">APRIL 2025</p>{transactions.map((tx) => <Transaction key={tx.reference} {...tx} />)}</section></main>
+  const [query, setQuery] = useState('')
+  const [kind, setKind] = useState<'all' | 'credit' | 'debit'>('all')
+  const [category, setCategory] = useState('all')
+  const categories = Array.from(new Set(transactions.map((transaction) => transaction.category)))
+  const filteredTransactions = transactions.filter((transaction) => {
+    const matchesKind = kind === 'all' || transaction.type === kind
+    const matchesCategory = category === 'all' || transaction.category === category
+    const searchable = `${transaction.merchant} ${transaction.category} ${transaction.method} ${transaction.reference}`.toLowerCase()
+    return matchesKind && matchesCategory && searchable.includes(query.toLowerCase())
+  })
+
+  return <main className="transactions-screen"><header className="transactions-header"><button className="back-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><div><p>HDFC Bank</p><h1>Statement</h1></div><IconButton label="Search transactions"><Search /></IconButton></header><section className="statement-card"><span>Available balance</span><strong>{formatCurrency(transactions[transactions.length - 1].balance)}</strong><small>Savings A/c: {statementData.statement.maskedAccountNumber}</small></section><div className="transaction-tools"><label className="transaction-search"><Search /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search transactions" aria-label="Search transactions" /></label><select value={category} onChange={(event) => setCategory(event.target.value)} aria-label="Filter by category"><option value="all">All categories</option>{categories.map((item) => <option key={item} value={item}>{item}</option>)}</select></div><div className="filter-row" role="group" aria-label="Filter by transaction type"><button className={kind === 'all' ? 'active-filter' : ''} onClick={() => setKind('all')}>All</button><button className={kind === 'credit' ? 'active-filter' : ''} onClick={() => setKind('credit')}>Credits</button><button className={kind === 'debit' ? 'active-filter' : ''} onClick={() => setKind('debit')}>Debits</button><span className="result-count">{filteredTransactions.length} results</span></div><section className="transaction-list"><p className="month-label">{formatDate(statementData.statement.period.from)} – {formatDate(statementData.statement.period.to)}</p>{filteredTransactions.length ? filteredTransactions.map((tx) => <Transaction key={tx.reference} {...tx} />) : <p className="empty-state">No transactions match these filters.</p>}</section></main>
 }
 
 function Transaction({ merchant, category, method, date, amount, type }: Transaction) {
