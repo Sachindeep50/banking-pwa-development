@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import statementData from '@/data/account-statement.json'
 import {
   ArrowDownLeft,
   ArrowLeft,
@@ -19,13 +20,12 @@ import {
   WalletCards,
 } from 'lucide-react'
 
-const transactions = [
-  { name: 'Swiggy', detail: 'UPI · Today, 12:42 PM', amount: '- ₹486.00', tone: 'spent' },
-  { name: 'Salary credit', detail: 'NEFT · 01 Sep 2026', amount: '+ ₹84,500.00', tone: 'received' },
-  { name: 'Netflix.com', detail: 'Card · 30 Aug 2026', amount: '- ₹649.00', tone: 'spent' },
-  { name: 'Airtel recharge', detail: 'UPI · 29 Aug 2026', amount: '- ₹799.00', tone: 'spent' },
-  { name: 'Rahul Mehta', detail: 'UPI · 28 Aug 2026', amount: '+ ₹2,000.00', tone: 'received' },
-]
+const transactions = statementData.transactions
+
+type Transaction = (typeof transactions)[number]
+
+const formatCurrency = (amount: number) => `₹ ${amount.toLocaleString('en-IN', { minimumFractionDigits: 2 })}`
+const formatDate = (date: string) => new Date(`${date}T00:00:00`).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })
 
 function IconButton({ label, children }: { label: string; children: React.ReactNode }) {
   return <button aria-label={label} className="icon-button">{children}</button>
@@ -41,7 +41,7 @@ function HomeScreen({ onStatement }: { onStatement: () => void }) {
         <div className="product-pill"><strong>digi<br />pass</strong><span>Net worth</span></div>
         <div className="top-actions"><IconButton label="Notifications"><Bell /></IconButton><IconButton label="Search"><Search /></IconButton><IconButton label="Power"><Power /></IconButton></div>
       </header>
-      <section className="account-row"><span>Savings A/c: **** **** ****</span><ChevronDown /><a href="#manage">Manage A/c</a></section>
+      <section className="account-row"><span>{statementData.statement.accountType}: {statementData.statement.maskedAccountNumber}</span><ChevronDown /><a href="#manage">Manage A/c</a></section>
       <section className="balance-area">
         <h1>View Balance <EyeOff /></h1>
         <button className="statement-link" onClick={onStatement}>View statement</button>
@@ -61,11 +61,12 @@ function HomeScreen({ onStatement }: { onStatement: () => void }) {
 }
 
 function TransactionsScreen({ onBack }: { onBack: () => void }) {
-  return <main className="transactions-screen"><header className="transactions-header"><button className="back-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><div><p>HDFC Bank</p><h1>Statement</h1></div><IconButton label="Search transactions"><Search /></IconButton></header><section className="statement-card"><span>Available balance</span><strong>₹ 1,24,680.50</strong><small>Savings A/c: **** 4821</small></section><div className="filter-row"><button className="active-filter">All transactions</button><button>Filter <ChevronDown /></button></div><section className="transaction-list"><p className="month-label">SEPTEMBER 2026</p>{transactions.slice(0, 2).map((tx) => <Transaction key={tx.name} {...tx} />)}<p className="month-label">AUGUST 2026</p>{transactions.slice(2).map((tx) => <Transaction key={tx.name} {...tx} />)}</section></main>
+  return <main className="transactions-screen"><header className="transactions-header"><button className="back-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><div><p>HDFC Bank</p><h1>Statement</h1></div><IconButton label="Search transactions"><Search /></IconButton></header><section className="statement-card"><span>Available balance</span><strong>{formatCurrency(transactions[transactions.length - 1].balance)}</strong><small>{statementData.statement.accountType}: {statementData.statement.maskedAccountNumber}</small></section><div className="filter-row"><button className="active-filter">All transactions</button><button>Filter <ChevronDown /></button></div><section className="transaction-list"><p className="month-label">APRIL 2025</p>{transactions.map((tx) => <Transaction key={tx.reference} {...tx} />)}</section></main>
 }
 
-function Transaction({ name, detail, amount, tone }: typeof transactions[number]) {
-  return <article className="transaction"><div className={`transaction-icon ${tone}`}><ArrowDownLeft /></div><div className="transaction-copy"><strong>{name}</strong><span>{detail}</span></div><b className={tone}>{amount}</b></article>
+function Transaction({ merchant, category, method, date, amount, type }: Transaction) {
+  const tone = type === 'credit' ? 'received' : 'spent'
+  return <article className="transaction"><div className={`transaction-icon ${tone}`}><ArrowDownLeft /></div><div className="transaction-copy"><strong>{merchant}</strong><span>{method} · {formatDate(date)} · {category}</span></div><b className={tone}>{type === 'credit' ? '+' : '-'} {formatCurrency(amount)}</b></article>
 }
 
 export default function Page() {

@@ -1,0 +1,40 @@
+{
+  "statement": {
+    "accountHolder": "Sachindeep Singh",
+    "accountNumber": "50100651176438",
+    "maskedAccountNumber": "**** **** **** 6438",
+    "accountType": "Savings - Residents",
+    "currency": "INR",
+    "period": { "from": "2025-04-01", "to": "2026-03-31" },
+    "branch": "Phase VII",
+    "branchCode": "1307",
+    "ifsc": "HDFC0001307",
+    "micr": "160240028",
+    "customerId": "252660090",
+    "accountOpened": "2023-09-11",
+    "status": "Regular",
+    "address": { "city": "Mohali", "state": "Punjab", "postalCode": "160055", "country": "India" }
+  },
+  "transactions": [
+    { "date": "2025-04-01", "type": "debit", "amount": 124, "balance": 346933.03, "merchant": "Agra Confectionary", "category": "Milk", "method": "UPI", "reference": "100272785979" },
+    { "date": "2025-04-02", "type": "debit", "amount": 500, "balance": 346433.03, "merchant": "Tiwana Service Station", "category": "Petrol", "method": "UPI", "reference": "100281774213" },
+    { "date": "2025-04-02", "type": "debit", "amount": 240, "balance": 346193.03, "merchant": "Agra Confectionary", "category": "Groceries", "method": "UPI", "reference": "100287538482" },
+    { "date": "2025-04-02", "type": "debit", "amount": 50, "balance": 346143.03, "merchant": "Sharma Medicos", "category": "Medicine", "method": "UPI", "reference": "100287600024" },
+    { "date": "2025-04-02", "type": "debit", "amount": 463.57, "balance": 345679.46, "merchant": "Zomato", "category": "Food", "method": "UPI", "reference": "100288269438" },
+    { "date": "2025-04-03", "type": "credit", "amount": 1000, "balance": 344679.46, "merchant": "Aniket Rana", "category": "Dudh Patti", "method": "UPI", "reference": "100293872683" },
+    { "date": "2025-04-03", "type": "debit", "amount": 132, "balance": 344547.46, "merchant": "Zepto", "category": "Groceries", "method": "UPI", "reference": "509336931088" },
+    { "date": "2025-04-04", "type": "debit", "amount": 99000, "balance": 245547.46, "merchant": "Chauhan Sons Jewellers", "category": "Set Kitty", "method": "UPI", "reference": "100300681604" },
+    { "date": "2025-04-04", "type": "debit", "amount": 125, "balance": 245422.46, "merchant": "Harpreet Dairy", "category": "Food", "method": "UPI", "reference": "100302151548" },
+    { "date": "2025-04-05", "type": "debit", "amount": 196.87, "balance": 245225.59, "merchant": "Zomato", "category": "Food", "method": "UPI", "reference": "100305183737" },
+    { "date": "2025-04-05", "type": "debit", "amount": 20, "balance": 245205.59, "merchant": "Jagjit Auto Centre", "category": "Bike Rubbers", "method": "UPI", "reference": "100307332627" },
+    { "date": "2025-04-05", "type": "debit", "amount": 800, "balance": 244405.59, "merchant": "Sabharwal Auto Centre", "category": "Bike Battery", "method": "UPI", "reference": "100307377900" },
+    { "date": "2025-04-07", "type": "credit", "amount": 31540, "balance": 218033.90, "merchant": "Punjab Treasury", "category": "NEFT Credit", "method": "NEFT", "reference": "RBISN52025040728" },
+    { "date": "2025-04-07", "type": "debit", "amount": 128, "balance": 217905.90, "merchant": "Zepto Now", "category": "Groceries", "method": "UPI", "reference": "100318855883" },
+    { "date": "2025-04-09", "type": "debit", "amount": 3000, "balance": 213014.51, "merchant": "Pritpal Singh Sodhi", "category": "Indowestern", "method": "UPI", "reference": "100329046211" },
+    { "date": "2025-04-09", "type": "debit", "amount": 1690, "balance": 211324.51, "merchant": "Leather Point", "category": "Heel", "method": "UPI", "reference": "100332211366" },
+    { "date": "2025-04-10", "type": "debit", "amount": 270, "balance": 208963.51, "merchant": "Domino's", "category": "Food", "method": "UPI", "reference": "100339148348" },
+    { "date": "2025-04-13", "type": "debit", "amount": 1499, "balance": 203615.02, "merchant": "Amazon India", "category": "Shopping", "method": "UPI", "reference": "510325604227" },
+    { "date": "2025-04-18", "type": "debit", "amount": 372, "balance": 202176.75, "merchant": "Swiggy", "category": "Food", "method": "UPI", "reference": "10810730585" },
+    { "date": "2025-04-25", "type": "debit", "amount": 9200, "balance": 187815.96, "merchant": "Arshpreet Kaur", "category": "Rent", "method": "UPI", "reference": "100424791415" }
+  ]
+}
