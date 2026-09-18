@@ -103,7 +103,58 @@ function SplashScreen() {
 }
 
 function LoginScreen({ onLogin }: { onLogin: () => void }) {
-  return <main className="login-screen"><header className="login-topbar"><div className="login-brand"><img className="login-logo login-logo-wide" src="/assets/hdfc-logo-with-border.svg" alt="HDFC Bank" /></div><button className="login-notification" aria-label="Notifications"><Bell /></button></header><section className="login-intro"><p>Hello,</p><h1>SACHINDEEP SINGH</h1><span>Cust ID *****0090</span></section><button className="scan-qr-button" aria-label="Scan QR to login"><ScanLine /><span>Scan QR</span></button><p className="login-caption">Frequently used features &amp; special offers at your fingertips</p><section className="login-features"><div><span>₹</span><p>Send Money</p></div><div><span>▤</span><p>Pay Bills</p></div><div><span>▰</span><p>Products &amp; Services</p></div></section><section className="login-card"><button className="face-login" onClick={onLogin}><UserRound /><span>Login with Face ID</span></button><p>Or, login with mPIN</p><button className="mpin-login" onClick={onLogin}><Fingerprint /><span>Login with mPIN</span></button><button className="forgot-mpin">Forgot mPIN?</button></section><nav className="login-bottom-nav"><span>Maintenance</span><span>Reach Us</span><span>More</span></nav></main>
+  const [isAuthenticating, setIsAuthenticating] = useState(false)
+  const [authError, setAuthError] = useState('')
+
+  const handleFaceIdLogin = async () => {
+    setAuthError('')
+    setIsAuthenticating(true)
+    try {
+      if (!window.PublicKeyCredential || !navigator.credentials) {
+        throw new Error('Face ID is not available on this device.')
+      }
+
+      const credentialId = 'hdfc-face-id-login'
+      const storedCredential = window.localStorage.getItem(credentialId)
+      let credential: Credential | null = null
+
+      if (!storedCredential) {
+        const created = await navigator.credentials.create({
+          publicKey: {
+            challenge: crypto.getRandomValues(new Uint8Array(32)),
+            rp: { name: 'HDFC Bank' },
+            user: { id: crypto.getRandomValues(new Uint8Array(16)), name: 'sachindeep.singh', displayName: 'SACHINDEEP SINGH' },
+            pubKeyCredParams: [{ type: 'public-key', alg: -7 }, { type: 'public-key', alg: -257 }],
+            authenticatorSelection: { authenticatorAttachment: 'platform', userVerification: 'required' },
+            timeout: 60000,
+            attestation: 'none',
+          },
+        })
+        if (!created) throw new Error('Face ID setup was cancelled.')
+        window.localStorage.setItem(credentialId, 'registered')
+        credential = created
+      } else {
+        credential = await navigator.credentials.get({
+          publicKey: {
+            challenge: crypto.getRandomValues(new Uint8Array(32)),
+            rpId: window.location.hostname,
+            allowCredentials: [],
+            userVerification: 'required',
+            timeout: 60000,
+          },
+        })
+      }
+
+      if (!credential) throw new Error('Face ID verification was cancelled.')
+      onLogin()
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : 'Face ID verification failed. Try again.')
+    } finally {
+      setIsAuthenticating(false)
+    }
+  }
+
+  return <main className="login-screen"><header className="login-topbar"><div className="login-brand"><img className="login-logo login-logo-wide" src="/assets/hdfc-logo-with-border.svg" alt="HDFC Bank" /></div><button className="login-notification" aria-label="Notifications"><Bell /></button></header><section className="login-intro"><p>Hello,</p><h1>SACHINDEEP SINGH</h1><span>Cust ID *****0090</span></section><button className="scan-qr-button" aria-label="Scan QR to login"><ScanLine /><span>Scan QR</span></button><p className="login-caption">Frequently used features &amp; special offers at your fingertips</p><section className="login-features"><div><span>₹</span><p>Send Money</p></div><div><span>▤</span><p>Pay Bills</p></div><div><span>▰</span><p>Products &amp; Services</p></div></section><section className="login-card"><button className="face-login" onClick={handleFaceIdLogin} disabled={isAuthenticating}><UserRound /><span>{isAuthenticating ? 'Waiting for Face ID…' : 'Login with Face ID'}</span></button>{authError && <p className="login-error" role="alert">{authError}</p>}<p>Or, login with mPIN</p><button className="mpin-login" onClick={onLogin}><Fingerprint /><span>Login with mPIN</span></button><button className="forgot-mpin">Forgot mPIN?</button></section><nav className="login-bottom-nav"><span>Maintenance</span><span>Reach Us</span><span>More</span></nav></main>
 }
 
 export default function Page() {
