@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import type { KeyboardEvent } from 'react'
 import statementData from '@/data/account-statement.json'
 import {
   ArrowDownLeft,
@@ -106,6 +107,47 @@ function SplashScreen() {
 function LoginScreen({ onLogin }: { onLogin: () => void }) {
   const [isAuthenticating, setIsAuthenticating] = useState(false)
   const [authError, setAuthError] = useState('')
+  const [isMpinOpen, setIsMpinOpen] = useState(false)
+  const [mpin, setMpin] = useState(['', '', '', ''])
+  const [revealingIndex, setRevealingIndex] = useState<number | null>(null)
+  const mpinRefs = useRef<Array<HTMLInputElement | null>>([])
+  const revealTimer = useRef<number | undefined>(undefined)
+
+  useEffect(() => () => window.clearTimeout(revealTimer.current), [])
+
+  const openMpin = () => {
+    setAuthError('')
+    setMpin(['', '', '', ''])
+    setRevealingIndex(null)
+    setIsMpinOpen(true)
+    window.setTimeout(() => mpinRefs.current[0]?.focus(), 0)
+  }
+
+  const handleMpinChange = (index: number, value: string) => {
+    const digit = value.replace(/\D/g, '').slice(-1)
+    if (!digit) return
+    const next = [...mpin]
+    next[index] = digit
+    setMpin(next)
+    setRevealingIndex(index)
+    window.clearTimeout(revealTimer.current)
+    revealTimer.current = window.setTimeout(() => setRevealingIndex(null), 500)
+    if (index < 3) {
+      mpinRefs.current[index + 1]?.focus()
+    } else if (next.every(Boolean)) {
+      window.setTimeout(onLogin, 500)
+    }
+  }
+
+  const handleMpinKeyDown = (index: number, event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Backspace' && !mpin[index] && index > 0) mpinRefs.current[index - 1]?.focus()
+  }
+
+  const getMpinClass = (index: number, digit: string) => {
+    const firstEmpty = mpin.findIndex((value) => !value)
+    const focusedIndex = firstEmpty === -1 ? 3 : firstEmpty
+    return `${index === focusedIndex ? 'focused ' : ''}${digit ? 'filled' : ''}`
+  }
 
   const handleFaceIdLogin = async () => {
     setAuthError('')
@@ -155,7 +197,7 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
     }
   }
 
-  return <main className="login-screen"><header className="login-topbar"><div className="login-brand"><img className="login-logo login-logo-wide" src="/assets/hdfc-logo-with-border.svg" alt="HDFC Bank" /></div><button className="login-notification" aria-label="Notifications"><Bell /></button></header><section className="login-intro"><p>Hello,</p><h1>SACHINDEEP SINGH</h1><span>Cust ID *****0090</span></section><button className="scan-qr-button" aria-label="Scan QR to login"><ScanLine /><span>Scan QR</span></button><p className="login-caption">Frequently used features &amp; special offers at your fingertips</p><section className="login-features"><div><span>₹</span><p>Send Money</p></div><div><span>▤</span><p>Pay Bills</p></div><div><span>▰</span><p>Products &amp; Services</p></div></section><section className="login-card"><button className="face-login" onClick={handleFaceIdLogin} disabled={isAuthenticating}><UserRound /><span>{isAuthenticating ? 'Waiting for Face ID…' : 'Login with Face ID'}</span></button>{authError && <p className="login-error" role="alert">{authError}</p>}<p>Or, login with mPIN</p><button className="mpin-login" onClick={onLogin}><Fingerprint /><span>Login with mPIN</span></button><button className="forgot-mpin">Forgot mPIN?</button></section><nav className="login-bottom-nav"><span>Maintenance</span><span>Reach Us</span><span>More</span></nav></main>
+  return (<main className="login-screen"><header className="login-topbar"><div className="login-brand"><img className="login-logo login-logo-wide" src="/assets/hdfc-logo-with-border.svg" alt="HDFC Bank" /></div><button className="login-notification" aria-label="Notifications"><Bell /></button></header><section className="login-intro"><p>Hello,</p><h1>SACHINDEEP SINGH</h1><span>Cust ID *****0090</span></section><button className="scan-qr-button" aria-label="Scan QR to login"><ScanLine /><span>Scan QR</span></button><p className="login-caption">Frequently used features &amp; special offers at your fingertips</p><section className="login-features"><div><span>₹</span><p>Send Money</p></div><div><span>▤</span><p>Pay Bills</p></div><div><span>▰</span><p>Products &amp; Services</p></div></section><section className="login-card"><button className="face-login" onClick={handleFaceIdLogin} disabled={isAuthenticating}><UserRound /><span>{isAuthenticating ? 'Waiting for Face ID…' : 'Login with Face ID'}</span></button>{authError && <p className="login-error" role="alert">{authError}</p>}<p>Or, login with mPIN</p>{!isMpinOpen && <button type="button" className="mpin-login" onClick={openMpin}><Fingerprint /><span>Login with mPIN</span></button>}<div className={isMpinOpen ? 'mpin-entry open' : 'mpin-entry'} aria-label="Enter four digit mPIN"><div className="mpin-boxes">{mpin.map((digit, index) => <input key={index} ref={(element) => { mpinRefs.current[index] = element }} className={getMpinClass(index, digit)} value={index === revealingIndex ? digit : ''} inputMode="numeric" maxLength={1} aria-label={`mPIN digit ${index + 1}`} onChange={(event) => handleMpinChange(index, event.target.value)} onKeyDown={(event) => handleMpinKeyDown(index, event)} />)}</div><button className="mpin-cancel" onClick={() => setIsMpinOpen(false)}>Cancel</button></div><button className="forgot-mpin">Forgot mPIN?</button></section><nav className="login-bottom-nav"><span>Maintenance</span><span>Reach Us</span><span>More</span></nav></main>)
 }
 
 export default function Page() {
