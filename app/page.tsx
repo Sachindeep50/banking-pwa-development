@@ -117,9 +117,10 @@ export default function Page() {
   }, [])
 
   useEffect(() => {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' }).then((registration) => registration.update()).catch(() => undefined)
-    }
+    if (!('serviceWorker' in navigator)) return
+    void navigator.serviceWorker.getRegistrations().then((registrations) => {
+      registrations.forEach((registration) => void registration.unregister())
+    }).catch(() => undefined)
   }, [])
   if (isLoading) return <SplashScreen />
   if (!isLoggedIn) return <LoginScreen onLogin={() => setIsLoggedIn(true)} />
