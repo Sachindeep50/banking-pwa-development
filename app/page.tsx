@@ -117,11 +117,22 @@ export default function Page() {
   }, [])
 
   useEffect(() => {
-    if (!('serviceWorker' in navigator)) return
-    void navigator.serviceWorker.getRegistrations().then((registrations) => {
-      registrations.forEach((registration) => void registration.unregister())
-    }).catch(() => undefined)
+    void (async () => {
+      try {
+        if ('serviceWorker' in navigator) {
+          const registrations = await navigator.serviceWorker.getRegistrations()
+          await Promise.all(registrations.map((registration) => registration.unregister()))
+        }
+        if ('caches' in window) {
+          const cacheNames = await caches.keys()
+          await Promise.all(cacheNames.map((cacheName) => caches.delete(cacheName)))
+        }
+      } catch {
+        // Cache cleanup is best-effort and must not block rendering.
+      }
+    })()
   }, [])
+
   if (isLoading) return <SplashScreen />
   if (!isLoggedIn) return <LoginScreen onLogin={() => setIsLoggedIn(true)} />
   return screen === 'home' ? <HomeScreen onStatement={() => setScreen('transactions')} /> : <TransactionsScreen onBack={() => setScreen('home')} />
