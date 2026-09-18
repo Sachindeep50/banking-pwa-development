@@ -8,6 +8,8 @@ import {
   Bell,
   ChevronDown,
   Eye,
+  Fingerprint,
+  ScanLine,
   X,
   EyeOff,
   FileText,
@@ -97,9 +99,14 @@ function SplashScreen() {
   return <main className="splash-screen" aria-label="Loading HDFC Bank"><div className="splash-logo" aria-hidden="true"><span>HDFC</span><small>BANK</small></div><h1>HDFC Bank</h1><div className="splash-loader" role="progressbar" aria-label="Loading" /></main>
 }
 
+function LoginScreen({ onLogin }: { onLogin: () => void }) {
+  return <main className="login-screen"><header className="login-topbar"><div className="login-brand"><div className="login-logo">HDFC<small>BANK</small></div><strong>HDFC BANK</strong></div><button className="login-notification" aria-label="Notifications"><Bell /></button></header><section className="login-intro"><p>Hello,</p><h1>SACHINDEEP SINGH</h1><span>Cust ID *****0090</span></section><button className="scan-qr-button" aria-label="Scan QR to login"><ScanLine /><span>Scan QR</span></button><p className="login-caption">Frequently used features &amp; special offers at your fingertips</p><section className="login-features"><div><span>₹</span><p>Send Money</p></div><div><span>▤</span><p>Pay Bills</p></div><div><span>▰</span><p>Products &amp; Services</p></div></section><section className="login-card"><button className="face-login" onClick={onLogin}><UserRound /><span>Login with Face ID</span></button><p>Or, login with mPIN</p><button className="mpin-login" onClick={onLogin}><Fingerprint /><span>Login with mPIN</span></button><button className="forgot-mpin">Forgot mPIN?</button></section><nav className="login-bottom-nav"><span>Maintenance</span><span>Reach Us</span><span>More</span></nav></main>
+}
+
 export default function Page() {
   const [screen, setScreen] = useState<'home' | 'transactions'>('home')
   const [isLoading, setIsLoading] = useState(true)
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   useEffect(() => {
     const timer = window.setTimeout(() => setIsLoading(false), 1500)
@@ -112,5 +119,6 @@ export default function Page() {
     }
   }, [])
   if (isLoading) return <SplashScreen />
+  if (!isLoggedIn) return <LoginScreen onLogin={() => setIsLoggedIn(true)} />
   return screen === 'home' ? <HomeScreen onStatement={() => setScreen('transactions')} /> : <TransactionsScreen onBack={() => setScreen('home')} />
 }
