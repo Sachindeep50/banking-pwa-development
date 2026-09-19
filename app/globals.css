@@ -1056,13 +1056,15 @@ select {
   font-size: 17px;
 }
 .payment-actions {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
   margin-top: 30px;
 }
 .payment-actions button {
   display: flex;
+  flex: 0 0 26.6667%;
   aspect-ratio: 1;
   min-width: 0;
   flex-direction: column;
@@ -1561,13 +1563,16 @@ select {
     width: 42px;
     height: 42px;
   }
-  .payment-actions-expanded {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .payment-actions-expanded button {
-    min-height: 0;
-    aspect-ratio: 1;
-  }
+.payment-actions-expanded {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.payment-actions-expanded button {
+  flex: 0 0 26.6667%;
+  min-height: 0;
+  aspect-ratio: 1;
+}
   .scheduled-transfers {
     margin-top: 12px;
     padding-top: 12px;
@@ -1843,15 +1848,16 @@ select {
     padding: 10px 11px;
     font-size: 10px;
   }
-  .payment-actions {
-    gap: 5px;
-    margin-top: 12px;
-  }
-  .payment-actions button {
-    gap: 5px;
-    padding: 10px 2px;
-    font-size: 9px;
-  }
+.payment-actions {
+  gap: 8px;
+  margin-top: 12px;
+}
+.payment-actions button {
+  flex-basis: 26.6667%;
+  gap: 5px;
+  padding: 8px 2px;
+  font-size: 9px;
+}
   .payment-actions svg {
     width: 18px;
     height: 18px;
