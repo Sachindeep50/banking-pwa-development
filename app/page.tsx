@@ -2,12 +2,14 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { KeyboardEvent } from "react";
+import { jsPDF } from "jspdf";
 import statementData from "@/data/account-statement.json";
 import {
   ArrowDownLeft,
   ArrowLeft,
   Bell,
   ChevronDown,
+  Download,
   Eye,
   Fingerprint,
   ScanLine,
@@ -338,6 +340,68 @@ function HomeScreen({
   );
 }
 
+function downloadStatementPdf() {
+  const pdf = new jsPDF({ unit: "mm", format: "a4" });
+  const statement = statementData.statement;
+  const money = (amount: number) => `${statement.currency} ${amount.toLocaleString("en-IN", { minimumFractionDigits: 2 })}`;
+  const date = (value: string) => new Intl.DateTimeFormat("en-IN", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(`${value}T00:00:00`));
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  let y = 20;
+
+  pdf.setFillColor(7, 18, 56);
+  pdf.rect(0, 0, pageWidth, 38, "F");
+  pdf.setTextColor(255, 255, 255);
+  pdf.setFont("helvetica", "bold");
+  pdf.setFontSize(20);
+  pdf.text("HDFC Bank", 18, 18);
+  pdf.setFontSize(11);
+  pdf.setFont("helvetica", "normal");
+  pdf.text("Account Statement", 18, 27);
+  y = 50;
+
+  pdf.setTextColor(42, 45, 52);
+  pdf.setFont("helvetica", "bold");
+  pdf.setFontSize(11);
+  pdf.text("Account details", 18, y);
+  pdf.setFont("helvetica", "normal");
+  pdf.setFontSize(9);
+  y += 8;
+  pdf.text(`Account: ${statement.maskedAccountNumber}`, 18, y);
+  pdf.text(`Customer ID: ${statement.customerId}`, 112, y);
+  y += 6;
+  pdf.text(`Period: ${date(statement.period.from)} - ${date(statement.period.to)}`, 18, y);
+  pdf.text(`Branch: ${statement.branch}  |  IFSC: ${statement.ifsc}`, 112, y);
+  y += 12;
+
+  const columns = [18, 39, 91, 122, 141, 173];
+  pdf.setFillColor(231, 233, 237);
+  pdf.rect(14, y - 5, pageWidth - 28, 9, "F");
+  pdf.setFont("helvetica", "bold");
+  pdf.text("Date", columns[0], y);
+  pdf.text("Description", columns[1], y);
+  pdf.text("Reference", columns[2], y);
+  pdf.text("Debit", columns[3], y);
+  pdf.text("Credit", columns[4], y);
+  pdf.text("Balance", columns[5], y);
+  y += 8;
+  pdf.setFont("helvetica", "normal");
+  statementData.transactions.forEach((transaction) => {
+    if (y > 278) { pdf.addPage(); y = 20; }
+    pdf.setDrawColor(220, 222, 226);
+    pdf.line(14, y + 3, pageWidth - 14, y + 3);
+    pdf.setFontSize(7.5);
+    pdf.text(date(transaction.date), columns[0], y);
+    pdf.text(transaction.merchant.slice(0, 27), columns[1], y);
+    pdf.text(transaction.reference, columns[2], y);
+    pdf.text(transaction.type === "debit" ? money(transaction.amount) : "-", columns[3], y);
+    pdf.text(transaction.type === "credit" ? money(transaction.amount) : "-", columns[4], y);
+    pdf.text(money(transaction.balance), columns[5], y);
+    y += 9;
+  });
+
+  pdf.save(`hdfc-account-statement-${statement.period.to}.pdf`);
+}
+
 function TransactionsScreen({ onBack }: { onBack: () => void }) {
   const [query, setQuery] = useState("");
   const [selectedMonth, setSelectedMonth] = useState(
@@ -359,8 +423,11 @@ function TransactionsScreen({ onBack }: { onBack: () => void }) {
         <button className="back-button" onClick={onBack} aria-label="Back">
           <ArrowLeft />
         </button>
-        <h1>Transactions</h1>
-      </header>
+  <h1>Transactions</h1>
+  <button className="download-statement" onClick={downloadStatementPdf} aria-label="Download account statement" title="Download account statement">
+  <Download />
+  </button>
+  </header>
       <section className="statement-account">
         <div>
           <span>Saving account</span>
