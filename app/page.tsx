@@ -347,10 +347,11 @@ async function downloadStatementPdf() {
   const font = await pdf.embedFont(StandardFonts.Helvetica);
   const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
   const pages = pdf.getPages();
-  const rowsPerPage = 15;
-  const table = { x: 72, y: 112, width: 491, height: 468 };
-  const columns = [0, 16, 188, 295, 343, 414, 491];
-  const rowHeight = 29;
+  const rowsPerPage = 16;
+  const table = { x: 72, y: 128, width: 491, height: 452 };
+  const columnWidths = [48, 140, 75, 48, 65, 65, 50];
+  const columns = columnWidths.reduce<number[]>((offsets, width, index) => [...offsets, offsets[index] + width], [0]);
+  const rowHeight = 25;
   const headerHeight = 25;
   const formatDate = (value: string) => new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "2-digit", year: "2-digit" }).format(new Date(`${value}T00:00:00`));
   const formatMoney = (value: number) => value.toLocaleString("en-IN", { minimumFractionDigits: 2 });
@@ -362,12 +363,14 @@ async function downloadStatementPdf() {
     const start = pageIndex * rowsPerPage;
     const pageRows = transactions.slice(start, start + rowsPerPage);
     if (!pageRows.length) return;
-    page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: rgb(1, 1, 1) });
-    page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.6 });
+    page.drawRectangle({ x: 60, y: 96, width: 510, height: 505, color: rgb(1, 1, 1) });
+    page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
+    page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
     const headers = ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"];
     headers.forEach((header, index) => {
-      const columnEnd = index === columns.length - 1 ? table.width : columns[index + 1];
-      page.drawText(header, { x: table.x + columns[index] + 3, y: table.y + table.height - 17, size: 7.2, font: bold, color: ink, maxWidth: columnEnd - columns[index] - 6 });
+      const columnStart = columns[index];
+      const columnEnd = columns[index + 1];
+      page.drawText(header, { x: table.x + columnStart + 3, y: table.y + table.height - 17, size: 6.7, font: bold, color: ink, maxWidth: columnEnd - columnStart - 6 });
     });
     pageRows.forEach((transaction, rowIndex) => {
       const y = table.y + table.height - headerHeight - (rowIndex + 1) * rowHeight;
@@ -375,8 +378,9 @@ async function downloadStatementPdf() {
       columns.slice(1, -1).forEach((offset) => page.drawLine({ start: { x: table.x + offset, y }, end: { x: table.x + offset, y: y + rowHeight }, thickness: 0.45, color: rgb(0.55, 0.68, 0.68) }));
       const values = [formatDate(transaction.date), transaction.merchant.slice(0, 31), transaction.reference, formatDate(transaction.date), transaction.type === "debit" ? formatMoney(transaction.amount) : "", transaction.type === "credit" ? formatMoney(transaction.amount) : "", formatMoney(transaction.balance)];
       values.forEach((value, index) => {
-        const columnEnd = index === columns.length - 1 ? table.width : columns[index + 1];
-        page.drawText(value, { x: table.x + columns[index] + 3, y: y + 10, size: 6.5, font, color: ink, maxWidth: columnEnd - columns[index] - 6 });
+        const columnStart = columns[index];
+        const columnEnd = columns[index + 1];
+        page.drawText(value, { x: table.x + columnStart + 3, y: y + 9, size: 6.2, font, color: ink, maxWidth: columnEnd - columnStart - 6 });
       });
     });
   });
