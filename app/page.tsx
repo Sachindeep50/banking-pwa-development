@@ -94,8 +94,7 @@ function TransactionsScreen({ onBack }: { onBack: () => void }) {
 
 function Transaction({ merchant, category, method, date, amount, type, reference, balance }: Transaction) {
   const tone = type === 'credit' ? 'received' : 'spent'
-  const statusAsset = type === 'credit' ? '/assets/success-icon-white.svg' : category.toLowerCase().includes('failed') ? '/assets/payment-failed-icon.svg' : '/assets/view-icon.svg'
-  return <article className="transaction"><div className="transaction-status-icon"><img src={statusAsset} alt="" /></div><div className="transaction-copy"><time><img src="/assets/calendar-icon.svg" alt="" />{formatDate(date)}</time><strong>{method} - {merchant}</strong><span>{category} · {method} transaction</span><span className="transaction-reference">Ref no. {reference} <img className="copy-reference-icon" src="/assets/copy-icon.svg" alt="Copy reference number" /></span></div><div className="transaction-amount"><b className={tone}>{type === 'credit' ? '+' : '-'}{formatCurrency(amount)}</b><small>{formatCurrency(balance)}</small></div></article>
+  return <article className="transaction"><div className="transaction-copy"><time><img src="/assets/calendar-icon.svg" alt="" />{formatDate(date)}</time><strong>{method} - {merchant}</strong><span>{category} · {method} transaction</span><span className="transaction-reference">Ref no. {reference} <img className="copy-reference-icon" src="/assets/copy-icon.svg" alt="Copy reference number" /></span></div><div className="transaction-amount"><b className={tone}>{type === 'credit' ? '+' : '-'}{formatCurrency(amount)}</b><small>{formatCurrency(balance)}</small></div></article>
 }
 
 function SplashScreen() {
