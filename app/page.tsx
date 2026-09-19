@@ -365,13 +365,19 @@ async function downloadStatementPdf() {
     page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: rgb(1, 1, 1) });
     page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.6 });
     const headers = ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"];
-    headers.forEach((header, index) => page.drawText(header, { x: table.x + columns[index] + 3, y: table.y + table.height - 17, size: 7.2, font: bold, color: ink, maxWidth: columns[index + 1] - columns[index] - 6 }));
+    headers.forEach((header, index) => {
+      const columnEnd = index === columns.length - 1 ? table.width : columns[index + 1];
+      page.drawText(header, { x: table.x + columns[index] + 3, y: table.y + table.height - 17, size: 7.2, font: bold, color: ink, maxWidth: columnEnd - columns[index] - 6 });
+    });
     pageRows.forEach((transaction, rowIndex) => {
       const y = table.y + table.height - headerHeight - (rowIndex + 1) * rowHeight;
       page.drawRectangle({ x: table.x, y, width: table.width, height: rowHeight, color: paleCyan, borderColor: rgb(0.55, 0.68, 0.68), borderWidth: 0.45 });
       columns.slice(1, -1).forEach((offset) => page.drawLine({ start: { x: table.x + offset, y }, end: { x: table.x + offset, y: y + rowHeight }, thickness: 0.45, color: rgb(0.55, 0.68, 0.68) }));
       const values = [formatDate(transaction.date), transaction.merchant.slice(0, 31), transaction.reference, formatDate(transaction.date), transaction.type === "debit" ? formatMoney(transaction.amount) : "", transaction.type === "credit" ? formatMoney(transaction.amount) : "", formatMoney(transaction.balance)];
-      values.forEach((value, index) => page.drawText(value, { x: table.x + columns[index] + 3, y: y + 10, size: 6.5, font, color: ink, maxWidth: columns[index + 1] - columns[index] - 6 }));
+      values.forEach((value, index) => {
+        const columnEnd = index === columns.length - 1 ? table.width : columns[index + 1];
+        page.drawText(value, { x: table.x + columns[index] + 3, y: y + 10, size: 6.5, font, color: ink, maxWidth: columnEnd - columns[index] - 6 });
+      });
     });
   });
 
