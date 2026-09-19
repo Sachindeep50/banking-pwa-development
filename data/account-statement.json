@@ -6,13 +6,93 @@
     "customerId": "252660090",
     "period": {
       "from": "2026-04-01",
-      "to": "2026-09-16"
+      "to": "2026-09-18"
     },
     "currency": "INR",
     "branch": "PHASE VII",
     "ifsc": "HDFC0001307"
   },
   "transactions": [
+    {
+      "date": "2026-09-18",
+      "merchant": "Zomato Media Private",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 216.5,
+      "type": "debit",
+      "balance": 2289.24,
+      "reference": "0000104071792033"
+    },
+    {
+      "date": "2026-09-18",
+      "merchant": "Zomato",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 215.98,
+      "type": "debit",
+      "balance": 2505.74,
+      "reference": "0000104071377908"
+    },
+    {
+      "date": "2026-09-17",
+      "merchant": "Agra Confectionary",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 99.0,
+      "type": "debit",
+      "balance": 3284.72,
+      "reference": "0000626077825746"
+    },
+    {
+      "date": "2026-09-17",
+      "merchant": "Shri Ganesh Confectionery",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 35.0,
+      "type": "debit",
+      "balance": 3221.72,
+      "reference": "0000626077855324"
+    },
+    {
+      "date": "2026-09-17",
+      "merchant": "Simranjeet Singh",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 28.0,
+      "type": "debit",
+      "balance": 3256.72,
+      "reference": "0000626077848577"
+    },
+    {
+      "date": "2026-09-17",
+      "merchant": "Rajat Sachdeva So Ra",
+      "category": "Utilities",
+      "method": "UPI",
+      "amount": 20.0,
+      "type": "debit",
+      "balance": 3383.72,
+      "reference": "0000626075857454"
+    },
+    {
+      "date": "2026-09-17",
+      "merchant": "M S Sharma Sweets",
+      "category": "Food & Dining",
+      "method": "UPI",
+      "amount": 50.0,
+      "type": "debit",
+      "balance": 3403.72,
+      "reference": "0000626075233271"
+    },
+    {
+      "date": "2026-09-17",
+      "merchant": "Narayan Petro",
+      "category": "Fuel",
+      "method": "UPI",
+      "amount": 500.0,
+      "type": "debit",
+      "balance": 3453.72,
+      "reference": "0000626074274064"
+    },
     {
       "date": "2026-09-16",
       "merchant": "Rakesh Kumar So Mohi",
