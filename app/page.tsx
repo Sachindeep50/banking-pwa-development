@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { KeyboardEvent } from "react";
-import { jsPDF } from "jspdf";
+import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import statementData from "@/data/account-statement.json";
 import {
   ArrowDownLeft,
@@ -341,106 +341,48 @@ function HomeScreen({
 }
 
 async function downloadStatementPdf() {
-  const pdf = new jsPDF({ unit: "mm", format: "a4" });
   const statement = statementData.statement;
-  const money = (amount: number) => `${statement.currency} ${amount.toLocaleString("en-IN", { minimumFractionDigits: 2 })}`;
-  const date = (value: string) => new Intl.DateTimeFormat("en-IN", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(`${value}T00:00:00`));
-  const pageWidth = pdf.internal.pageSize.getWidth();
-  const left = 20;
-  const right = pageWidth - 20;
-  let y = 16;
+  const source = await fetch("/templates/hdfc-statement-template.pdf").then((response) => response.arrayBuffer());
+  const pdf = await PDFDocument.load(source);
+  const font = await pdf.embedFont(StandardFonts.Helvetica);
+  const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
+  const pages = pdf.getPages();
+  const rowsPerPage = 15;
+  const table = { x: 72, y: 112, width: 491, height: 468 };
+  const columns = [0, 16, 188, 295, 343, 414, 491];
+  const rowHeight = 29;
+  const headerHeight = 25;
+  const formatDate = (value: string) => new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "2-digit", year: "2-digit" }).format(new Date(`${value}T00:00:00`));
+  const formatMoney = (value: number) => value.toLocaleString("en-IN", { minimumFractionDigits: 2 });
+  const paleCyan = rgb(0.86, 0.98, 0.98);
+  const ink = rgb(0.08, 0.08, 0.08);
+  const transactions = [...statementData.transactions].reverse();
 
-  const drawHeader = async () => {
-    pdf.setTextColor(20, 20, 20);
-    pdf.setFont("helvetica", "normal");
-    pdf.setFontSize(8);
-    pdf.text("Page No. : 1", pageWidth / 2, 13, { align: "center" });
-    const logoSvg = await fetch("/assets/hdfc-logo-with-border.svg").then((response) => response.text());
-    pdf.addSvgAsImage(logoSvg, left, 18, 42, 7);
-    pdf.setTextColor(70, 70, 70);
-    pdf.setFont("helvetica", "normal");
-    pdf.setFontSize(7.5);
-    pdf.text("We understand your world", left, 29);
-  };
+  pages.forEach((page, pageIndex) => {
+    const start = pageIndex * rowsPerPage;
+    const pageRows = transactions.slice(start, start + rowsPerPage);
+    if (!pageRows.length) return;
+    page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: rgb(1, 1, 1) });
+    page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.6 });
+    const headers = ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"];
+    headers.forEach((header, index) => page.drawText(header, { x: table.x + columns[index] + 3, y: table.y + table.height - 17, size: 7.2, font: bold, color: ink, maxWidth: columns[index + 1] - columns[index] - 6 }));
+    pageRows.forEach((transaction, rowIndex) => {
+      const y = table.y + table.height - headerHeight - (rowIndex + 1) * rowHeight;
+      page.drawRectangle({ x: table.x, y, width: table.width, height: rowHeight, color: paleCyan, borderColor: rgb(0.55, 0.68, 0.68), borderWidth: 0.45 });
+      columns.slice(1, -1).forEach((offset) => page.drawLine({ start: { x: table.x + offset, y }, end: { x: table.x + offset, y: y + rowHeight }, thickness: 0.45, color: rgb(0.55, 0.68, 0.68) }));
+      const values = [formatDate(transaction.date), transaction.merchant.slice(0, 31), transaction.reference, formatDate(transaction.date), transaction.type === "debit" ? formatMoney(transaction.amount) : "", transaction.type === "credit" ? formatMoney(transaction.amount) : "", formatMoney(transaction.balance)];
+      values.forEach((value, index) => page.drawText(value, { x: table.x + columns[index] + 3, y: y + 10, size: 6.5, font, color: ink, maxWidth: columns[index + 1] - columns[index] - 6 }));
+    });
+  });
 
-  await drawHeader();
-  pdf.setDrawColor(35, 35, 35);
-  pdf.rect(left, 36, 77, 37);
-  pdf.setFont("helvetica", "normal");
-  pdf.setFontSize(7.5);
-  pdf.setTextColor(35, 35, 35);
-  pdf.text("MR   SACHINDEEP SINGH", left + 3, 42);
-  pdf.text("JHUGHE CHILLA PANJE KE UTTAR", left + 3, 48);
-  pdf.text("FAZILKA", left + 3, 54);
-  pdf.text("FAZILKA 152024", left + 3, 63);
-  pdf.text("PUNJAB INDIA", left + 3, 69);
-
-  const infoX = 119;
-  pdf.setFontSize(7.3);
-  pdf.text(`Account Branch    : ${statement.branch || "PHASE VII"}`, infoX, 39);
-  pdf.text("Address             : HDFC BANK LTD", infoX, 44);
-  pdf.text("                         SCF 55-57", infoX, 48);
-  pdf.text("                         PHASE VII", infoX, 52);
-  pdf.text("City                 : MOHALI 160055", infoX, 58);
-  pdf.text("State               : PUNJAB", infoX, 62);
-  pdf.text(`Currency           : ${statement.currency}`, infoX, 66);
-  pdf.text(`Customer ID      : ${statement.customerId}`, infoX, 70);
-  pdf.text(`Account No       : ${statement.maskedAccountNumber}`, infoX, 74);
-
-  y = 86;
-  pdf.setFont("helvetica", "bold");
-  pdf.setFontSize(11);
-  pdf.text("Statement of account", infoX, y);
-  pdf.setFont("helvetica", "normal");
-  pdf.setFontSize(8);
-  pdf.text(`From : ${date(statement.period.from)}`, left, y);
-  pdf.text(`To : ${date(statement.period.to)}`, 77, y);
-  y += 6;
-
-  const widths = [15, 48, 27, 15, 22, 22, 21];
-  const boundaries = widths.reduce<number[]>((values, width, index) => [...values, (values[index] ?? left) + width], [left]);
-  const columns = [left + 2, boundaries[1] + 2, boundaries[1] + widths[1] + widths[2] / 2, boundaries[3] + widths[3] / 2, boundaries[4] + widths[4] - 2, boundaries[5] + widths[5] - 2, right - 2];
-  const tableTop = y - 4;
-  pdf.setFillColor(221, 250, 250);
-  pdf.setDrawColor(135, 165, 165);
-  pdf.rect(left, tableTop, right - left, 9, "FD");
-  pdf.setTextColor(25, 25, 25);
-  pdf.setFont("helvetica", "bold");
-  pdf.setFontSize(7);
-  ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"].forEach((label, index) => pdf.text(label, columns[index], y, { align: index > 1 ? "center" : "left" }));
-  y += 8;
-  pdf.setFont("helvetica", "normal");
-  for (const transaction of statementData.transactions) {
-    const narration = transaction.merchant.slice(0, 43);
-    const rowHeight = 9;
-    if (y > 278) { pdf.addPage(); await drawHeader(); y = 42; }
-    pdf.setFillColor(221, 250, 250);
-    pdf.rect(left, y - 5, right - left, rowHeight, "F");
-    pdf.setDrawColor(150, 180, 180);
-    let x = left;
-    widths.forEach((width) => { pdf.line(x, y - 5, x, y + 4); x += width; });
-    pdf.line(right, y - 5, right, y + 4);
-    pdf.line(left, y + 4, right, y + 4);
-    pdf.setFontSize(6.4);
-    pdf.text(date(transaction.date).slice(0, 8), columns[0], y);
-    pdf.text(narration, columns[1], y);
-    pdf.text(transaction.reference, columns[2], y, { align: "center" });
-    pdf.text(date(transaction.date).slice(0, 8), columns[3], y, { align: "center" });
-    pdf.text(transaction.type === "debit" ? transaction.amount.toLocaleString("en-IN", { minimumFractionDigits: 2 }) : "", columns[4], y, { align: "right" });
-    pdf.text(transaction.type === "credit" ? transaction.amount.toLocaleString("en-IN", { minimumFractionDigits: 2 }) : "", columns[5], y, { align: "right" });
-    pdf.text(transaction.balance.toLocaleString("en-IN", { minimumFractionDigits: 2 }), columns[6], y, { align: "right" });
-    y += rowHeight;
-  }
-
-  pdf.setTextColor(20, 20, 20);
-  pdf.setFont("helvetica", "bold");
-  pdf.setFontSize(8);
-  pdf.text("HDFC BANK LIMITED", left, Math.min(y + 10, 286));
-  pdf.setFont("helvetica", "normal");
-  pdf.setFontSize(6.5);
-  pdf.text("*Closing balance includes funds earmarked for hold and uncleared funds", left, Math.min(y + 15, 291));
-
-  pdf.save(`hdfc-account-statement-${statement.period.to}.pdf`);
+  const bytes = await pdf.save();
+  const blob = new Blob([bytes], { type: "application/pdf" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = `hdfc-account-statement-${statement.period.to}.pdf`;
+  anchor.click();
+  URL.revokeObjectURL(url);
 }
 
 function TransactionsScreen({ onBack }: { onBack: () => void }) {
