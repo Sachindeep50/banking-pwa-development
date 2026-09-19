@@ -1064,7 +1064,7 @@ select {
 }
 .payment-actions button {
   display: flex;
-  flex: 0 0 26.6667%;
+  flex: 0 0 calc((100% - 24px) / 3 * 0.8);
   aspect-ratio: 1;
   min-width: 0;
   flex-direction: column;
@@ -1074,8 +1074,8 @@ select {
   padding: 10px;
   color: #d5d8df;
   background: #2e3136;
-  border: 1px solid #8a8d92;
-  border-radius: 14px;
+  border: 0.5px solid #73777d;
+  border-radius: 12px;
 }
 .search-payee {
   box-sizing: border-box;
@@ -1849,11 +1849,11 @@ select {
     font-size: 10px;
   }
 .payment-actions {
-  gap: 8px;
+  gap: 10px;
   margin-top: 12px;
 }
 .payment-actions button {
-  flex-basis: 26.6667%;
+  flex-basis: calc((100% - 20px) / 3 * 0.8);
   gap: 5px;
   padding: 8px 2px;
   font-size: 9px;
