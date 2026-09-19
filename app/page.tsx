@@ -340,7 +340,7 @@ function HomeScreen({
   );
 }
 
-function downloadStatementPdf() {
+async function downloadStatementPdf() {
   const pdf = new jsPDF({ unit: "mm", format: "a4" });
   const statement = statementData.statement;
   const money = (amount: number) => `${statement.currency} ${amount.toLocaleString("en-IN", { minimumFractionDigits: 2 })}`;
@@ -350,28 +350,20 @@ function downloadStatementPdf() {
   const right = pageWidth - 20;
   let y = 16;
 
-  const drawHeader = () => {
+  const drawHeader = async () => {
     pdf.setTextColor(20, 20, 20);
     pdf.setFont("helvetica", "normal");
     pdf.setFontSize(8);
     pdf.text("Page No. : 1", pageWidth / 2, 13, { align: "center" });
-    pdf.setFillColor(0, 77, 144);
-    pdf.rect(left, 18, 42, 7, "F");
-    pdf.setFillColor(220, 30, 45);
-    pdf.rect(left + 1, 19.5, 5, 4, "F");
-    pdf.setFillColor(255, 255, 255);
-    pdf.rect(left + 2.2, 20.2, 2.6, 2.6, "F");
-    pdf.setTextColor(255, 255, 255);
-    pdf.setFont("helvetica", "bold");
-    pdf.setFontSize(10);
-    pdf.text("HDFC BANK", left + 8, 23.2);
+    const logoSvg = await fetch("/assets/hdfc-logo-with-border.svg").then((response) => response.text());
+    pdf.addSvgAsImage(logoSvg, left, 18, 42, 7);
     pdf.setTextColor(70, 70, 70);
     pdf.setFont("helvetica", "normal");
     pdf.setFontSize(7.5);
     pdf.text("We understand your world", left, 29);
   };
 
-  drawHeader();
+  await drawHeader();
   pdf.setDrawColor(35, 35, 35);
   pdf.rect(left, 36, 77, 37);
   pdf.setFont("helvetica", "normal");
@@ -405,8 +397,9 @@ function downloadStatementPdf() {
   pdf.text(`To : ${date(statement.period.to)}`, 77, y);
   y += 6;
 
-  const widths = [16, 55, 29, 16, 24, 24, 26];
-  const columns = [left + 2, left + widths[0] + 2, left + widths[0] + widths[1] + widths[2] / 2, left + widths[0] + widths[1] + widths[2] + 8, left + widths[0] + widths[1] + widths[2] + widths[3] + widths[4] - 2, left + widths[0] + widths[1] + widths[2] + widths[3] + widths[4] + widths[5] - 2, right - 2];
+  const widths = [15, 48, 27, 15, 22, 22, 21];
+  const boundaries = widths.reduce<number[]>((values, width, index) => [...values, (values[index] ?? left) + width], [left]);
+  const columns = [left + 2, boundaries[1] + 2, boundaries[1] + widths[1] + widths[2] / 2, boundaries[3] + widths[3] / 2, boundaries[4] + widths[4] - 2, boundaries[5] + widths[5] - 2, right - 2];
   const tableTop = y - 4;
   pdf.setFillColor(221, 250, 250);
   pdf.setDrawColor(135, 165, 165);
@@ -417,10 +410,10 @@ function downloadStatementPdf() {
   ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"].forEach((label, index) => pdf.text(label, columns[index], y, { align: index > 1 ? "center" : "left" }));
   y += 8;
   pdf.setFont("helvetica", "normal");
-  statementData.transactions.forEach((transaction) => {
+  for (const transaction of statementData.transactions) {
     const narration = transaction.merchant.slice(0, 43);
     const rowHeight = 9;
-    if (y > 278) { pdf.addPage(); drawHeader(); y = 42; }
+    if (y > 278) { pdf.addPage(); await drawHeader(); y = 42; }
     pdf.setFillColor(221, 250, 250);
     pdf.rect(left, y - 5, right - left, rowHeight, "F");
     pdf.setDrawColor(150, 180, 180);
@@ -437,7 +430,7 @@ function downloadStatementPdf() {
     pdf.text(transaction.type === "credit" ? transaction.amount.toLocaleString("en-IN", { minimumFractionDigits: 2 }) : "", columns[5], y, { align: "right" });
     pdf.text(transaction.balance.toLocaleString("en-IN", { minimumFractionDigits: 2 }), columns[6], y, { align: "right" });
     y += rowHeight;
-  });
+  }
 
   pdf.setTextColor(20, 20, 20);
   pdf.setFont("helvetica", "bold");
