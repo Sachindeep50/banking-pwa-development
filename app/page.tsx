@@ -347,12 +347,14 @@ async function downloadStatementPdf() {
   const font = await pdf.embedFont(StandardFonts.Helvetica);
   const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
   const pages = pdf.getPages();
-  const rowsPerPage = 16;
-  const table = { x: 72, y: 128, width: 491, height: 452 };
+  const rowsPerPage = 14;
+  const table = { x: 72, y: 155, width: 491, height: 400 };
   const columnWidths = [48, 140, 75, 48, 65, 65, 50];
   const columns = columnWidths.reduce<number[]>((offsets, width, index) => [...offsets, offsets[index] + width], [0]);
   const rowHeight = 25;
   const headerHeight = 25;
+  const tableBottom = table.y;
+  const tableTop = table.y + table.height;
   const formatDate = (value: string) => new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "2-digit", year: "2-digit" }).format(new Date(`${value}T00:00:00`));
   const formatMoney = (value: number) => value.toLocaleString("en-IN", { minimumFractionDigits: 2 });
   const paleCyan = rgb(0.86, 0.98, 0.98);
@@ -363,7 +365,7 @@ async function downloadStatementPdf() {
     const start = pageIndex * rowsPerPage;
     const pageRows = transactions.slice(start, start + rowsPerPage);
     if (!pageRows.length) return;
-    page.drawRectangle({ x: 60, y: 96, width: 510, height: 505, color: rgb(1, 1, 1) });
+    page.drawRectangle({ x: 0, y: 105, width: 612, height: 465, color: rgb(1, 1, 1) });
     page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
     page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
     const headers = ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"];
@@ -373,7 +375,7 @@ async function downloadStatementPdf() {
       page.drawText(header, { x: table.x + columnStart + 3, y: table.y + table.height - 17, size: 6.7, font: bold, color: ink, maxWidth: columnEnd - columnStart - 6 });
     });
     pageRows.forEach((transaction, rowIndex) => {
-      const y = table.y + table.height - headerHeight - (rowIndex + 1) * rowHeight;
+      const y = tableTop - headerHeight - (rowIndex + 1) * rowHeight;
       page.drawRectangle({ x: table.x, y, width: table.width, height: rowHeight, color: paleCyan, borderColor: rgb(0.55, 0.68, 0.68), borderWidth: 0.45 });
       columns.slice(1, -1).forEach((offset) => page.drawLine({ start: { x: table.x + offset, y }, end: { x: table.x + offset, y: y + rowHeight }, thickness: 0.45, color: rgb(0.55, 0.68, 0.68) }));
       const values = [formatDate(transaction.date), transaction.merchant.slice(0, 31), transaction.reference, formatDate(transaction.date), transaction.type === "debit" ? formatMoney(transaction.amount) : "", transaction.type === "credit" ? formatMoney(transaction.amount) : "", formatMoney(transaction.balance)];
