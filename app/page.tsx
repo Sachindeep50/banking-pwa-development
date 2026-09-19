@@ -203,7 +203,27 @@ export default function Page() {
   const [screen, setScreen] = useState<'home' | 'transactions'>('home')
   const [isLoading, setIsLoading] = useState(true)
   const [isLoggedIn, setIsLoggedIn] = useState(false)
-
+  const [isPrivacyMasked, setIsPrivacyMasked] = useState(false)
+  
+  useEffect(() => {
+    const mask = () => setIsPrivacyMasked(true)
+    const unmask = () => setIsPrivacyMasked(false)
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') mask()
+      else unmask()
+    })
+    window.addEventListener('pagehide', mask)
+    window.addEventListener('pageshow', unmask)
+    window.addEventListener('blur', mask)
+    window.addEventListener('focus', unmask)
+    return () => {
+      window.removeEventListener('pagehide', mask)
+      window.removeEventListener('pageshow', unmask)
+      window.removeEventListener('blur', mask)
+      window.removeEventListener('focus', unmask)
+    }
+  }, [])
+  
   useEffect(() => {
     const timer = window.setTimeout(() => setIsLoading(false), 1500)
     return () => window.clearTimeout(timer)
@@ -227,6 +247,6 @@ export default function Page() {
   }, [])
 
   if (isLoading) return <SplashScreen />
-  if (!isLoggedIn) return <LoginScreen onLogin={() => setIsLoggedIn(true)} />
-  return screen === 'home' ? <HomeScreen onStatement={() => setScreen('transactions')} onLogout={() => { setIsLoggedIn(false); setScreen('home') }} /> : <TransactionsScreen onBack={() => setScreen('home')} />
+  const appScreen = !isLoggedIn ? <LoginScreen onLogin={() => setIsLoggedIn(true)} /> : screen === 'home' ? <HomeScreen onStatement={() => setScreen('transactions')} onLogout={() => { setIsLoggedIn(false); setScreen('home') }} /> : <TransactionsScreen onBack={() => setScreen('home')} />
+  return <div className="app-privacy-root">{appScreen}{isPrivacyMasked && <div className="privacy-mask" role="status" aria-live="polite"><ShieldCheck /><span>Screen protected</span></div>}</div>
 }
