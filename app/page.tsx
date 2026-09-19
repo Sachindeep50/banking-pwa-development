@@ -50,8 +50,7 @@ function HomeScreen({ onStatement, onLogout }: { onStatement: () => void; onLogo
 
   return (
     <main className="bank-shell">
-      <div className="status-bar"><span>5:14</span><span className="status-icons">▮▮▮ &nbsp;4G&nbsp; ▰</span></div>
-      <div className="notch" />
+
       <header className="topbar">
         <div className="profile-mark"><UserRound /><span className="profile-dot">≡</span></div>
         <div className="product-pill"><strong>digi<br />pass</strong><span>Net worth</span></div>
