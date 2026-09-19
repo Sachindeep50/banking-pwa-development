@@ -160,7 +160,7 @@
       "method": "UPI",
       "amount": 33.0,
       "type": "debit",
-      "balance": 5333.72,
+      "balance": 7333.72,
       "reference": "0000625852064326"
     },
     {
@@ -170,7 +170,7 @@
       "method": "UPI",
       "amount": 5000.0,
       "type": "debit",
-      "balance": 5366.72,
+      "balance": 12366.72,
       "reference": "0000625751031369"
     },
     {
@@ -178,9 +178,9 @@
       "merchant": "Arshpreet Kaur",
       "category": "Shopping",
       "method": "UPI",
-      "amount": 10500.0,
+      "amount": 8000.0,
       "type": "debit",
-      "balance": 10366.72,
+      "balance": 20366.72,
       "reference": "0000625750888683"
     },
     {
@@ -920,8 +920,18 @@
       "method": "UPI",
       "amount": 49.0,
       "type": "debit",
-      "balance": 35050.95,
+      "balance": 15099.95,
       "reference": "0000621999998407"
+    },
+    {
+      "date": "2026-08-07",
+      "merchant": "Isha Bali",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 10000.0,
+      "type": "debit",
+      "balance": 25099.95,
+      "reference": "00006257510315643"
     },
     {
       "date": "2026-08-07",
@@ -1430,15 +1440,15 @@
       "method": "UPI",
       "amount": 50.0,
       "type": "debit",
-      "balance": 7223.69,
+      "balance": 8773.69,
       "reference": "0000618816084336"
     },
     {
       "date": "2026-07-07",
-      "merchant": "Baidwan Filling Stat",
+      "merchant": "HDFC Bank",
       "category": "Shopping",
-      "method": "UPI",
-      "amount": 600.0,
+      "method": "ATM",
+      "amount": 10000.0,
       "type": "debit",
       "balance": 18773.69,
       "reference": "0000618809489102"
@@ -1568,7 +1578,7 @@
       "merchant": "Arshpreet Kaur",
       "category": "Shopping",
       "method": "UPI",
-      "amount": 10500.0,
+      "amount": 8000.0,
       "type": "debit",
       "balance": 22382.85,
       "reference": "0000618591078649"
@@ -1868,9 +1878,9 @@
       "merchant": "Welcomecatering",
       "category": "Shopping",
       "method": "UPI",
-      "amount": 20.0,
+      "amount": 10.0,
       "type": "debit",
-      "balance": 10191.42,
+      "balance": 11.42,
       "reference": "0000616833990092"
     },
     {
@@ -1880,7 +1890,7 @@
       "method": "UPI",
       "amount": 85.0,
       "type": "debit",
-      "balance": 10211.42,
+      "balance": 96.42,
       "reference": "0000616729805766"
     },
     {
@@ -1888,10 +1898,30 @@
       "merchant": "Arshpreet Kaur",
       "category": "Shopping",
       "method": "UPI",
-      "amount": 10500.0,
+      "amount": 10000.0,
+      "type": "debit",
+      "balance": 10096.42,
+      "reference": "0000616728700342"
+    },
+     {
+      "date": "2026-06-15",
+      "merchant": "Sukhjeet Singh",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
+      "type": "debit",
+      "balance": 10196.42,
+      "reference": "0000616729805743"
+    },
+     {
+      "date": "2026-06-13",
+      "merchant": "Harpreet Dairy   Swe",
+      "category": "Shopping",
+      "method": "UPI",
+      "amount": 100.0,
       "type": "debit",
       "balance": 10296.42,
-      "reference": "0000616728700342"
+      "reference": "0000616729805766"
     },
     {
       "date": "2026-06-11",
@@ -1900,7 +1930,7 @@
       "method": "UPI",
       "amount": 10000.0,
       "type": "debit",
-      "balance": 20805.0,
+      "balance": 20296.42,
       "reference": "0000616274541958"
     },
     {
@@ -2180,8 +2210,18 @@
       "method": "UPI",
       "amount": 235.0,
       "type": "debit",
-      "balance": 25804.34,
+      "balance": 16039.34,
       "reference": "0000613980036757"
+    },
+        {
+      "date": "2026-05-18",
+      "merchant": "HDFC Bank",
+      "category": "Cash Widthdrawal",
+      "method": "ATM",
+      "amount": 10000.0,
+      "type": "debit",
+      "balance": 26039.34,
+      "reference": "0000609393218553"
     },
     {
       "date": "2026-05-19",
@@ -3041,6 +3081,16 @@
       "amount": 223.0,
       "type": "debit",
       "balance": 3018.39,
+      "reference": "0000609393218555"
+    },
+    {
+      "date": "2026-04-03",
+      "merchant": "SBI ATM",
+      "category": "Cash Widthdrawal",
+      "method": "ATM",
+      "amount": 10000.0,
+      "type": "debit",
+      "balance": 30018.39,
       "reference": "0000609393218555"
     },
     {
