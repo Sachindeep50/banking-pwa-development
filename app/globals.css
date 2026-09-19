@@ -9,6 +9,8 @@
   margin: 0;
   font-size: 24px;
 }
+.download-statement { display: grid; place-items: center; width: 38px; height: 38px; margin-left: auto; color: #d5d5d5; background: #3a3d42; border: 1px solid #73777d; border-radius: 12px; }
+.download-statement svg { width: 18px; height: 18px; }
 .transaction-tools.month-tools {
   display: flex;
   align-items: center;
@@ -401,6 +403,8 @@
   .transactions-header h1 {
     font-size: 20px;
   }
+  .download-statement { display: grid; place-items: center; width: 38px; height: 38px; margin-left: auto; color: #d5d5d5; background: #3a3d42; border: 1px solid #73777d; border-radius: 12px; }
+  .download-statement svg { width: 18px; height: 18px; }
   .transaction-tools.month-tools {
     align-items: stretch;
     flex-direction: column;
@@ -1056,13 +1060,15 @@ select {
   font-size: 17px;
 }
 .payment-actions {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
   margin-top: 30px;
 }
 .payment-actions button {
   display: flex;
+  flex: 0 0 calc((100% - 24px) / 3 * 0.8);
   aspect-ratio: 1;
   min-width: 0;
   flex-direction: column;
@@ -1072,8 +1078,8 @@ select {
   padding: 10px;
   color: #d5d8df;
   background: #2e3136;
-  border: 1px solid #8a8d92;
-  border-radius: 14px;
+  border: 0.5px solid #73777d;
+  border-radius: 12px;
 }
 .search-payee {
   box-sizing: border-box;
@@ -1561,13 +1567,16 @@ select {
     width: 42px;
     height: 42px;
   }
-  .payment-actions-expanded {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .payment-actions-expanded button {
-    min-height: 0;
-    aspect-ratio: 1;
-  }
+.payment-actions-expanded {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.payment-actions-expanded button {
+  flex: 0 0 26.6667%;
+  min-height: 0;
+  aspect-ratio: 1;
+}
   .scheduled-transfers {
     margin-top: 12px;
     padding-top: 12px;
@@ -1843,15 +1852,16 @@ select {
     padding: 10px 11px;
     font-size: 10px;
   }
-  .payment-actions {
-    gap: 5px;
-    margin-top: 12px;
-  }
-  .payment-actions button {
-    gap: 5px;
-    padding: 10px 2px;
-    font-size: 9px;
-  }
+.payment-actions {
+  gap: 10px;
+  margin-top: 12px;
+}
+.payment-actions button {
+  flex-basis: calc((100% - 20px) / 3 * 0.8);
+  gap: 5px;
+  padding: 8px 2px;
+  font-size: 9px;
+}
   .payment-actions svg {
     width: 18px;
     height: 18px;

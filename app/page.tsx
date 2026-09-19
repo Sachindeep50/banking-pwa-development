@@ -2,12 +2,14 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { KeyboardEvent } from "react";
+import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import statementData from "@/data/account-statement.json";
 import {
   ArrowDownLeft,
   ArrowLeft,
   Bell,
   ChevronDown,
+  Download,
   Eye,
   Fingerprint,
   ScanLine,
@@ -338,6 +340,62 @@ function HomeScreen({
   );
 }
 
+async function downloadStatementPdf() {
+  const statement = statementData.statement;
+  const source = await fetch("/templates/hdfc-statement-template.pdf").then((response) => response.arrayBuffer());
+  const pdf = await PDFDocument.load(source);
+  const font = await pdf.embedFont(StandardFonts.Helvetica);
+  const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
+  const pages = pdf.getPages();
+  const rowsPerPage = 14;
+  const table = { x: 72, y: 130, width: 491, height: 375 };
+  const columnWidths = [48, 140, 75, 48, 65, 65, 50];
+  const columns = columnWidths.reduce<number[]>((offsets, width, index) => [...offsets, offsets[index] + width], [0]);
+  const rowHeight = 25;
+  const headerHeight = 25;
+  const tableTop = table.y + table.height;
+  const formatDate = (value: string) => new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "2-digit", year: "2-digit" }).format(new Date(`${value}T00:00:00`));
+  const formatMoney = (value: number) => value.toLocaleString("en-IN", { minimumFractionDigits: 2 });
+  const paleCyan = rgb(0.86, 0.98, 0.98);
+  const ink = rgb(0.08, 0.08, 0.08);
+  const transactions = [...statementData.transactions].reverse();
+
+  pages.forEach((page, pageIndex) => {
+    const start = pageIndex * rowsPerPage;
+    const pageRows = transactions.slice(start, start + rowsPerPage);
+    if (!pageRows.length) return;
+    page.drawRectangle({ x: 60, y: 105, width: 510, height: 430, color: rgb(1, 1, 1) });
+    page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
+    page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
+    const headers = ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"];
+    headers.forEach((header, index) => {
+      const columnStart = columns[index];
+      const columnEnd = columns[index + 1];
+      page.drawText(header, { x: table.x + columnStart + 3, y: table.y + table.height - 17, size: 6.7, font: bold, color: ink, maxWidth: columnEnd - columnStart - 6 });
+    });
+    pageRows.forEach((transaction, rowIndex) => {
+      const y = tableTop - headerHeight - (rowIndex + 1) * rowHeight;
+      page.drawRectangle({ x: table.x, y, width: table.width, height: rowHeight, color: paleCyan, borderColor: rgb(0.55, 0.68, 0.68), borderWidth: 0.45 });
+      columns.slice(1, -1).forEach((offset) => page.drawLine({ start: { x: table.x + offset, y }, end: { x: table.x + offset, y: y + rowHeight }, thickness: 0.45, color: rgb(0.55, 0.68, 0.68) }));
+      const values = [formatDate(transaction.date), transaction.merchant.slice(0, 31), transaction.reference, formatDate(transaction.date), transaction.type === "debit" ? formatMoney(transaction.amount) : "", transaction.type === "credit" ? formatMoney(transaction.amount) : "", formatMoney(transaction.balance)];
+      values.forEach((value, index) => {
+        const columnStart = columns[index];
+        const columnEnd = columns[index + 1];
+        page.drawText(value, { x: table.x + columnStart + 3, y: y + 9, size: 6.2, font, color: ink, maxWidth: columnEnd - columnStart - 6 });
+      });
+    });
+  });
+
+  const bytes = await pdf.save();
+  const blob = new Blob([bytes], { type: "application/pdf" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = `hdfc-account-statement-${statement.period.to}.pdf`;
+  anchor.click();
+  URL.revokeObjectURL(url);
+}
+
 function TransactionsScreen({ onBack }: { onBack: () => void }) {
   const [query, setQuery] = useState("");
   const [selectedMonth, setSelectedMonth] = useState(
@@ -359,8 +417,11 @@ function TransactionsScreen({ onBack }: { onBack: () => void }) {
         <button className="back-button" onClick={onBack} aria-label="Back">
           <ArrowLeft />
         </button>
-        <h1>Transactions</h1>
-      </header>
+  <h1>Transactions</h1>
+  <button className="download-statement" onClick={downloadStatementPdf} aria-label="Download account statement" title="Download account statement">
+  <Download />
+  </button>
+  </header>
       <section className="statement-account">
         <div>
           <span>Saving account</span>
