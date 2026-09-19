@@ -348,12 +348,11 @@ async function downloadStatementPdf() {
   const bold = await pdf.embedFont(StandardFonts.HelveticaBold);
   const pages = pdf.getPages();
   const rowsPerPage = 14;
-  const table = { x: 72, y: 155, width: 491, height: 400 };
+  const table = { x: 72, y: 130, width: 491, height: 375 };
   const columnWidths = [48, 140, 75, 48, 65, 65, 50];
   const columns = columnWidths.reduce<number[]>((offsets, width, index) => [...offsets, offsets[index] + width], [0]);
   const rowHeight = 25;
   const headerHeight = 25;
-  const tableBottom = table.y;
   const tableTop = table.y + table.height;
   const formatDate = (value: string) => new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "2-digit", year: "2-digit" }).format(new Date(`${value}T00:00:00`));
   const formatMoney = (value: number) => value.toLocaleString("en-IN", { minimumFractionDigits: 2 });
@@ -365,7 +364,7 @@ async function downloadStatementPdf() {
     const start = pageIndex * rowsPerPage;
     const pageRows = transactions.slice(start, start + rowsPerPage);
     if (!pageRows.length) return;
-    page.drawRectangle({ x: 0, y: 105, width: 612, height: 465, color: rgb(1, 1, 1) });
+    page.drawRectangle({ x: 60, y: 105, width: 510, height: 430, color: rgb(1, 1, 1) });
     page.drawRectangle({ x: table.x, y: table.y, width: table.width, height: table.height, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
     page.drawRectangle({ x: table.x, y: table.y + table.height - headerHeight, width: table.width, height: headerHeight, color: paleCyan, borderColor: rgb(0.45, 0.6, 0.6), borderWidth: 0.7 });
     const headers = ["Date", "Narration", "Chq./Ref.No.", "Value Dt", "Withdrawal Amt.", "Deposit Amt.", "Closing Balance"];
